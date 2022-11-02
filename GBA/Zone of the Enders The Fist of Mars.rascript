@@ -486,7 +486,7 @@ CheevoProgSMW(35,Challenge)
 //11 (Vjaya Geyser, Durandal Bullet Endure), 12 (Orcrist SSA1, Vjaya Replenish), 13 (Testament Comet, Durandal Slashboom)
 
 achievement (title = "Superb Data Scientist [m]",
-             description = "Grab every new techologies for your OF by checking every servers of the Shared Route",
+             description = "Grab every new technologies for your OF by checking every servers of the Shared Route",
              points = Hard,
              trigger = SceneID == 13 
              && once(EventID == 0x0b65)
@@ -505,7 +505,7 @@ achievement (title = "Superb Data Scientist [m]",
 //Route A servers: Scene 15 (Vjaya Tri-Laser), 20 (Testament Shock Hi-Low, Orcrist RepairSystem), 
 //22 (Orcrist Chevalier Lance, Vjaya EnergyEndure, Durandal SSA1), 23 (Testament SSA2, Testament Double Action, Vjaya DoubleAction)
 achievement (title = "Ace Data Scientist [m]",
-             description = "Grab every new techologies for your OF by checking every servers of the Route A",
+             description = "Grab every new technologies for your OF by checking every servers of the Route A",
              points = Hard,
              trigger = SceneID == 23 
              && once(EventID == 0xd909)
@@ -524,7 +524,7 @@ achievement (title = "Ace Data Scientist [m]",
 //Route B servers: Scene 15 (Vjaya Tri-Laser), Scene 19 (Testament Shock Hi-Low, Orcrist RepairSystem), 
 //20 (Orcrist Chevalier Lance, Vjaya EnergyEndure, Durandal SSA1), 21 (Testament SSA2, Testament Double Action, Vjaya DoubleAction)
 achievement (title = "Brillant Data Scientist [m]",
-             description = "Grab every new techologies for your OF by checking every servers of the Route B",
+             description = "Grab every new technologies for your OF by checking every servers of the Route B",
              points = Hard,
              trigger = SceneID == 38 
              && once(EventID == 0x95dd)
@@ -832,3 +832,4 @@ leaderboard(
 )
 
 //----------------
+
