@@ -482,6 +482,7 @@ CheevoProgSMW(35,Challenge)
 //Server Check
 //Technically all 3 achievements could be shorten to only check for 1 hit per chapter as they are all-or-nothing unlocks
 // Add Mesure to it ? Bit wonky since it's not 1-to-1, something like X/10 Upgrades unlocked ?
+//Could also be done by checking tally going from non-max to max -> Would likely be the same number of lines
 //Common Route servers: Scene 07 (Testament Nail Laser, Durandal Gauntlet); 10 (Testament Halberd, Orcrist Bounder), 
 //11 (Vjaya Geyser, Durandal Bullet Endure), 12 (Orcrist SSA1, Vjaya Replenish), 13 (Testament Comet, Durandal Slashboom)
 
