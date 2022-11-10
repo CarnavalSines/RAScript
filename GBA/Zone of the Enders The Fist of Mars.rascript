@@ -1,6 +1,6 @@
 // Zone of the Enders: The Fist of Mars
 // #ID = 2518
-// 20221030 Version - Sines
+// 20221110 Version - Sines
 
 //// - Code organisation -
 /// Code Notes
@@ -397,6 +397,7 @@ function CheevoProg(Scene, points)
                 SceneID == Scene 
                 && once(EventID == SceneEndTrigger[Scene]) // Scene check + Arbitrary post-map dialogue event check to block retreat / save switch / gameover false positive trigger
                 && EventID == 0x898e //Intermission screen. Honestly not that usefull, EventID is NOT textbox data but real unique event call regardless of language but now I have > 2 triggers for level end check
+                && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
                 )
 }
 
@@ -413,6 +414,7 @@ function CheevoProgSMW(Scene, points)
                 && never(EventID == 0x80ec && prev(EventID) == 0x80d9) // Confirm action + Delta "Retreat ?" screen
                 && SceneID == (Scene+6)  // +6 to allign with ingame values
                 && trigger_when(once(EventID == SceneEndTrigger[Scene]) && EventID == 0x898e) //Intermission screen
+                && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
                 )
 }
 //----------------
@@ -435,6 +437,7 @@ achievement(title = "Battling Angels",
             points = Easy,
             trigger = SceneID == 12 && once(EventID == 0xf8db)
             && EventID == 0x898e //Intermission screen
+            && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
             )
             
 // Losing = Route B
@@ -443,6 +446,7 @@ achievement(title = "Cat's Eyes",
             points = Easy,
             trigger = SceneID == 12 && once(EventID == 0xf7e4)
             && EventID == 0x898e //Intermission screen
+            && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
             )
             
 CheevoProg(13,Easy)
@@ -453,6 +457,7 @@ achievement(title = CheevoName[14],
             points = Medium,
             trigger = SceneID == 14 && once((EventID == 0x248b || EventID == 0x2a08)) // To account for either Route A or Route B end trigger
             && EventID == 0x898e //Intermission screen
+            && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
             )
 
 for i in range(15,24)
@@ -482,7 +487,6 @@ CheevoProgSMW(35,Challenge)
 //Server Check
 //Technically all 3 achievements could be shorten to only check for 1 hit per chapter as they are all-or-nothing unlocks
 // Add Mesure to it ? Bit wonky since it's not 1-to-1, something like X/10 Upgrades unlocked ?
-//Could also be done by checking tally going from non-max to max -> Would likely be the same number of lines
 //Common Route servers: Scene 07 (Testament Nail Laser, Durandal Gauntlet); 10 (Testament Halberd, Orcrist Bounder), 
 //11 (Vjaya Geyser, Durandal Bullet Endure), 12 (Orcrist SSA1, Vjaya Replenish), 13 (Testament Comet, Durandal Slashboom)
 
@@ -492,17 +496,21 @@ achievement (title = "Superb Data Scientist [m]",
              trigger = SceneID == 13 
              && once(EventID == 0x0b65)
              && EventID == 0x896a
-             && bit0(0x1d45) == 1
-             && bit1(0x1d46) == 1  
-             && bit2(0x1d45) == 1  
-             && bit7(0x1d45) == 1 
-             && bit5(0x1d45) == 1 
-             && bit6(0x1d34) == 1 
-             && bit4(0x1d34) == 1 
-             && bit7(0x1d34) == 1 
-             && bit3(0x1d45) == 1 
-             && bit0(0x1d46) == 1 
-            )
+             && measured(
+                          bit0(0x1d45) +
+                          bit1(0x1d46) + 
+                          bit2(0x1d45) + 
+                          bit7(0x1d45) +
+                          bit5(0x1d45) +
+                          bit6(0x1d34) +
+                          bit4(0x1d34) +
+                          bit7(0x1d34) +
+                          bit3(0x1d45) +
+                          bit0(0x1d46) 
+                          == 10
+                        )
+             && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
+             )
 //Route A servers: Scene 15 (Vjaya Tri-Laser), 20 (Testament Shock Hi-Low, Orcrist RepairSystem), 
 //22 (Orcrist Chevalier Lance, Vjaya EnergyEndure, Durandal SSA1), 23 (Testament SSA2, Testament Double Action, Vjaya DoubleAction)
 achievement (title = "Ace Data Scientist [m]",
@@ -511,15 +519,19 @@ achievement (title = "Ace Data Scientist [m]",
              trigger = SceneID == 23 
              && once(EventID == 0xd909)
              && EventID == 0x896a
-             && bit4(0x1d45) == 1
-             && bit1(0x1d45) == 1
-             && bit5(0x1d34) == 1
-             && bit6(0x1d45) == 1
-             && bit3(0x1d34) == 1
-             && bit2(0x1d35) == 1 
-             && bit0(0x1d34) == 1 
-             && bit1(0x1d35) == 1 
-             && bit2(0x1d34) == 1
+             && measured(
+                         bit4(0x1d45) +
+                         bit1(0x1d45) +
+                         bit5(0x1d34) +
+                         bit6(0x1d45) +
+                         bit3(0x1d34) +
+                         bit2(0x1d35) +
+                         bit0(0x1d34) +
+                         bit1(0x1d35) +
+                         bit2(0x1d34)
+                         == 9
+                        )
+             && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
             )
  
 //Route B servers: Scene 15 (Vjaya Tri-Laser), Scene 19 (Testament Shock Hi-Low, Orcrist RepairSystem), 
@@ -530,17 +542,20 @@ achievement (title = "Brillant Data Scientist [m]",
              trigger = SceneID == 38 
              && once(EventID == 0x95dd)
              && EventID == 0xa7bc
-             && bit4(0x1d45) == 1
-             && bit1(0x1d45) == 1
-             && bit5(0x1d34) == 1
-             && bit6(0x1d45) == 1
-             && bit3(0x1d34) == 1
-             && bit2(0x1d35) == 1 
-             && bit0(0x1d34) == 1 
-             && bit1(0x1d35) == 1 
-             && bit2(0x1d34) == 1
+             && measured(
+                         bit4(0x1d45) +
+                         bit1(0x1d45) +
+                         bit5(0x1d34) +
+                         bit6(0x1d45) +
+                         bit3(0x1d34) +
+                         bit2(0x1d35) +
+                         bit0(0x1d34) +
+                         bit1(0x1d35) +
+                         bit2(0x1d34)
+                         == 9
+                        )
+              && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
             )
-
 //----------------
 //Chatterbox
 achievement(
@@ -549,6 +564,7 @@ achievement(
     SceneID == 2
     &&  once(EventID == 0x429d)
     && byte(0x1fdf) >= 4 // Turncount 4+
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -556,6 +572,7 @@ achievement(
     trigger = 
     SceneID == 3
     &&  once(EventID == 0x4f68)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -564,6 +581,7 @@ achievement(
     SceneID == 5
     &&  once(EventID == 0x76d9)
     && bit2(0x21ba) == 1 //Vjaya turn end > Talk need Vjaya to kill an enemy to unlock
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -571,6 +589,7 @@ achievement(
     trigger = 
     SceneID == 6
     &&  once(EventID == 0x8f95)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -578,6 +597,7 @@ achievement(
     trigger = 
     SceneID == 7
     &&  once(EventID == 0xa693)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -585,6 +605,7 @@ achievement(
     trigger = 
     SceneID == 8
     &&  once(EventID == 0xb634)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -593,6 +614,7 @@ achievement(
     SceneID == 9
     &&  once(EventID == 0xc384) // Event 1 HP drop
     && (once(EventID == 0xc3f2) && byte(0x1fdf) >= 14) // Event 2 turn 14 reached
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -600,6 +622,7 @@ achievement(
     trigger = 
     SceneID == 12
     &&  once(EventID == 0xfeba)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -608,6 +631,7 @@ achievement(
     SceneID == 15
     && byte(0x1fdf) >= 1
     &&  once(EventID == 0x3b09)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -615,6 +639,7 @@ achievement(
     trigger = 
     SceneID == 18
     &&  once(EventID == 0x789a)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -622,6 +647,7 @@ achievement(
     trigger = 
     SceneID == 19
     &&  once(EventID == 0x848d)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -629,6 +655,7 @@ achievement(
     trigger = 
     SceneID == 20
     &&  once(EventID == 0x9656)
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
 achievement(
@@ -637,6 +664,7 @@ achievement(
     SceneID == 21
     &&  once(EventID == 0xa9af)
     && (once(EventID == 0xa9f6) && byte(0x1fdf) >= 15) // Event 2 turn 15 reached
+    && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 //----------------
 //Misc Challenge
@@ -652,6 +680,7 @@ achievement(title = "Try Spinning, That’s a Good Trick [m]",
                    once(EventID == SceneStartTrigger[25]) // Start on first dialogue after "Next Stage" is selected from Intermission
                 && never(EventID == 0x8edc) // Game Over Screen
                 && never(EventID == 0x80ec && prev(EventID) == 0x80d9) // Confirm action + Delta "Retreat ?" screen 
+                && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
                 && SceneID == (25) 
                 && DamagelessCheck()
                 && trigger_when(EventID == SceneEndTrigger[25]) 
@@ -671,6 +700,7 @@ achievement(title = "Union Protectection [m]",
                 && once(EventID == 0x9e44) // Civ4 escape event
                 && once(EventID == 0x9e54) // Civ5 escape event
                 && once(EventID == SceneEndTrigger[7])
+                && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
             )
             
 achievement(title = "Code Name Big Boss [m]",
@@ -685,6 +715,7 @@ achievement(title = "Code Name Big Boss [m]",
                 && never(EventID == 0xb36c) // Getting detected
                 && never((byte(0x1fdf) > 7) && SceneID == 8) // Turn count > 7 while in Scene 08 (turn count carry over previous chapter until new scene transition)
                 && trigger_when(once(EventID == 0xb286)) // "That's it, Phil" > Event for reaching correct tile + Trigger flag
+                && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
             )            
 
 achievement(title = "The Secret of Blue Hair [m]",
@@ -707,7 +738,8 @@ achievement(title = "The Protected [m]",
             trigger = 
                    once(EventID == 0xe316) // Mission Start hit for the resets
                 && never(EventID == 0x8edc) // Game Over Screen
-                && never(EventID == 0x80ec && prev(EventID) == 0x80d9) // Confirm action + Delta "Retreat ?" screen 
+                && never(EventID == 0x80ec && prev(EventID) == 0x80d9) // Confirm action + Delta "Retreat ?" screen
+                && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
                 && SceneID == (11) 
                 && never((prev(word(0x1844)) > word(0x1844))) // Edge HP Check)
                 && once(EventID == SceneEndTrigger[11])
