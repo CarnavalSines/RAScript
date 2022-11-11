@@ -375,19 +375,157 @@ Medium = 10
 Hard = 25
 Challenge = 50
 
+RoundDescription = {
+    1: "Drop the last marker in order to form a zone of more than 30km",
+    2: "Find the target and hit it with a marker within 10m of the center",
+    3: "Pop a balloon under 1 minute",
+    4: "Create a zone of more than 25km by dropping 3 markers",
+    5: "Hit each of the 3 targets withing 20m of the center",
+    6: "Find a ballon and pop it with only 3 markers",
+    7: "Drop a marker in any 3 of the 4 designated areas",
+    8: "Pop a Chicken Balloon by hitting it 50 times",
+    9: "Find the target and hit all 3 markers within 10m of the center",
+}
+
+MapLookup = {
+    0: "Drafty Valley",
+    1: "Windy City",
+    2: "Breezy Earth"
+}
+
+ModeLookup = {
+    0: "Fly In",
+    1: "Try Delta",
+    2: "Wolf Hunt"
+}
+
 //----------------
 //Variable
+MapID = byte(0xB2F58)
+ModeID = byte(0xB5694)
+RoundID = byte(0xB1A7C)
+TaskClearRecord = dword(0xD0F5C) // The score value when finishing a map
 
 //----------------
 //Function
+function FlyingON () => byte(0xD0F54) == 1 && prior(byte(0xd0f54)) == 0 //Flag's ON when flying in-game, check against prior value to prevent memory flicker false positive
+function TaskClear () => bit6(0xD0F66) == 1 // Clear Screen
+function TaskFail () => bit7(0xD0F66) == 1 // Fail Screen
+function DemoMode () => bit4(0xD0F66) == 1 // Demo mode flag
+function FlyingStart () => bit1(0x0d0f67) == 1 // START popup on mission start
 
+//Check against various fail screens
+function FailCheck() => TaskFail() || DemoMode () || dword(0xB1778) == 0 //Balloon Stamina 0 = ded
+
+// Map prog x Mode Prog
+function MapProgCheevo(Map,Mode)
+{
+    achievement(title = MapLookup[Map] + " - " + ModeLookup[Mode] + " Casual",
+                description = "Explore and complete " + MapLookup[Map] +" in " + ModeLookup[Mode] + " mode",
+                points = Easy,
+                trigger =
+                            once(FlyingON())
+                            && MapID == Map
+                            && ModeID == Mode
+                            && RoundID == 0 // RoundID = 0 during regular map play
+                            && TaskClear()
+                            && never(FailCheck()) // Reset on failstate reached
+                            && never(ModeID != Mode) // Reset of different mode is selected
+                            && never(MapID != Map) // Reset on different map selected
+                )
+}
+
+// Similar but checking for Round tasks
+function RoundProgCheevo(Round,Points)
+{
+    achievement(title = "Round " + Round + " Expert",
+                description = "Clear Round "+ Round + " - " + RoundDescription[Round],
+                points = Points,
+                trigger =
+                            once(FlyingON())
+                            && RoundID == Round 
+                            && TaskClear()
+                            && never(FailCheck()) // Reset on failstate reached
+                            && never(RoundID != Round) // Reset on different Round OR Round == 0 (normal map flying)
+                )
+}
 //----------------
 
 ///Achievement Code
 // Map Completion x Game Modes
+for map in range(0,2)
+    for mode in range(0,2)
+        MapProgCheevo(map,mode)
+        
 // Round Challenges
+
+for round in range(1,6)
+    RoundProgCheevo(round, Easy)
+    
+for round in range(7,9)
+    RoundProgCheevo(round, Medium)
+    
 // In-game Leaderboard
+achievement(title = "Fly In Master",
+                description = "Beat the All Round Top score for Fly In. After achieved need to be checked in the record section. Will reset on starting a new flight if the record section is not checked first !",
+                points = Challenge,
+                trigger =
+                            once(TaskClear())
+                         && once (TaskClearRecord < 100) // Get new High Score
+                         && never(FlyingStart()) // Reset when starting a new flight
+                         && dword(0x0ADEB4) < 100 // All Round High Score - All Round Score initialize when checked in record
+                         && (dword(0xB1ADC) <100 // Double Check on Map 1 Fly In High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
+                             || dword(0xB1B68) <100 // Or Map 2 High Score
+                             || dword(0xB1BF8) <100 // Or Map 3 High Score
+                         )
+            )
+            
+achievement(title = "Try Delta Master",
+                description = "Beat the All Round Top score for Try Delta. After achieved need to be checked in the record section. Will reset on starting a new flight if the record section is not checked first !",
+                points = Challenge,
+                trigger =   
+                            once(TaskClear())
+                         && once (TaskClearRecord > 4219) // Get new High Score
+                         && never(FlyingStart()) // Reset when starting a new flight
+                         && dword(0x0ADEE4) > 4219 // All Round High Score - All Round Score initialize when checked in record
+                         && (dword(0x0B1B0C) > 4219 // Double Check on Map 1 Try Delta High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
+                             || dword(0x0B1B9C) > 4219 // Or Map 2 High Score
+                             || dword(0x0B1C2C) > 4219 // Or Map 3 High Score
+                            )
+            )            
+
+
+achievement(title = "Wolf Hunt Master",
+                description = "Beat the All Round Top score for Wolf Hunt. After achieved need to be checked in the record section. Will reset on starting a new flight if the record section is not checked first !",
+                points = Challenge,
+                trigger =   
+                            once(TaskClear())
+                         && once (TaskClearRecord < 14) // Get new High Score
+                         && never(FlyingStart()) // Reset when starting a new flight
+                         && dword(0x0ADF14) < 14 // All Round High Score - All Round Score initialize when checked in record
+                         && (dword(0x0B1B3C) < 14 // Double Check on Map 1 Wolf Hunt High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
+                             || dword(0x0B1BCC) < 14 // Or Map 2 High Score
+                             || dword(0x0B1C5C) < 14 // Or Map 3 High Score
+                            )
+            )            
+
 // Misc Challenge
+achievement(title = "99 Luftballons",
+                description = "From the Sony boot-up screen keep L1+L2+R1+R2 pressed until the start menu appears. Check the different ballons in Customize now !",
+                points = 1,
+                trigger =
+                         once(repeated(600, (  bit0(0x0B0E94) //Check that L1+L2+R1+R2 are pressed for at least 10sec
+                                             + bit1(0x0B0E94)
+                                             + bit2(0x0B0E94)
+                                             + bit3(0x0B0E94)
+                                               == 4
+                                             )
+                                       )
+                             )
+                          && byte(0x08dbe0) != 0 // Check a different balloon from the default value
+                          && never(dword(0xa6780) >= 12288) // arbitrary reset fairly early after a machine reset
+                            
+            )            
 
 
 //----------------
