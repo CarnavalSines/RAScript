@@ -497,7 +497,7 @@ achievement(title = "Try Delta Master",
 
 achievement(title = "Wolf Hunt Master",
                 description = "Beat the All Round Top score for Wolf Hunt. After achieved need to be checked in the record section. Will reset on starting a new flight if the record section is not checked first !",
-                points = Challenge,
+                points = Hard,
                 trigger =   
                             once(TaskClear())
                          && once (TaskClearRecord < 14) // Get new High Score
@@ -530,6 +530,144 @@ achievement(title = "99 Luftballons",
 
 //----------------
 //Rich Presence
+MapLookup = {
+    0x00: "Drafty Valley",
+    0x01: "Windy City",
+    0x02: "Breezy Earth",
+}
+
+ModeLookup = {
+    0x00: "Flying In",
+    0x01: "Trying Delta",
+    0x02: "Wolf Hunting",
+}
+
+TimeLookup = {
+    0x00: "Enjoying an early rise and the",
+    0x01: "Enjoying the",
+    0x02: "Under the moonlight appreciating the",
+}
+
+WeatherLookup = {
+    0x00: "☀Fair☀",
+    0x01: "☔Rainy☔",
+    0x02: "☁Cloudy☁",
+    0x03: "❄Snowy❄",
+}
+
+BGMLookup = {
+    0x00: "Random",
+    0x01: "Departure",
+    0x02: "Tranquility",
+    0x03: "Phantom",
+    0x04: "Solitude",
+    0x05: "Discovery",
+    0x06: "Dry Wind",
+    0x07: "Nature",
+    0x08: "Long For",
+    0x09: "Turning Point",
+}
+
+
+rich_presence_conditional_display(bit4(0x0D0F66) == 1, "~~ Lounging in Demo mode ~~")
+rich_presence_conditional_display(word(0x0D0F54) == 1, "~~ {0} {1} weather of the {2} ~~ {3} ~~ 🎧{4}🎧 ~~",
+    rich_presence_lookup("Time", word(0x0B5690), TimeLookup),
+    rich_presence_lookup("Weather", word(0x0B1AB0), WeatherLookup),
+    rich_presence_lookup("Map", word(0x0B2F58), MapLookup),
+    rich_presence_lookup("Mode", word(0x0B5694), ModeLookup),
+    rich_presence_lookup("BGM", word(0x0B2F50), BGMLookup)
+)
+rich_presence_display("~~ Floating Around ~~")
 
 //----------------
 //Leaderboard
+
+leaderboard(
+    id = 50388, title = "Drafty Valley - Fly In",
+    description = "In Drafty Valley be the closest possible to the center of the target. Score is in cm.",
+    start  = byte(0x0B2F58) == 0 && byte(0x0B5694) == 0 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SCORE", lower_is_better = true
+)
+
+leaderboard(
+    id = 50389, title = "Drafty Valley - Try Delta",
+    description = "In Drafty Valley make the biggest Delta Zone",
+    start  = byte(0x0B2F58) == 0 && byte(0x0B5694) == 1 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SCORE"
+)
+
+leaderboard(
+    id = 50390, title = "Drafty Valley - Wolf Hunt",
+    description = "In Drafty Valley pop an animal balloon as quickly as possible",
+    start  = byte(0x0B2F58) == 0 && byte(0x0B5694) == 2 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SECS", lower_is_better = true
+)
+
+leaderboard(
+    id = 50391, title = "Windy City - Fly In",
+    description = "In Windy City be the closest possible to the center of the target. Score is in cm.",
+    start  = byte(0x0B2F58) == 1 && byte(0x0B5694) == 0 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SCORE", lower_is_better = true
+)
+
+leaderboard(
+    id = 50393, title = "Windy City - Try Delta",
+    description = "In Windy City make the biggest Delta Zone",
+    start  = byte(0x0B2F58) == 1 && byte(0x0B5694) == 1 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SCORE"
+)
+
+leaderboard(
+    id = 50395, title = "Windy City - Wolf Hunt",
+    description = "In Windy City pop an animal balloon as quickly as possible",
+    start  = byte(0x0B2F58) == 1 && byte(0x0B5694) == 2 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SECS", lower_is_better = true
+)
+
+leaderboard(
+    id = 50392, title = "Breezy Earth - Fly In",
+    description = "In Breezy Earth be the closest possible to the center of the target. Score is in cm.",
+    start  = byte(0x0B2F58) == 2 && byte(0x0B5694) == 0 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SCORE", lower_is_better = true
+)
+
+leaderboard(
+    id = 50394, title = "Breezy Earth - Try Delta",
+    description = "In Breezy Earth make the biggest Delta Zone",
+    start  = byte(0x0B2F58) == 2 && byte(0x0B5694) == 1 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SCORE"
+)
+
+leaderboard(
+    id = 50396, title = "Breezy Earth - Wolf Hunt",
+    description = "In Breezy Earth pop an animal balloon as quickly as possible",
+    start  = byte(0x0B2F58) == 2 && byte(0x0B5694) == 2 && bit6(0x0D0F66) == 1 && byte(0x0D0F54) == 1,
+    cancel = always_false(),
+    submit = always_true(),
+    value = dword(0x0D0F5C),
+    format = "SECS", lower_is_better = true
+)
