@@ -1,6 +1,6 @@
 // Kaze no NOTAM
 // #ID = 20377
-//20221111 Version - Sines
+//20221113 Version - Sines
 
 //// - Code organisation -
 /// Code Notes
@@ -409,10 +409,10 @@ TaskClearRecord = dword(0xD0F5C) // The score value when finishing a map
 //----------------
 //Function
 function FlyingON () => byte(0xD0F54) == 1 && prior(byte(0xd0f54)) == 0 //Flag's ON when flying in-game, check against prior value to prevent memory flicker false positive
-function TaskClear () => bit6(0xD0F66) == 1 // Clear Screen
-function TaskFail () => bit7(0xD0F66) == 1 // Fail Screen
-function DemoMode () => bit4(0xD0F66) == 1 // Demo mode flag
-function FlyingStart () => bit1(0x0d0f67) == 1 // START popup on mission start
+function TaskClear () => bit6(0xD0F66) == 1 && prev(bit6(0xD0F66)) == 0// Clear Screen
+function TaskFail () => bit7(0xD0F66) == 1 && prev(bit7(0xD0F66)) == 0 // Fail Screen
+function DemoMode () => bit4(0xD0F66) == 1 && prev(bit4(0xD0F66)) == 0 // Demo mode flag
+function FlyingStart () => bit1(0x0d0f67) == 1 && prev(bit1(0x0d0f67)) == 0 // START popup on mission start
 
 //Check against various fail screens
 function FailCheck() => TaskFail() || DemoMode () || dword(0xB1778) == 0 //Balloon Stamina 0 = ded
@@ -431,7 +431,7 @@ function MapProgCheevo(Map,Mode)
                             && TaskClear()
                             && never(FailCheck()) // Reset on failstate reached
                             && never(ModeID != Mode) // Reset of different mode is selected
-                            && never(MapID != Map) // Reset on different map selected
+                            && never(MapID != Map) // Reset on different map is selected
                 )
 }
 
