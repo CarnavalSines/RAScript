@@ -1,6 +1,6 @@
 // Zone of the Enders: The Fist of Mars
 // #ID = 2518
-// 20221110 Version - Sines
+// 20221114 Version - Sines
 
 //// - Code organisation -
 /// Code Notes
@@ -358,6 +358,7 @@ Challenge = 50
 //Variable
 EventID = word(0xF30)
 SceneID = byte(0x212E)
+NadiaRecruited = bit4(0x1cf4) // 0 = Twede / 1 = Nadia
 //----------------
 //Function
 // To be investigated because turns out it seems to change in some scenario ?? Really a last minute discovery, but based on personal test it's at least true during the relevant Scene for the damageless achievement.
@@ -377,12 +378,14 @@ function DamagelessCheck() => AllyTurn() // Always true during Ally Turn as you 
             (      (prev(word(0x215c)) > word(0x215c)) // Testament HP Check -> IF Previous HP > Current HP reset
                 || (prev(word(0x2234)) > word(0x2234)) // Nerokerubina HP Check
                 || (prev(word(0x22a0)) > word(0x22a0)) // Caliburnus HP Check
-                || (prev(word(0x21a4)) > word(0x21a4)) // Orcist HP Check
+                || (NadiaRecruited == 1 && (prev(word(0x21a4)) > word(0x21a4)) ) // Orcist HP Check when Nadia is recruited
+                || (NadiaRecruited == 0 && (prev(word(0x2138)) > word(0x2138)) ) // Orcist HP Check when Nadia is NOT recruited
                 || (prev(word(0x21ec)) > word(0x21ec)) // Dreizehn HP Check
                 || (prev(word(0x2258)) > word(0x2258)) // Durandal II HP Check
                 || (prev(word(0x21c8)) > word(0x21c8)) // Calibur HP Check
                 || (prev(word(0x227c)) > word(0x227c)) // Justeen HP Check
-                || (prev(word(0x2180)) > word(0x2180)) // Vjaya HP Check
+                || (NadiaRecruited == 1 && (prev(word(0x2180)) > word(0x2180)) )// Vjaya HP Check when Nadia is recruited
+                || (NadiaRecruited == 0 && (prev(word(0x21a4)) > word(0x21a4)) )// Vjaya HP Check when Nadia is NOT recruited
             )
         )
     )
