@@ -408,7 +408,7 @@ TaskClearRecord = dword(0xD0F5C) // The score value when finishing a map
 
 //----------------
 //Function
-function FlyingON () => byte(0xD0F54) == 1 && prior(byte(0xd0f54)) == 0 //Flag's ON when flying in-game, check against prior value to prevent memory flicker false positive
+function FlyingON () => byte(0xD0F54) == 1 && prev(byte(0xd0f54)) == 0 //Flag's ON when flying in-game, check against prior value to prevent memory flicker false positive
 function TaskClear () => bit6(0xD0F66) == 1 && prev(bit6(0xD0F66)) == 0// Clear Screen
 function TaskFail () => bit7(0xD0F66) == 1 && prev(bit7(0xD0F66)) == 0 // Fail Screen
 function DemoMode () => bit4(0xD0F66) == 1 && prev(bit4(0xD0F66)) == 0 // Demo mode flag
@@ -474,10 +474,10 @@ achievement(title = "Fly In Master",
                          && once (TaskClearRecord < 100) // Get new High Score
                          && never(FlyingStart()) // Reset when starting a new flight
                          && dword(0x0ADEB4) < 100 // All Round High Score - All Round Score initialize when checked in record
-                         && (dword(0xB1ADC) <100 // Double Check on Map 1 Fly In High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
-                             || dword(0xB1B68) <100 // Or Map 2 High Score
-                             || dword(0xB1BF8) <100 // Or Map 3 High Score
-                         )
+                       //  && (dword(0xB1ADC) <100 // Double Check on Map 1 Fly In High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
+                       //      || dword(0xB1B68) <100 // Or Map 2 High Score
+                       //      || dword(0xB1BF8) <100 // Or Map 3 High Score
+                       //  )
             )
             
 achievement(title = "Try Delta Master",
@@ -488,10 +488,10 @@ achievement(title = "Try Delta Master",
                          && once (TaskClearRecord > 4219) // Get new High Score
                          && never(FlyingStart()) // Reset when starting a new flight
                          && dword(0x0ADEE4) > 4219 // All Round High Score - All Round Score initialize when checked in record
-                         && (dword(0x0B1B0C) > 4219 // Double Check on Map 1 Try Delta High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
-                             || dword(0x0B1B9C) > 4219 // Or Map 2 High Score
-                             || dword(0x0B1C2C) > 4219 // Or Map 3 High Score
-                            )
+                         // && (dword(0x0B1B0C) > 4219 // Double Check on Map 1 Try Delta High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
+                         //    || dword(0x0B1B9C) > 4219 // Or Map 2 High Score
+                         //    || dword(0x0B1C2C) > 4219 // Or Map 3 High Score
+                         //   )
             )            
 
 
@@ -503,10 +503,10 @@ achievement(title = "Wolf Hunt Master",
                          && once (TaskClearRecord < 14) // Get new High Score
                          && never(FlyingStart()) // Reset when starting a new flight
                          && dword(0x0ADF14) < 14 // All Round High Score - All Round Score initialize when checked in record
-                         && (dword(0x0B1B3C) < 14 // Double Check on Map 1 Wolf Hunt High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
-                             || dword(0x0B1BCC) < 14 // Or Map 2 High Score
-                             || dword(0x0B1C5C) < 14 // Or Map 3 High Score
-                            )
+                         //&& (dword(0x0B1B3C) < 14 // Double Check on Map 1 Wolf Hunt High Score - Map Score initialize on boot-up > For both map and all round high score no memory flicker.
+                         //    || dword(0x0B1BCC) < 14 // Or Map 2 High Score
+                         //    || dword(0x0B1C5C) < 14 // Or Map 3 High Score
+                         //   )
             )            
 
 // Misc Challenge
