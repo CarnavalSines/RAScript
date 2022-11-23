@@ -544,7 +544,7 @@ achievement (title = "Brillant Data Scientist [m]",
              points = Hard,
              trigger = SceneID == 38 
              && once(EventID == 0x95dd)
-             && EventID == 0xa7bc
+             && EventID == 0x896a
              && measured(
                          bit4(0x1d45) +
                          bit1(0x1d45) +
