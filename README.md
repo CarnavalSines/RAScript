@@ -2,7 +2,8 @@
 RetroAchievement Set Scripts through RATools
 
 ## Current Project
-
+### GBA
+* [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // Started 24 Nov 2022
 
 ## Finished
 ### GBA
