@@ -1,6 +1,6 @@
 // Zone of the Enders: The Fist of Mars
 // #ID = 2518
-// 20221114 Version - Sines
+// 20221220 Version - Sines
 
 //// - Code organisation -
 /// Code Notes
@@ -615,8 +615,11 @@ achievement(
     title = "Chatterbox VII [m]", description = "Unlock the two talk options with Pharsti in " + SceneName[9] + " by getting hit a lot and staying around long enough for your mech to comment on it", points = Easy,
     trigger = 
     SceneID == 9
-    &&  once(EventID == 0xc384) // Event 1 HP drop
-    && (once(EventID == 0xc3f2) && byte(0x1fdf) >= 14) // Event 2 turn 14 reached
+    && (
+        once(EventID == 0xc384) // Event 1 HP drop
+        || once(EventID == 0xc31d) // Alt Event 1 HP Drop
+        )
+    && once(EventID == 0xc3f2) && byte(0x1fdf) >= 14) // Event 2 turn 14 reached
     && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
@@ -744,7 +747,7 @@ achievement(title = "The Protected [m]",
                 && never(EventID == 0x80ec && prev(EventID) == 0x80d9) // Confirm action + Delta "Retreat ?" screen
                 && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
                 && SceneID == (11) 
-                && never((prev(word(0x1844)) > word(0x1844))) // Edge HP Check)
+                && never((prev(word(0x2210)) > word(0x2210))) // Edge HP Check)
                 && once(EventID == SceneEndTrigger[11])
             )
 //----------------
