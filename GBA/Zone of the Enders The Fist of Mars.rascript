@@ -730,8 +730,9 @@ achievement(title = "The Secret of Blue Hair [m]",
             trigger = 
             (
                 (   SceneID == 16       // Route A
-                && EventID == 0x4ce6
-                )
+                && (EventID == 0x4ce6   // Alternative values depending on when the dialogue trigger. Can trigger on boss death or after X amounts of regular enemies are killed.
+                    || EventID == 0x49f8    
+                   )
             ||  (   SceneID == 38       // Route B
                 && EventID == 0x9a80
                 )
