@@ -1,6 +1,6 @@
 // Zone of the Enders: The Fist of Mars
 // #ID = 2518
-// 20221220 Version - Sines
+// 20221224 Version - Sines
 
 //// - Code organisation -
 /// Code Notes
@@ -353,12 +353,15 @@ Easy = 5
 Medium = 10
 Hard = 25
 Challenge = 50
+SpinningBossCheck1 = word(0x17f4) == 8000 // Checking Max HP bloc, if 8k = Boss is using this bloc
+SpinningBossCheck2 = word(0x17cc) == 8000 // Checking Max HP bloc, if 8k = Boss is using this bloc
 
 //----------------
 //Variable
 EventID = word(0xF30)
 SceneID = byte(0x212E)
 NadiaRecruited = bit4(0x1cf4) // 0 = Twede / 1 = Nadia
+
 //----------------
 //Function
 // To be investigated because turns out it seems to change in some scenario ?? Really a last minute discovery, but based on personal test it's at least true during the relevant Scene for the damageless achievement.
@@ -374,18 +377,19 @@ function IAS_Off() => bit0(0x001d5a) == 0 || bit0(0x001d5a) == 1 && never((Event
 // For the used purpose here could be optimized to only keep the EnemyTurn() part without any Alt group, but kept that way in case I find fringe dmg cases for AllyTurn()
 function DamagelessCheck() => AllyTurn() // Always true during Ally Turn as you can't get damaged by enemies
 || (EnemyTurn()
+    &&  byte(0x1fdf) >= 2 // For memory initialisation purpose, it's impossible to get damaged on turn 1
     &&  (never
             (      (prev(word(0x215c)) > word(0x215c)) // Testament HP Check -> IF Previous HP > Current HP reset
                 || (prev(word(0x2234)) > word(0x2234)) // Nerokerubina HP Check
                 || (prev(word(0x22a0)) > word(0x22a0)) // Caliburnus HP Check
-                || (NadiaRecruited == 1 && (prev(word(0x21a4)) > word(0x21a4)) ) // Orcist HP Check when Nadia is recruited
-                || (NadiaRecruited == 0 && (prev(word(0x2138)) > word(0x2138)) ) // Orcist HP Check when Nadia is NOT recruited
+                || (prev(word(0x21a4)) > word(0x21a4)) // Orcrist HP Check or Vjaya HP Check depending on the stat block used by the Boss
+                || (SpinningBossCheck1 && (prev(word(0x2138)) > word(0x2138)) ) // Orcist HP Check when the Boss use this stat block
                 || (prev(word(0x21ec)) > word(0x21ec)) // Dreizehn HP Check
                 || (prev(word(0x2258)) > word(0x2258)) // Durandal II HP Check
                 || (prev(word(0x21c8)) > word(0x21c8)) // Calibur HP Check
                 || (prev(word(0x227c)) > word(0x227c)) // Justeen HP Check
-                || (NadiaRecruited == 1 && (prev(word(0x2180)) > word(0x2180)) )// Vjaya HP Check when Nadia is recruited
-                || (NadiaRecruited == 0 && (prev(word(0x21a4)) > word(0x21a4)) )// Vjaya HP Check when Nadia is NOT recruited
+                || (SpinningBossCheck2 && (prev(word(0x2180)) > word(0x2180)) )// Vjaya HP Check when the Boss use this stat block
+                
             )
         )
     )
@@ -615,11 +619,10 @@ achievement(
     title = "Chatterbox VII [m]", description = "Unlock the two talk options with Pharsti in " + SceneName[9] + " by getting hit a lot and staying around long enough for your mech to comment on it", points = Easy,
     trigger = 
     SceneID == 9
-    && (
-        once(EventID == 0xc384) // Event 1 HP drop
+    && (once(EventID == 0xc384) // Event 1 HP drop
         || once(EventID == 0xc31d) // Alt Event 1 HP Drop
-        )
-    && once(EventID == 0xc3f2) && byte(0x1fdf) >= 14) // Event 2 turn 14 reached
+       )
+    && (once(EventID == 0xc3f2) && byte(0x1fdf) >= 14) // Event 2 turn 14 reached
     && never(EventID == 0x7d47) // Reset on Main menu screen for cleaning the memory, cheevo still trigger
 )
 
@@ -733,6 +736,7 @@ achievement(title = "The Secret of Blue Hair [m]",
                 && (EventID == 0x4ce6   // Alternative values depending on when the dialogue trigger. Can trigger on boss death or after X amounts of regular enemies are killed.
                     || EventID == 0x49f8    
                    )
+                )
             ||  (   SceneID == 38       // Route B
                 && EventID == 0x9a80
                 )
