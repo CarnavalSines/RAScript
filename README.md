@@ -14,3 +14,5 @@ RetroAchievement Set Scripts through RATools
 *  [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
 ### PSX
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
+### Game Gear
+* [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
