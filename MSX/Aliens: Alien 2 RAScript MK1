@@ -1,0 +1,260 @@
+// Aliens: Alien 2
+// #ID = 22026
+// 20221227 Version - Sines
+
+//// - Code organisation -
+/// Code Notes
+/// Core
+// Constant
+// Variable
+// Function
+// Achievement Code
+/// Rich Presence
+// Lookup
+// RP Code
+/// Leaderboard
+
+
+
+
+// $223B: [8 Bit] Vertical Position
+// $223C: [8 Bit] Horizontal Position
+// $2241: [8 Bit] Subweapon ID
+//        FF > No Weapon
+//        00 > M40 Bomb
+//        01 > Smart Bomb
+// $2242: [8 Bit] Weapon ID
+//        00 > Default ShotGun
+//        01 > TwinPulse
+//        02 > SmartGun
+//        03 > SerboGun
+//        04 > FireGun
+//        05 > WaveLaser
+// $2246: [8 Bit] Power-up Jump
+//        Four levels, from 00 to 03
+// $2247: [8 Bit] Health Value
+//        Max is 0x10
+// $228C: [8 Bit] Live Counter
+//        Display is Counter + 1 (Counter is extra live remaining, not total)
+// $228E: [8 Bit] Weapon Ammo Count
+//        FF When no special Weapon equipped
+// $228F: [8 Bit] Subweapon Ammo Count
+//        FF When no subweapon equipped
+// $250A: [8 Bit] The End Flag
+// $258A: [8 Bit] Zone ID
+//        Level 1 > 80
+//        Level 2 First Part > 8a
+//        Level 2 Second Part > 90
+//        Level 2 Third Part > 93
+//        Level 3 First Part > 94
+//        Level 3 Door Maze > 99
+//        Level 3 Second Part > 96
+//        Level 3 Third Part > 9c
+//        Level 3 Fourth Part > 9d
+//        Level 4 First Part > 9e
+//        Level 4 Second Part > a0
+//        Level 5 First Part > a8
+//        Level 5 Second Part > ac
+//        Level 5 Third Part > ad
+//        Level 5 Fourth Part > ae
+//        Level 5 Fifth Part > b0
+//        Level 5 Sixt Part > ab
+// $2604: [8 Bit] Boss Health
+// $2700: [32 Bit] Score
+//        Last 2 Bytes are actually not part of the tally and are used to display 00 instead
+//        Score counter works like this: 24 first Bits *100 + 00 Display
+// $2701: [24 Bit] Score Value
+//        Display is V * 100
+
+
+
+///Core
+//Constant
+//Quick points distribution
+Easy = 5
+Medium = 10
+Hard = 25
+Challenge = 50
+EndFlagOn = byte(0x250a) == 1
+
+WeaponList = {
+    0: "ShotGun",
+    1: "TwinPulse",
+    2: "SmartGun",
+    3: "SerboGun",
+    4: "FireGun",
+    5: "WaveLaser"
+}
+
+LevelStartID = {
+    1: 0x80,
+    2: 0x8a,
+    3: 0x94,
+    4: 0x9e,
+    5: 0xa8
+}
+
+LevelEndID = {
+    1: 0x80,
+    2: 0x93,
+    3: 0x99,
+    4: 0x9e,
+    5: 0xb0
+}
+
+QueenClearName = {
+    1: "Game Over Man, Game Over !",
+    2: "How Many Combat Drops ?",
+    3: "Express Elevator to Hell",
+    4: "Not Just Another Bug Hunt",
+}
+
+
+//----------------
+//Variable
+WeaponID = byte(0x2242)
+ZoneID = byte(0x258a)
+Health = byte(0x2247)
+BossHealth = byte(0x2604)
+Score = tbyte(0x2701) * 100
+Lives = byte(0x228c)
+
+
+//----------------
+//Function
+function LiveLost() => prev(Lives) > Lives
+
+function BossKill() => BossHealth == 0 && (prev(BossHealth) > 0)
+
+function CheevoLevelQueenClear(Level,Points) // Reach final area of the level, kill the queen, go to the next zone
+{
+    achievement(               
+                title = QueenClearName[Level],
+                description = "Defeat the Alien Queen and complete level " + Level,
+                points = Points,
+                trigger = 
+                        once(ZoneID == LevelEndID[Level])
+                        && once(prev(Health) == 00 && Health == 0x10) // On level end Health is decreased to 0 for bonus points awards, goes directly to 0x10 upon starting the new level
+                        && ZoneID == LevelStartID[Level+1]
+                        && never(LiveLost())
+                )        
+}
+
+function CheevoGameClear(Points) // Slightly different check for the Game End
+{
+    achievement(               
+                title = "Sleeping All the Way Home",
+                description = "Find the secret door, defeat the Alien Queen for the last time and rescue Newt",
+                points = Points,
+                trigger = 
+                            once(ZoneID == LevelEndID[5])
+                            && EndFlagOn
+                            && Health == 0 // Last value on credits
+                            && never(LiveLost())
+                )    
+}
+
+function CheevoWeaponsMaster(Weapon,Points) // Kill the Queen with every Weapons in the game
+{
+    achievement(               
+                title = "Weapons Master - " + WeaponList[Weapon] + " [m]",
+                description = "Defeat the Alien Queen equipped with the "  + WeaponList[Weapon],
+                points = Points,
+                trigger = 
+                            once(ZoneID == LevelEndID[1] || ZoneID == LevelEndID[2] || ZoneID == LevelEndID[3] || ZoneID == LevelEndID[4] || ZoneID == LevelEndID[5]) // When on last zone of the level
+                            && once(BossHealth >= 0 && (prior(BossHealth) == 0)) // The boss spawn
+                            && once(BossKill()) // Kill the boss
+                            && WeaponID == Weapon // With the right weapon
+                            && never(LiveLost()) // Reset on Death
+                            && never(Health == 0) // Reset on new level to prevent early trigger
+                            && never(ZoneID == 0x9e && prev(ZoneID) == 0x99) // Reset on switch from Level 3 to Level 4 with secret exit
+                )    
+}
+
+//----------------
+
+///Achievement Code
+// Progression
+// Weapon Master
+// Misc Challenge
+
+
+// Progression
+//------
+CheevoLevelQueenClear(1,Easy)
+
+for i in range(2,4)
+CheevoLevelQueenClear(i,Medium)
+
+CheevoGameClear(Hard)
+
+// Weapon Master
+//------
+for i in range(0,3)
+CheevoWeaponsMaster(i,Easy)
+
+for i in range(4,5)
+CheevoWeaponsMaster(i,Medium)
+
+// Misc Challenge
+//------
+
+    achievement(               
+                title = "Maze Runner [m]",
+                description = "In level 3, go through the door maze and reach the next area going through only 7 doors. Need to finish the previous level with at least one Jump Power-Up to be able to attempt.",
+                points = Hard,
+                trigger = always_false() // Door data is a knightmare to work with and not consistent, be it in loading, staying in memory or having any rythm at all
+//                            once(prev(Health) == 00 && ZoneID == 0x94) //Hit on initial level load
+//                            && never(repeated(7,(once(prev(ZoneID) == 0x94) || once(prev(ZoneID) == 99))))  // +1 On taking the door, zone change from 94 to 99 or the other way around
+//                            && byte(0x2246) >= 1 // Need Jump power of at least 1 to clear the rest
+//                           && trigger_when(ZoneID == 0x96) // Next zone after the maze
+                ) 
+                
+    achievement(               
+                title = "Underwater Exit [m]",
+                description = "In level 3, avoid the Alien Queen and go to level 4 using the underwater exit",
+                points = Easy,
+                trigger = 
+                            once(ZoneID == 0x99) //Zone with the secret exit
+                            && never(Health == 00) // Reset on Death OR if Queen is beat normally
+                            && trigger_when(ZoneID == 0x9e) // Next zone after the maze
+                )                 
+                
+    achievement(               
+                title = "Get Away From Her, You Bitch ! [m]",
+                description = "Finish the game without dying once",
+                points = Challenge,
+                trigger = 
+                            once(ZoneID == LevelEndID[1])
+                            && once(ZoneID == LevelEndID[2])
+                            && once(ZoneID == LevelEndID[3])
+                            && once(ZoneID == LevelEndID[4])
+                            && once(ZoneID == LevelEndID[5])
+                            && BossKill()
+                            && never(LiveLost())
+                            && Health == 0 // Last value on credits
+                            && trigger_when(EndFlagOn)
+                )    
+                
+     achievement(               
+                title = "Jumping Power",
+                description = "Boost your jump to level 3, you're going to need it !",
+                points = Easy,
+                trigger =   byte(0x2246) == 3
+                            && prev(byte(0x2246)) < 3   
+                            && Health > 00 
+
+                )                 
+                               
+///Leaderboards Data
+leaderboard(
+    title = "High Score",
+    description = " Suffer not the Xeno to live. Prove your dedication to eradicating the Alien menace. ",
+    start  = EndFlagOn && Health == 0, //Trigger on win screen
+    cancel = always_false(),
+    submit = always_true(),
+    value = Score,
+    format = "VALUE"
+            )
+
+//----------------
