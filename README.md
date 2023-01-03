@@ -5,7 +5,7 @@ RetroAchievement Set Scripts through RATools
 ### GBA
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // Started 24 Nov 2022
 ### PSP
-* [SD Gundam G Generation Overworld](https://retroachievements.org/game/21687) // Started 24 Nov 2022
+* [SD Gundam G Generation Overworld](https://retroachievements.org/game/21687) // Started 24 Nov 2022 --- On Hold
 ### PS2
 * [Zone of the Enders](https://retroachievements.org/game/19079) // Started 24 Nov 2022
 
