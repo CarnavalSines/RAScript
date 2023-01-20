@@ -10,6 +10,8 @@ RetroAchievement Set Scripts through RATools
 * [Zone of the Enders](https://retroachievements.org/game/19079) // Started 24 Nov 2022
 
 ## Finished
+### Apple II
+* [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
 ### Game Gear
 * [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
 ### GBA
