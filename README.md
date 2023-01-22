@@ -16,6 +16,8 @@ RetroAchievement Set Scripts through RATools
 * [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
 ### GBA
 *  [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
+### GBC
+*  [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 ### MSX
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
 ### PSX
