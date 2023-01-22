@@ -6,6 +6,8 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // Started 24 Nov 2022
 ### Nintendo DS
 * [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
+### Megadrive
+* [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // Started 22 Jan 2023
 ### PSP
 * [SD Gundam G Generation Overworld](https://retroachievements.org/game/21687) // Started 24 Nov 2022 --- On Hold
 ### PS2
