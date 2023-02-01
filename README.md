@@ -29,4 +29,5 @@ RetroAchievement Set Scripts through RATools
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
 ### PSX
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
-
+### Vectrex
+* [Star Trek: The Motion Picture](https://retroachievements.org/game/2124) // 1 Feb 2023
