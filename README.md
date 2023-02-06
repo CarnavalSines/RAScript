@@ -10,6 +10,8 @@ RetroAchievement Set Scripts through RATools
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Megadrive
 * [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // Started 22 Jan 2023
+### Wonderswan
+* [SD Gundam: Operation U.C.](https://retroachievements.org/game/4965) // Started 01 Feb 2023
 
 ## On Hold
 ### PSP
