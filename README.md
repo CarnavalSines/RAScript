@@ -10,6 +10,8 @@ RetroAchievement Set Scripts through RATools
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Megadrive
 * [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // Started 22 Jan 2023
+### Wonderswan
+* [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // Started 08 Feb 2023
 
 
 ## On Hold
