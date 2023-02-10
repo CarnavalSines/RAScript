@@ -1,6 +1,6 @@
 // SD Gundam: Operation U.C.
 // #ID = 4965
-// 20230207 Version - Sines
+// 20230210 Version - Sines
 
 //// - Code organisation -
 /// Code Notes
@@ -231,7 +231,7 @@ CampaignBitFlagDescription = { //
                     16:"Nu Gundam", // Nu Gundam Done
                     17:"Ball", // Ball (Gundam) Done
                     18:"Dijeh", // Dijeh (Z) Done
-                    19:"Methuss",  // Methuss (ZZ) Done
+                    19:"Methuss in the ZZ Era",  // Methuss (ZZ) Done
                     20:"Sazabi"
                     }  
                     
@@ -327,7 +327,7 @@ CampaignBitFlagName1CC = { //
                     16:"Beyond the Time", // Nu Gundam Done
                     17:"Against All Odds", // Ball (Gundam) Done
                     18:"Tired of War", // Dijeh (Z) Done
-                    19:"Short Lived Support",  // Methuss (ZZ) Done
+                    19:"Caretaker",  // Methuss (ZZ) Done
                     20:"Red Comet's Tail"
                     }
                     
@@ -610,6 +610,18 @@ function CheevoCampaignClearSazabi() // Sazabi being the very last unlock in the
                 )
 }
 
+function CheevoCampaignClearNuGundam() // Sazabi being the very last unlock in the game has no bitflag associated
+{
+    achievement(title = CampaignBitFlagName[16],
+                description = "Pilot the " + CampaignBitFlagDescription[16] + " and complete the campaign scenario",
+                points = Medium,
+                trigger = 
+                (CampaignMode || ContinueMode) // Straight Campaign or Continue OK
+                && CreditCheck() // Checking for credit rolls due to lack of associated bitflags
+                && MechID == CampaignMechID1CC[16] // Samething, checking for the mech ID
+                )
+}
+
 function CheevoCampaignClear1CC(variable,points)
 {
     achievement(title = CampaignBitFlagName1CC[variable],
@@ -618,11 +630,45 @@ function CheevoCampaignClear1CC(variable,points)
                 trigger = 
                 CampaignMode
                 && never(repeated(10,MainMenuTimer != prev(MainMenuTimer)))
-                && once(CursorID == CampaignCursorPos1CC[variable] && MechID == CampaignMechID1CC[variable])
+                && once(CursorID == CampaignCursorPos1CC[variable] && MechID == CampaignMechID1CC[variable]) // Check for campaign start
+                && MechID == CampaignMechID1CC[variable] // Check for current mech at end of campaign, should solve false positive triggers
                 && CreditCheck() // Potentially unlock already done so check for the credit rolls
                 && disable_when(Continue(), until=(ModeSelected != 0) ) // Freeze achievement on Game Over, Reset by moving around in the main menu
                 )
 }
+
+function CheevoCampaignClear1CCZetaMain()
+{
+    achievement(title = CampaignBitFlagName1CC[7],
+                description = "Pilot the " + CampaignBitFlagDescription[7] + " and complete the campaign scenario [No Game Over, No Continue]. Reset Emulator or Select a different mode once to retry.",
+                points = Medium,
+                trigger = 
+                CampaignMode
+                && never(repeated(10,MainMenuTimer != prev(MainMenuTimer)))
+                && once(CursorID == CampaignCursorPos1CC[7] && MechID == CampaignMechID1CC[7]) // Check for mech change during story mode
+                && once(CursorID == 0 && MechID == 0x9) // Check for campaign start
+                && MechID == CampaignMechID1CC[7] // Check for current mech at end of campaign, should solve false positive triggers
+                && CreditCheck() // Potentially unlock already done so check for the credit rolls
+                && disable_when(Continue(), until=(ModeSelected != 0) ) // Freeze achievement on Game Over, Reset by moving around in the main menu
+                )
+}
+
+function CheevoCampaignClear1CCZZMain()
+{
+    achievement(title = CampaignBitFlagName1CC[13],
+                description = "Pilot the " + CampaignBitFlagDescription[13] + " and complete the campaign scenario [No Game Over, No Continue]. Reset Emulator or Select a different mode once to retry.",
+                points = Medium,
+                trigger = 
+                CampaignMode
+                && never(repeated(10,MainMenuTimer != prev(MainMenuTimer)))
+                && once(CursorID == CampaignCursorPos1CC[13] && MechID == CampaignMechID1CC[13]) // Check for mech change during story mode
+                && once(CursorID == 0 && MechID == 0x6) // Check for campaign start
+                && MechID == CampaignMechID1CC[13] // Check for current mech at end of campaign, should solve false positive triggers
+                && CreditCheck() // Potentially unlock already done so check for the credit rolls
+                && disable_when(Continue(), until=(ModeSelected != 0) ) // Freeze achievement on Game Over, Reset by moving around in the main menu
+                )
+}
+
 
 function CheevoSurvivalEasy(variable)
 {
@@ -690,8 +736,11 @@ CheevoCampaignClear(15,Medium)
 CheevoCampaignClear(19,Easy)
 
 // CCA Era
-CheevoCampaignClear(16,Medium)
+//CheevoCampaignClear(16,Medium)
+CheevoCampaignClearNuGundam()
 CheevoCampaignClearSazabi()
+
+
 // --- --- --- UC Campaign Clear 1CC
 for i in range(1,2)
     CheevoCampaignClear1CC(i,Medium)
@@ -700,7 +749,8 @@ CheevoCampaignClear1CC(4,Medium)
 CheevoCampaignClear1CC(17,Hard)
     
 // Zeta Era
-CheevoCampaignClear1CC(7,Medium)
+//CheevoCampaignClear1CC(7,Medium)
+CheevoCampaignClear1CCZetaMain()
 CheevoCampaignClear1CC(6,Medium)
 CheevoCampaignClear1CC(9,Medium)
 CheevoCampaignClear1CC(8,Medium)
@@ -709,7 +759,8 @@ CheevoCampaignClear1CC(10,Medium)
 CheevoCampaignClear1CC(18,Baby)
 
 // ZZ Era
-CheevoCampaignClear1CC(13,Medium)
+//CheevoCampaignClear1CC(13,Medium)
+CheevoCampaignClear1CCZZMain()
 CheevoCampaignClear1CC(12,Medium)
 CheevoCampaignClear1CC(14,Medium)
 CheevoCampaignClear1CC(11,Medium)
@@ -733,4 +784,3 @@ for i in range(0,16)
 //Misc Challenge         
 
 //----------------
-
