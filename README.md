@@ -2,8 +2,6 @@
 RetroAchievement Set Scripts through RATools
 
 ## Current Project
-### GBA
-* [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // Started 24 Nov 2022
 ### Nintendo DS
 * [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
 ### Nintendo DSi
@@ -27,6 +25,8 @@ RetroAchievement Set Scripts through RATools
 * [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
 ### GBA
 *  [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
+* [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // 15 Feb 2023
+
 ### GBC
 *  [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 ### MSX
