@@ -21,12 +21,13 @@ RetroAchievement Set Scripts through RATools
 ## Finished
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
+### Atari Jaguar
+* [\~Homebrew\~ Downfall](https://retroachievements.org/game/22522) // 16 Feb 2023
 ### Game Gear
 * [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
 ### GBA
 *  [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // 15 Feb 2023
-
 ### GBC
 *  [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 ### MSX
