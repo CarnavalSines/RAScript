@@ -2,6 +2,8 @@
 RetroAchievement Set Scripts through RATools
 
 ## Current Project
+### Apple II
+* [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
 ### Nintendo DS
 * [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
 ### Nintendo DSi
