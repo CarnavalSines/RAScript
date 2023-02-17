@@ -2,8 +2,6 @@
 RetroAchievement Set Scripts through RATools
 
 ## Current Project
-### Apple II
-* [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
 ### Nintendo DS
 * [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
 ### Nintendo DSi
@@ -23,6 +21,7 @@ RetroAchievement Set Scripts through RATools
 ## Finished
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
+* [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
 ### Atari Jaguar
 * [\~Homebrew\~ Downfall](https://retroachievements.org/game/22522) // 16 Feb 2023
 ### Game Gear
