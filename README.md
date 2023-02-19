@@ -22,6 +22,8 @@ RetroAchievement Set Scripts through RATools
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
 * [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
+### Atari 2600
+* [Steeplechase(Sears)](https://retroachievements.org/game/22536) // 18 Feb 2023
 ### Atari Jaguar
 * [\~Homebrew\~ Downfall](https://retroachievements.org/game/22522) // 16 Feb 2023
 ### Game Gear
