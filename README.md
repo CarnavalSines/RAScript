@@ -28,11 +28,13 @@ RetroAchievement Set Scripts through RATools
 * [\~Homebrew\~ Downfall](https://retroachievements.org/game/22522) // 16 Feb 2023
 ### Game Gear
 * [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
+### Game Boy
+* [Nekketsu! Beach Volley Dayo Kunio-Kun](https://retroachievements.org/game/6489) // 19 Feb 2023
 ### GBA
-*  [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
+* [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // 15 Feb 2023
 ### GBC
-*  [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
+* [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 ### MSX
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
 ### PSX
