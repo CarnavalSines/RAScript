@@ -3,8 +3,6 @@ RetroAchievement Set Scripts through RATools
 
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
-### Nintendo 64
-* [Charlie Blasts Territory](https://retroachievements.org/game/11600) // Started 19 Feb 2023
 ### Nintendo DS
 * [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
 ### Nintendo DSi
@@ -40,6 +38,8 @@ RetroAchievement Set Scripts through RATools
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 ### MSX
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
+### Nintendo 64
+* [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PSX
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
 ### Vectrex
