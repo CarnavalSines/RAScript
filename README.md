@@ -2,6 +2,8 @@
 RetroAchievement Set Scripts through RATools
 
 ## Current Project
+### Nintendo 64
+* [Charlie Blasts Territory](https://retroachievements.org/game/11600) // Started 19 Feb 2023
 ### Nintendo DS
 * [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
 ### Nintendo DSi
