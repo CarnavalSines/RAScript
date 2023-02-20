@@ -1,6 +1,7 @@
 # RAScript
 RetroAchievement Set Scripts through RATools
 
+[Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // Started 19 Feb 2023
