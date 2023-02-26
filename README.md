@@ -11,8 +11,8 @@ RetroAchievement Set Scripts through RATools
 * [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // Started 22 Jan 2023
 ### Playstation
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // Started 20 Feb 2023
-### Wonderswan
-* [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // Started 08 Feb 2023
+
+
 
 
 ## On Hold
@@ -50,3 +50,4 @@ RetroAchievement Set Scripts through RATools
 * [Star Trek: The Motion Picture](https://retroachievements.org/game/2124) // 1 Feb 2023
 ### Wonderswan
 * [SD Gundam: Operation U.C.](https://retroachievements.org/game/4965) // 07 Feb 2023
+* [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // 26 Feb 2023
