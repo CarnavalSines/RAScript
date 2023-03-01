@@ -11,6 +11,8 @@ RetroAchievement Set Scripts through RATools
 * [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // Started 22 Jan 2023
 ### Playstation
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // Started 20 Feb 2023
+### Playstation 2
+* [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
 
 
 
