@@ -46,6 +46,8 @@ RetroAchievement Set Scripts through RATools
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PSX
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
+### Saturn
+* [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 ### Vectrex
 * [Star Trek: The Motion Picture](https://retroachievements.org/game/2124) // 1 Feb 2023
 ### Wonderswan
