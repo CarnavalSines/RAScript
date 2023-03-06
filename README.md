@@ -3,13 +3,15 @@ RetroAchievement Set Scripts through RATools
 
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
+### Game Boy Advance
+* [\~Hack\~ Castlevania: Aria of Sorrow - Persephone](https://retroachievements.org/game/14177) // Started 6 March 2023
 ### Nintendo DS
 * [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // Started 20 Feb 2023
-* [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collab with Soulsderfuschs
+* [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
 
