@@ -7,8 +7,6 @@ RetroAchievement Set Scripts through RATools
 * [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
-### Megadrive
-* [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // Started 22 Jan 2023
 ### Playstation
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // Started 20 Feb 2023
 ### Playstation 2
@@ -40,6 +38,8 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // 15 Feb 2023
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
+### Megadrive
+* [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // 3 March 2023
 ### MSX
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
 ### NES
