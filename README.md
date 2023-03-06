@@ -9,6 +9,7 @@ RetroAchievement Set Scripts through RATools
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // Started 20 Feb 2023
+* [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collab with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
 
