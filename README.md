@@ -10,7 +10,6 @@ RetroAchievement Set Scripts through RATools
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
-* [Arkanoid R 2000](https://retroachievements.org/game/22556) // Started 20 Feb 2023
 * [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
@@ -42,7 +41,7 @@ RetroAchievement Set Scripts through RATools
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 ### Megadrive
-* [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // 3 March 2023
+* [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // 6 March 2023
 ### MSX
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
 ### NES
@@ -51,6 +50,7 @@ RetroAchievement Set Scripts through RATools
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PSX
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
+* [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
 ### Saturn
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 ### Vectrex
