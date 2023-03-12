@@ -47,7 +47,7 @@ RetroAchievement Set Scripts through RATools
 ### NES
 * [Famicom Wars](https://retroachievements.org/game/5533) // 22 Feb 2023 -> Collab with VoiceofAutumn
 ### Nintend DS
-* [Arkanoid DS](https://retroachievements.org/game/22844) //12 March 2023
+* [Arkanoid DS](https://retroachievements.org/game/22844) // 12 March 2023
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PSX
