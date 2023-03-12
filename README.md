@@ -6,7 +6,7 @@ RetroAchievement Set Scripts through RATools
 ### Game Boy Advance
 * [\~Hack\~ Castlevania: Aria of Sorrow - Persephone](https://retroachievements.org/game/14177) // Started 6 March 2023
 ### Nintendo DS
-* [Aliens: Infestation](https://retroachievements.org/game/9196) // Started 21 Jan 2023
+* [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // Started 9 March 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
@@ -46,6 +46,8 @@ RetroAchievement Set Scripts through RATools
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
 ### NES
 * [Famicom Wars](https://retroachievements.org/game/5533) // 22 Feb 2023 -> Collab with VoiceofAutumn
+### Nintend DS
+* [Arkanoid DS](https://retroachievements.org/game/22844) //12 March 2023
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PSX
