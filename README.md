@@ -27,6 +27,8 @@ RetroAchievement Set Scripts through RATools
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
 * [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
+### Arduboy
+* [Crazy Kart](https://retroachievements.org/game/22869) // 13 March 2023
 ### Atari 2600
 * [Steeplechase(Sears)](https://retroachievements.org/game/22536) // 18 Feb 2023
 ### Atari Jaguar
