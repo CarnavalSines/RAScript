@@ -574,63 +574,164 @@ WorldName = {
 //----------------
 //Variable
 PlayingStatus = byte(0x221018) // 00 Not in Play (from round clear OR Continue) > 01 Playing (All modes)
-LevelClearFlag = byte(0x22d393) // 00 Not cleared, 01 Cleared
+//LevelClearFlag = byte(0x22d393) // 00 Not cleared, 01 Cleared
 
-GameMode = byte(0x22d314) // 00 Clear game 01 Uranoid 02 Quest 03 VS Com
-VSComGameMode = byte(0x22d334) // 00 Bust All 01 Bust Color
+//GameMode = byte(0x22d314) // 00 Clear game 01 Uranoid 02 Quest 03 VS Com
+//VSComGameMode = byte(0x22d334) // 00 Bust All 01 Bust Color
 
-ControlStyle = byte(0x22d310)
-StylusControl = ControlStyle == 1
+//ControlStyle = byte(0x22d310)
 
-BarrierConf = byte(0x22d318) // 3 is Default
 
-DifficultyMode = byte(0x22d31c) // 1 (normal) is Default
-VSComDifficultyMode = byte(0x22d344) // 1 - 8
-VSComMatchConf = byte(0x22d348) // 1 / 3 / 5
-VSComRound = byte(0x22d34c)
-VSComP1Win = byte(0x22d350) // Nb of win by P1
+//BarrierConf = byte(0x22d318) // 3 is Default
 
-LevelID = byte(0x22d3a8) // Used for Clear Mode and Uranoid Mode
+//DifficultyMode = byte(0x22d31c) // 1 (normal) is Default
+//VSComDifficultyMode = byte(0x22d344) // 1 - 8
+//VSComMatchConf = byte(0x22d348) // 1 / 3 / 5
+//VSComRound = byte(0x22d34c)
+//VSComP1Win = byte(0x22d350) // Nb of win by P1
+
+//LevelID = byte(0x22d3a8) // Used for Clear Mode and Uranoid Mode
 ContinueScreen = byte(0xc4edc) // 0x16 on Continue
 
-QuestModeA = bit0(0x22d464) + bit1(0x22d464) + bit2(0x22d464) + bit3(0x22d464) + bit4(0x22d464) 
-QuestModeB = bit5(0x22d464) + bit6(0x22d464) + bit7(0x22d464) + bit0(0x22D465) + bit1(0x22D465)
-QuestModeC = bit2(0x22D465) + bit3(0x22D465) + bit4(0x22D465) + bit5(0x22D465) + bit6(0x22D465)
-QuestModeD = bit7(0x22D465) + bit0(0x22D466) + bit1(0x22D466) + bit2(0x22D466) + bit3(0x22D466)
-QuestModeE = bit4(0x22D466) + bit5(0x22D466) + bit6(0x22D466) + bit7(0x22D466) + bit0(0x22D467)
-QuestModeF = bit1(0x22D467) + bit2(0x22D467) + bit3(0x22D467) + bit4(0x22D467) + bit5(0x22D467)
-QuestModeG = bit6(0x22D467) + bit7(0x22D467) + bit0(0x22D468) + bit1(0x22D468) + bit2(0x22D468)
-QuestModeH = bit3(0x22D468) + bit4(0x22D468) + bit5(0x22D468) + bit6(0x22D468) + bit7(0x22D468)
-QuestModeI = bit0(0x22D469) + bit1(0x22D469) + bit2(0x22D469) + bit3(0x22D469) + bit4(0x22D469)
-QuestModeJ = bit5(0x22D469) + bit6(0x22D469) + bit7(0x22D469) + bit0(0x22D46a) + bit1(0x22D46a)
-QuestModeK = bit2(0x22D46a) + bit3(0x22D46a) + bit4(0x22D46a) + bit5(0x22D46a) + bit6(0x22D46a)
-QuestModeL = bit7(0x22D46a) + bit0(0x22D46b) + bit1(0x22D46b) + bit2(0x22D46b) + bit3(0x22D46b)
-QuestModeM = bit4(0x22D46b) + bit5(0x22D46b) + bit6(0x22D46b) + bit7(0x22D46b) + bit0(0x22D46c)
-QuestModeN = bit1(0x22D46c) + bit2(0x22D46c) + bit3(0x22D46c) + bit4(0x22D46c) + bit5(0x22D46c)
-QuestModeO = bit6(0x22D46c) + bit7(0x22D46c) + bit0(0x22D46d) + bit1(0x22D46d) + bit2(0x22D46d)
-QuestModeP = bit3(0x22D46d) + bit4(0x22D46d) + bit5(0x22D46d) + bit6(0x22D46d) + bit7(0x22D46d)
-QuestModeQ = bit0(0x22D46e) + bit1(0x22D46e) + bit2(0x22D46e) + bit3(0x22D46e) + bit4(0x22D46e)
-QuestModeR = bit5(0x22D46e) + bit6(0x22D46e) + bit7(0x22D46e) + bit0(0x22D46f) + bit1(0x22D46f)
-QuestModeS = bit2(0x22D46f) + bit3(0x22D46f) + bit4(0x22D46f) + bit5(0x22D46f) + bit6(0x22D46f)
-QuestModeT = bit7(0x22D46f) + bit0(0x22D470) + bit1(0x22D470) + bit2(0x22D470) + bit3(0x22D470)
-QuestModeU = bit4(0x22D470) + bit5(0x22D470) + bit6(0x22D470) + bit7(0x22D470) + bit0(0x22D471)
-QuestModeV = bit1(0x22D471) + bit2(0x22D471) + bit3(0x22D471) + bit4(0x22D471) + bit5(0x22D471)
-QuestModeW = bit6(0x22D471) + bit7(0x22D471) + bit0(0x22D472) + bit1(0x22D472) + bit2(0x22D472)
-QuestModeX = bit3(0x22D472) + bit4(0x22D472) + bit5(0x22D472) + bit6(0x22D472) + bit7(0x22D472)
-QuestModeY = bit0(0x22D473) + bit1(0x22D473) + bit2(0x22D473) + bit3(0x22D473) + bit4(0x22D473)
-QuestModeZ = bit5(0x22D473) + bit6(0x22D473) + bit7(0x22D473) + bit0(0x22D474) + bit1(0x22D474)
-QuestModeVPrime = bit2(0x22D474) + bit3(0x22D474) + bit4(0x22D474) + bit5(0x22D474) + bit6(0x22D474)
-QuestModeZPrime = bit7(0x22D474) + bit0(0x22D475) + bit1(0x22D475) + bit2(0x22D475) + bit3(0x22D475)
+MainPointer= tbyte(0x0c3758) // Fucking pointer man
 
-QuestModeAlpha = bit4(0x22D475) + bit5(0x22D475) + bit6(0x22D475) + bit7(0x22D475) + bit0(0x22D476)
-QuestModeBeta = bit1(0x22D476) + bit2(0x22D476) + bit3(0x22D476) + bit4(0x22D476) + bit5(0x22D476)
-QuestModeGamma = bit6(0x22D476) + bit7(0x22D476) + bit0(0x22D477) + bit1(0x22D477) + bit2(0x22D477)
-QuestModeDelta = bit3(0x22D477) + bit4(0x22D477) + bit5(0x22D477) + bit6(0x22D477) + bit7(0x22D477)
-QuestModeEpsilon = bit0(0x22D478) + bit1(0x22D478) + bit2(0x22D478) + bit3(0x22D478) + bit4(0x22D478)
-QuestModeZeta = bit5(0x22D478) + bit6(0x22D478) + bit7(0x22D478) + bit0(0x22D479) + bit1(0x22D479)
-QuestModeEta = bit2(0x22D479) + bit3(0x22D479) + bit4(0x22D479) + bit5(0x22D479) + bit6(0x22D479)
-QuestModeTheta = bit7(0x22D479) + bit0(0x22D47a) + bit1(0x22D47a) + bit2(0x22D47a) + bit3(0x22D47a)
-QuestModeIota = bit4(0x22D47a) + bit5(0x22D47a)  +bit6(0x22D47a) + bit7(0x22D47a) + bit0(0x22D47b)
+BarrierPointer = MainPointer + 0xffa038 // // Offset ffa038 16752696 > negative offset 5fc8 2277208
+BarrierManip = BarrierPointer - 16777216 // 24b mask
+BarrierConf = tbyte(BarrierManip)
+
+ControlPointer = MainPointer + 0xffa030
+ControlManip = ControlPointer - 16777216
+ControlStyle = tbyte(ControlManip)
+StylusControl = ControlStyle == 1
+
+GameModePointer = MainPointer + 0xffa034
+GameModeManip = GameModePointer - 16777216
+GameMode = tbyte(GameModeManip)
+
+DifficultyPointer = MainPointer + 0xffa03c
+DifficultyManip = DifficultyPointer - 16777216
+DifficultyMode = tbyte(DifficultyManip)
+
+LevelClearPointer = MainPointer + 0xffa0b3
+LevelClearManip = LevelClearPointer - 16777216
+LevelClearFlag = tbyte(LevelClearManip)
+
+LevelIDPointer = MainPointer + 0xffa0c8
+LevelIDManip = LevelIDPointer - 16777216
+LevelID = tbyte(LevelIDManip)
+
+VSComModePointer = MainPointer + 0xffa054
+VSComModeManip = VSComModePointer - 16777216
+VSComGameMode = tbyte(VSComModeManip)
+
+VSComDifficultyModePointer = MainPointer + 0xffa064
+VSComDifficultyModeManip = VSComDifficultyModePointer - 16777216
+VSComDifficultyMode = tbyte(VSComDifficultyModeManip)
+
+VSComMatchConfPointer = MainPointer + 0xffa068
+VSComMatchConfManip = VSComMatchConfPointer - 16777216
+VSComMatchConf = tbyte(VSComMatchConfManip)
+
+VSComP1WinPointer = MainPointer + 0xffa070
+VSComP1WinManip = VSComP1WinPointer - 16777216
+VSComP1Win = tbyte(VSComP1WinManip)
+
+VSComRoundPointer = MainPointer + 0xffa07c
+VSComRoundManip = VSComRoundPointer - 16777216
+VSComRound = tbyte(VSComRoundManip)
+
+
+
+// --- --- --- --- --- ---
+// Quest mode stuff
+
+QuestPointer1 = MainPointer + 0xffa184
+QuestAddress1 = QuestPointer1 - 16777216
+QuestPointer2 = MainPointer + 0xffa185
+QuestAddress2 = QuestPointer2 - 16777216
+QuestPointer3 = MainPointer + 0xffa186
+QuestAddress3 = QuestPointer3 - 16777216
+QuestPointer4 = MainPointer + 0xffa187
+QuestAddress4 = QuestPointer4 - 16777216
+QuestPointer5 = MainPointer + 0xffa188
+QuestAddress5 = QuestPointer5 - 16777216
+QuestPointer6 = MainPointer + 0xffa189
+QuestAddress6 = QuestPointer6 - 16777216
+QuestPointer7 = MainPointer + 0xffa18a
+QuestAddress7 = QuestPointer7 - 16777216
+QuestPointer8 = MainPointer + 0xffa18b
+QuestAddress8 = QuestPointer8 - 16777216
+QuestPointer9 = MainPointer + 0xffa18c
+QuestAddress9 = QuestPointer9 - 16777216
+QuestPointer10 = MainPointer + 0xffa18d
+QuestAddress10 = QuestPointer10 - 16777216
+QuestPointer11 = MainPointer + 0xffa18e
+QuestAddress11 = QuestPointer11 - 16777216
+QuestPointer12 = MainPointer + 0xffa18f
+QuestAddress12 = QuestPointer12 - 16777216
+QuestPointer13 = MainPointer + 0xffa190
+QuestAddress13 = QuestPointer13 - 16777216
+QuestPointer14 = MainPointer + 0xffa191
+QuestAddress14 = QuestPointer14 - 16777216
+QuestPointer15 = MainPointer + 0xffa192
+QuestAddress15 = QuestPointer15 - 16777216
+QuestPointer16 = MainPointer + 0xffa193
+QuestAddress16 = QuestPointer16 - 16777216
+QuestPointer17 = MainPointer + 0xffa194
+QuestAddress17 = QuestPointer17 - 16777216
+QuestPointer18 = MainPointer + 0xffa195
+QuestAddress18 = QuestPointer18 - 16777216
+QuestPointer19 = MainPointer + 0xffa196
+QuestAddress19 = QuestPointer19 - 16777216
+QuestPointer20 = MainPointer + 0xffa197
+QuestAddress20 = QuestPointer20 - 16777216
+QuestPointer21 = MainPointer + 0xffa198
+QuestAddress21 = QuestPointer21 - 16777216
+QuestPointer22 = MainPointer + 0xffa199
+QuestAddress22 = QuestPointer22 - 16777216
+QuestPointer23 = MainPointer + 0xffa19a
+QuestAddress23 = QuestPointer23 - 16777216
+QuestPointer24 = MainPointer + 0xffa19b
+QuestAddress24 = QuestPointer24 - 16777216
+
+QuestModeA = bit0(QuestAddress1) + bit1(QuestAddress1) + bit2(QuestAddress1) + bit3(QuestAddress1) + bit4(QuestAddress1) 
+QuestModeB = bit5(QuestAddress1) + bit6(QuestAddress1) + bit7(QuestAddress1) + bit0(QuestAddress2) + bit1(QuestAddress2)
+QuestModeC = bit2(QuestAddress2) + bit3(QuestAddress2) + bit4(QuestAddress2) + bit5(QuestAddress2) + bit6(QuestAddress2)
+QuestModeD = bit7(QuestAddress2) + bit0(QuestAddress3) + bit1(QuestAddress3) + bit2(QuestAddress3) + bit3(QuestAddress3)
+QuestModeE = bit4(QuestAddress3) + bit5(QuestAddress3) + bit6(QuestAddress3) + bit7(QuestAddress3) + bit0(QuestAddress4)
+QuestModeF = bit1(QuestAddress4) + bit2(QuestAddress4) + bit3(QuestAddress4) + bit4(QuestAddress4) + bit5(QuestAddress4)
+QuestModeG = bit6(QuestAddress4) + bit7(QuestAddress4) + bit0(QuestAddress5) + bit1(QuestAddress5) + bit2(QuestAddress5)
+QuestModeH = bit3(QuestAddress5) + bit4(QuestAddress5) + bit5(QuestAddress5) + bit6(QuestAddress5) + bit7(QuestAddress5)
+QuestModeI = bit0(QuestAddress6) + bit1(QuestAddress6) + bit2(QuestAddress6) + bit3(QuestAddress6) + bit4(QuestAddress6)
+QuestModeJ = bit5(QuestAddress6) + bit6(QuestAddress6) + bit7(QuestAddress6) + bit0(QuestAddress7) + bit1(QuestAddress7)
+QuestModeK = bit2(QuestAddress7) + bit3(QuestAddress7) + bit4(QuestAddress7) + bit5(QuestAddress7) + bit6(QuestAddress7)
+QuestModeL = bit7(QuestAddress7) + bit0(QuestAddress8) + bit1(QuestAddress8) + bit2(QuestAddress8) + bit3(QuestAddress8)
+QuestModeM = bit4(QuestAddress8) + bit5(QuestAddress8) + bit6(QuestAddress8) + bit7(QuestAddress8) + bit0(QuestAddress9)
+QuestModeN = bit1(QuestAddress9) + bit2(QuestAddress9) + bit3(QuestAddress9) + bit4(QuestAddress9) + bit5(QuestAddress9)
+QuestModeO = bit6(QuestAddress9) + bit7(QuestAddress9) + bit0(QuestAddress10) + bit1(QuestAddress10) + bit2(QuestAddress10)
+QuestModeP = bit3(QuestAddress10) + bit4(QuestAddress10) + bit5(QuestAddress10) + bit6(QuestAddress10) + bit7(QuestAddress10)
+QuestModeQ = bit0(QuestAddress11) + bit1(QuestAddress11) + bit2(QuestAddress11) + bit3(QuestAddress11) + bit4(QuestAddress11)
+QuestModeR = bit5(QuestAddress11) + bit6(QuestAddress11) + bit7(QuestAddress11) + bit0(QuestAddress12) + bit1(QuestAddress12)
+QuestModeS = bit2(QuestAddress12) + bit3(QuestAddress12) + bit4(QuestAddress12) + bit5(QuestAddress12) + bit6(QuestAddress12)
+QuestModeT = bit7(QuestAddress12) + bit0(QuestAddress13) + bit1(QuestAddress13) + bit2(QuestAddress13) + bit3(QuestAddress13)
+QuestModeU = bit4(QuestAddress13) + bit5(QuestAddress13) + bit6(QuestAddress13) + bit7(QuestAddress13) + bit0(QuestAddress14)
+QuestModeV = bit1(QuestAddress14) + bit2(QuestAddress14) + bit3(QuestAddress14) + bit4(QuestAddress14) + bit5(QuestAddress14)
+QuestModeW = bit6(QuestAddress14) + bit7(QuestAddress14) + bit0(QuestAddress15) + bit1(QuestAddress15) + bit2(QuestAddress15)
+QuestModeX = bit3(QuestAddress15) + bit4(QuestAddress15) + bit5(QuestAddress15) + bit6(QuestAddress15) + bit7(QuestAddress15)
+QuestModeY = bit0(QuestAddress16) + bit1(QuestAddress16) + bit2(QuestAddress16) + bit3(QuestAddress16) + bit4(QuestAddress16)
+QuestModeZ = bit5(QuestAddress16) + bit6(QuestAddress16) + bit7(QuestAddress16) + bit0(QuestAddress17) + bit1(QuestAddress17)
+QuestModeVPrime = bit2(QuestAddress17) + bit3(QuestAddress17) + bit4(QuestAddress17) + bit5(QuestAddress17) + bit6(QuestAddress17)
+QuestModeZPrime = bit7(QuestAddress17) + bit0(QuestAddress18) + bit1(QuestAddress18) + bit2(QuestAddress18) + bit3(QuestAddress18)
+
+QuestModeAlpha = bit4(QuestAddress18) + bit5(QuestAddress18) + bit6(QuestAddress18) + bit7(QuestAddress18) + bit0(QuestAddress19)
+QuestModeBeta = bit1(QuestAddress19) + bit2(QuestAddress19) + bit3(QuestAddress19) + bit4(QuestAddress19) + bit5(QuestAddress19)
+QuestModeGamma = bit6(QuestAddress19) + bit7(QuestAddress19) + bit0(QuestAddress20) + bit1(QuestAddress20) + bit2(QuestAddress20)
+QuestModeDelta = bit3(QuestAddress20) + bit4(QuestAddress20) + bit5(QuestAddress20) + bit6(QuestAddress20) + bit7(QuestAddress20)
+QuestModeEpsilon = bit0(QuestAddress21) + bit1(QuestAddress21) + bit2(QuestAddress21) + bit3(QuestAddress21) + bit4(QuestAddress21)
+QuestModeZeta = bit5(QuestAddress21) + bit6(QuestAddress21) + bit7(QuestAddress21) + bit0(QuestAddress22) + bit1(QuestAddress22)
+QuestModeEta = bit2(QuestAddress22) + bit3(QuestAddress22) + bit4(QuestAddress22) + bit5(QuestAddress22) + bit6(QuestAddress22)
+QuestModeTheta = bit7(QuestAddress22) + bit0(QuestAddress23) + bit1(QuestAddress23) + bit2(QuestAddress23) + bit3(QuestAddress23)
+QuestModeIota = bit4(QuestAddress23) + bit5(QuestAddress23) + bit6(QuestAddress23) + bit7(QuestAddress23) + bit0(QuestAddress24)
 
 QuestModeCheck = { 
 			0:QuestModeA, 
@@ -672,11 +773,54 @@ QuestModeCheck = {
 			36:QuestModeIota
 }
 
-CustomisationBG = bitcount(0x22d424) + bitcount(0x22d425) + bitcount(0x22d426) + bitcount(0x22d427) + bitcount(0x22d428) + bitcount(0x22d429) + bitcount(0x22d42a) + bitcount(0x22d42b) + bitcount(0x22d42c) + bitcount(0x22d42d) + bitcount(0x22d42e) + bitcount(0x22d42f) + bit0(0x22d430) + bit1(0x22d430) + bit2(0x22d430) + bit3(0x22d430)
-CustomisationFrame = bit4(0x22d430) + bit5(0x22d430) + bit6(0x22d430) + bit7(0x22d430) + bit0(0x22d431) + bit1(0x22d431) + bit2(0x22d431) + bit3(0x22d431) + bit4(0x22d431) + bit5(0x22d431) + bit6(0x22d431)
-CustomisationBlock = bit7(0x22d431) + bitcount(0x22d432) + bit0(0x22d433) + bit1(0x22d433)
-CustomisationSound = bit2(0x22d433) + bit3(0x22d433) + bit4(0x22d433) + bit5(0x22d433) + bit6(0x22d433) + bit7(0x22d433) + bitcount(0x22d434) + bitcount(0x22d435) + bit0(0x22d436) + bit1(0x22d436) + bit2(0x22d436)
-CustomisationVaus = bit3(0x22d436) + bit4(0x22d436) + bit5(0x22d436) + bit6(0x22d436) + bit7(0x22d436) + bitcount(0x22d437) + bit0(0x22d438) + bit1(0x22d438) + bit2(0x22d438)
+ShopPointer1 = MainPointer + 0xffa144
+ShopAddress1 = ShopPointer1 - 16777216
+ShopPointer2 = MainPointer + 0xffa145
+ShopAddress2 = ShopPointer2 - 16777216
+ShopPointer3 = MainPointer + 0xffa146
+ShopAddress3 = ShopPointer3 - 16777216
+ShopPointer4 = MainPointer + 0xffa147
+ShopAddress4 = ShopPointer4 - 16777216
+ShopPointer5 = MainPointer + 0xffa148
+ShopAddress5 = ShopPointer5 - 16777216
+ShopPointer6 = MainPointer + 0xffa149
+ShopAddress6 = ShopPointer6 - 16777216
+ShopPointer7 = MainPointer + 0xffa14a
+ShopAddress7 = ShopPointer7 - 16777216
+ShopPointer8 = MainPointer + 0xffa14b
+ShopAddress8 = ShopPointer8 - 16777216
+ShopPointer9 = MainPointer + 0xffa14c
+ShopAddress9 = ShopPointer9 - 16777216
+ShopPointer10 = MainPointer + 0xffa14d
+ShopAddress10 = ShopPointer10 - 16777216
+ShopPointer11 = MainPointer + 0xffa14e
+ShopAddress11 = ShopPointer11 - 16777216
+ShopPointer12 = MainPointer + 0xffa14f
+ShopAddress12 = ShopPointer12 - 16777216
+ShopPointer13 = MainPointer + 0xffa150
+ShopAddress13 = ShopPointer13 - 16777216
+ShopPointer14 = MainPointer + 0xffa151
+ShopAddress14 = ShopPointer14 - 16777216
+ShopPointer15 = MainPointer + 0xffa152
+ShopAddress15 = ShopPointer15 - 16777216
+ShopPointer16 = MainPointer + 0xffa153
+ShopAddress16 = ShopPointer16 - 16777216
+ShopPointer17 = MainPointer + 0xffa154
+ShopAddress17 = ShopPointer17 - 16777216
+ShopPointer18 = MainPointer + 0xffa155
+ShopAddress18 = ShopPointer18 - 16777216
+ShopPointer19 = MainPointer + 0xffa156
+ShopAddress19 = ShopPointer19 - 16777216
+ShopPointer20 = MainPointer + 0xffa157
+ShopAddress20 = ShopPointer20 - 16777216
+ShopPointer21 = MainPointer + 0xffa158
+ShopAddress21 = ShopPointer21 - 16777216
+
+CustomisationBG = bitcount(ShopAddress1) + bitcount(ShopAddress2) + bitcount(ShopAddress3) + bitcount(ShopAddress4) + bitcount(ShopAddress5) + bitcount(ShopAddress6) + bitcount(ShopAddress7) + bitcount(ShopAddress8) + bitcount(ShopAddress9) + bitcount(ShopAddress10) + bitcount(ShopAddress11) + bitcount(ShopAddress12) + bit0(ShopAddress13) + bit1(ShopAddress13) + bit2(ShopAddress13) + bit3(ShopAddress13)
+CustomisationFrame = bit4(ShopAddress13) + bit5(ShopAddress13) + bit6(ShopAddress13) + bit7(ShopAddress13) + bit0(ShopAddress14) + bit1(ShopAddress14) + bit2(ShopAddress14) + bit3(ShopAddress14) + bit4(ShopAddress14) + bit5(ShopAddress14) + bit6(ShopAddress14)
+CustomisationBlock = bit7(ShopAddress14) + bitcount(ShopAddress15) + bit0(ShopAddress16) + bit1(ShopAddress16)
+CustomisationSound = bit2(ShopAddress16) + bit3(ShopAddress16) + bit4(ShopAddress16) + bit5(ShopAddress16) + bit6(ShopAddress16) + bit7(ShopAddress16) + bitcount(ShopAddress17) + bitcount(ShopAddress18) + bit0(ShopAddress19) + bit1(ShopAddress19) + bit2(ShopAddress19)
+CustomisationVaus = bit3(ShopAddress19) + bit4(ShopAddress19) + bit5(ShopAddress19) + bit6(ShopAddress19) + bit7(ShopAddress19) + bitcount(ShopAddress20) + bit0(ShopAddress21) + bit1(ShopAddress21) + bit2(ShopAddress21)
 
 //----------------
 //Function
@@ -690,7 +834,7 @@ function VSComWin() => GameMode == 3 && VSComMatchConf == 3 && VSComP1Win == 2 &
 function ClearModeProgression(points,levelID)
 {
     achievement(title = "Zone " + WorldName[levelID] + " Clear",
-                description = "In Clear Mode beat Zone " + WorldName[levelID] + " [Normal Difficulty or above, Barrier Strenght: 3]",
+                description = "In Clear Mode beat Zone " + WorldName[levelID] + " [Normal Difficulty or above, Barrier Strength: 3]",
                 points = points,
                 trigger = 
                             GameMode == 0 // Clear Mode
@@ -704,7 +848,7 @@ function ClearModeProgression(points,levelID)
 function ClearModeProgression1CC(points,levelID)
 {
     achievement(title = "Zone " + WorldName[levelID] + " Space Master",
-                description = "In Clear Mode beat Zone " + WorldName[levelID] + " in a single session without using any Continues [Normal Difficulty or above, Barrier Strenght: 0]",
+                description = "In Clear Mode beat Zone " + WorldName[levelID] + " in a single session without using any Continues [Normal Difficulty or above, Barrier Strength: 0]",
                 points = points,
                 trigger = 
                             GameMode == 0 // Clear Mode
@@ -721,7 +865,7 @@ function ClearModeProgression1CC(points,levelID)
 function UranoidModeProgression(points,levelID)
 {
     achievement(title = "Beyond the event Horizon: " + WorldName[levelID] + " Clear",
-                description = "In Uranoid Mode beat Zone " + WorldName[levelID] + " [Normal Difficulty or above, Barrier Strenght: 3]",
+                description = "In Uranoid Mode beat Zone " + WorldName[levelID] + " [Normal Difficulty or above, Barrier Strength: 3]",
                 points = points,
                 trigger = 
                             GameMode == 1 // Uranoid Mode
@@ -736,7 +880,7 @@ function UranoidModeProgression(points,levelID)
 function UranoidModeProgression1CC(points,levelID)
 {
     achievement(title = "Space Hegemony: Perfect " + WorldName[levelID],
-                description = "In Uranoid Mode beat Zone " + WorldName[levelID] + " in a single session without using any Continues [Normal Difficulty or above, Barrier Strenght: 0]",
+                description = "In Uranoid Mode beat Zone " + WorldName[levelID] + " in a single session without using any Continues [Normal Difficulty or above, Barrier Strength: 0]",
                 points = points,
                 trigger = 
                             GameMode == 1 // Uranoid Mode
@@ -913,7 +1057,7 @@ achievement(title = "Space Hangar",
 // Misc Challenge
 
 achievement(title = "The Dev Favorite Gimmick: Alternative Controls !",
-                description = "In Clear Mode beat Zone A in a single session without using any Continues with Stylus Controls [Normal Difficulty or above, Barrier Strenght: 0]",
+                description = "In Clear Mode beat Zone A in a single session without using any Continues with Stylus Controls [Normal Difficulty or above, Barrier Strength: 0]",
                 points = 3,
                 trigger = 
                             GameMode == 0 // Clear Mode
