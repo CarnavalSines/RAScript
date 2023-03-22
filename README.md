@@ -3,8 +3,6 @@ RetroAchievement Set Scripts through RATools
 
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
-### Game Boy Advance
-
 ### Nintendo DS
 * [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // Started 9 March 2023
 * [\~Hack\~ Castlevania: Plague of Sorrow](https://retroachievements.org/game/22848) // Started 14 March 2023
