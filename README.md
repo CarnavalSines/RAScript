@@ -4,7 +4,7 @@ RetroAchievement Set Scripts through RATools
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 ### Game Boy Advance
-* [\~Hack\~ Castlevania: Aria of Sorrow - Persephone](https://retroachievements.org/game/14177) // Started 6 March 2023
+
 ### Nintendo DS
 * [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // Started 9 March 2023
 * [\~Hack\~ Castlevania: Plague of Sorrow](https://retroachievements.org/game/22848) // Started 14 March 2023
@@ -41,6 +41,7 @@ RetroAchievement Set Scripts through RATools
 ### GBA
 * [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // 15 Feb 2023
+* [\~Hack\~ Castlevania: Aria of Sorrow - Persephone](https://retroachievements.org/game/14177) // 22 March 2023
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 ### Megadrive
