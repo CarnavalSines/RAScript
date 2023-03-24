@@ -1,0 +1,188 @@
+// Tokimeki Card Paradise - Koi no Royal Straight Flush
+// #ID = 16467
+// 20230324 Version - Sines
+
+
+//// - Code organisation -
+/// Code Notes
+/// Core
+// Constant
+// Variable
+// Function
+// Achievement Code
+/// Rich Presence
+// Lookup
+// RP Code
+/// Leaderboard
+
+
+// $0B74C4: [8 Bit] Mode ?
+// $0B759E: [8 Bit] Option - Card Type
+// $0B762E: [8 Bit] Option - Game Level
+//          0f > Easy
+//          10 > Normal
+//          11 > Hard
+// $0BB1CC: [8 Bit] Option - Card Type
+// $0BB1CE: [8 Bit] Girl Picked
+//          00 ~ 04
+// $0BB1D0: [8 Bit] Date Mode - Girl Fight in a row
+//          Max 0x05
+// $0BB1D2: [8 Bit] ""Progression"" state
+//          00 ~ 07
+//          0x00 on credit roll
+// $0BB1D4: [8 Bit] Mode
+//          00 > Date
+//          01 > Free Play
+// $0BB1D6: [8 Bit] Game Played
+//          00 > Poker
+//          01 > Speed
+//          02 > Black Jack
+//          03 > Baba Nuki
+// $0BB1D8: [8 Bit] Option - Game Level
+//          00 > Easy
+//          01 > Normal
+//          02 > Hard
+// $0BB1FC: [16 Bit] In Video marker
+//          Not 0x00 > Watching video / End CG
+//          0x9000 > End Credit
+// $0CBC20: [8 Bit] In game indicator ?
+//          01 on transition
+//          00 otherwise
+// $0CBC2C: [16 Bit] Player Score
+// $0CBC30: [16 Bit] Girl's Score
+
+
+///Core
+//Constant
+
+//Quick points distribution
+Baby = 3
+Easy = 5
+Medium = 10
+Hard = 25
+Challenge = 50
+
+GirlName = { 
+                    0:"Ayame", 
+                    1:"Yayoi", 
+                    2:"Mina", 
+                    3:"Seika", 
+                    4:"Hatsuki"
+                    }
+                    
+GameName = { 
+                    0:"Poker", 
+                    1:"Speed", 
+                    2:"Black Jack", 
+                    3:"Baba Nuki (Old Maid)"
+                    }
+                    
+                    
+//----------------
+//Variable
+GameLevel = byte(0xBB1D8)
+HardMode = GameLevel == 0x2
+
+GirlPicked = byte(0xbb1ce)
+DateModeGirl = byte(0xbb1d0)
+
+ProgressionState = byte(0xbb1d2)
+
+Mode = byte(0xbb1d4)
+CardGame = byte(0xbb1d6)
+
+CutsceneValue = word(0xbb1fc)
+CreditRoll = CutsceneValue == 0x9000
+
+//----------------
+//Function
+function GirlProg(title,GirlID)
+{
+    achievement(title = title,
+                description = "Playing any game beat " + GirlName[GirlID] +" in a card duel",
+                points = 5,
+                trigger = 
+                            GirlPicked == GirlID
+                         && ProgressionState == 0x7
+                         && prev(ProgressionState) == 0x06
+                )
+}
+
+function CardProg(CardID)
+{
+    achievement(title = GameName[CardID] + " Expert",
+                description = "Defeat any girl in a duel while playing " + GameName[CardID],
+                points = 2,
+                trigger = 
+                            CardGame == CardID
+                         && ProgressionState == 0x7
+                         && prev(ProgressionState) == 0x06
+                )
+}
+
+function CardProgHard(CardID)
+{
+    achievement(title = GameName[CardID] + " Master",
+                description = "Defeat any girl in a duel while playing " + GameName[CardID] + " in Hard Mode",
+                points = 5,
+                trigger = 
+                            CardGame == CardID
+                         && ProgressionState == 0x7
+                         && prev(ProgressionState) == 0x06
+                         && HardMode
+                )
+}
+//----------------
+
+///Achievement Code
+// Date Mode
+achievement(title = "Amateur Duelist",
+                description = "Complete the Date mode and beat all the girls in a card duel",
+                points = 10,
+                trigger = 
+                           DateModeGirl == 0x05
+                        && prior(DateModeGirl) == 0x04 
+                        && CreditRoll
+                        && Mode == 0 //Date Mode
+                        && ProgressionState == 0
+                )
+
+achievement(title = "Heart of the Cards",
+                description = "Complete the Date mode and beat all the girls in a card duel on Hard Difficulty",
+                points = 25,
+                trigger = 
+                           DateModeGirl == 0x05
+                        && prior(DateModeGirl) == 0x04 
+                        && CreditRoll
+                        && Mode == 0 //Date Mode
+                        && ProgressionState == 0
+                        && HardMode
+                )
+
+// Girls
+GirlProg("Ayame Slayer",0)
+GirlProg("Yayoi Crusher",1)
+GirlProg("Mina Stomper",2)
+GirlProg("Seika Overlord",3)
+GirlProg("Hatsuki Master",4)
+
+
+// Card Games
+for i in range (0,3)
+    CardProg(i)
+
+for i in range (0,3)
+    CardProgHard(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
