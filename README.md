@@ -54,6 +54,8 @@ RetroAchievement Set Scripts through RATools
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PC-88
 * [Minky Momo no Panic Ball](https://retroachievements.org/game/23554) // 23 March 2023
+### PC-FX
+* [Tokimeki Card Paradise - Koi no Royal Straight Flush](https://retroachievements.org/game/16467) // 24 March 2023
 ### PSX
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
