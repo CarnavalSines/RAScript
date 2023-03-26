@@ -14,7 +14,8 @@ RetroAchievement Set Scripts through RATools
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
 ### PSX
 * [Slap Happy Rhythm Busters](https://retroachievements.org/game/20397) // Started 24 March 2023
-
+### Watara
+* [Cross Horde]() // Started 26 March 2023 (finished same day but kept open for DQ15 collabs) -> Collaboration with AuburnRDM
 
 
 
