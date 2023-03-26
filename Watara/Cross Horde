@@ -1,0 +1,167 @@
+// ~Homebrew~ Cross Horde
+// #ID = 23770
+
+// 20230326 Version - Sines
+
+
+//// - Code organisation -
+/// Code Notes
+/// Core
+// Constant
+// Variable
+// Function
+// Achievement Code
+/// Rich Presence
+// Lookup
+// RP Code
+/// Leaderboard
+
+
+// $026E: [8 Bit] Lives
+// $026F: [8 Bit] Level ID
+//        Start at 0x00
+// $0276: [8 Bit] Total Power-up collected
+// $0291: [8 Bit] Enemy movement value of sort ?
+//        Get frozen at 0x01 when the freeze power-up is collected
+// $02B6: Each enemy is contained to a "Lane" and there can only be alive per lane at a time. Lane is empty when value is 0x00
+//        -----
+//        [8-bit] HP of enemy in Lane 1
+// $02B7: [8-bit] HP of enemy in Lane 2
+// $02B8: [8-bit] HP of enemy in Lane 3
+// $02B9: [8-bit] HP of enemy in Lane 4
+// $02BA: [8-bit] HP of enemy in Lane 5
+// $02BB: [8-bit] HP of enemy in Lane 6
+// $02BC: [8-bit] HP of enemy in Lane 7
+// $02BD: [8-bit] HP of enemy in Lane 8
+// $02BE: [8-bit] HP of enemy in Lane 9
+// $02BF: [8-bit] HP of enemy in Lane 10
+// $02C0: [8-bit] HP of enemy in Lane 11
+// $02C1: [8-bit] HP of enemy in Lane 12
+// $02C2: [8-bit] HP of enemy in Lane 13
+// $02C3: [8-bit] HP of enemy in Lane 14
+// $02C4: [8-bit] HP of enemy in Lane 15
+// $02C5: [8-bit] HP of enemy in Lane 16
+// $02C6: [8-bit] HP of enemy in Lane 17
+// $02C7: [8-bit] HP of enemy in Lane 18
+// $02C8: [8-bit] HP of enemy in Lane 19
+// $02C9: [8-bit] HP of enemy in Lane 20
+// $0317: [8-bit] Current number of arrows held
+// $0331: [8-bit] Player status
+//        0x00 - Dead / Main menu
+//        0x01 - Alive
+// $0332: [16 Bit] Score
+// $03A1: [8 Bit] Range
+// $03A2: [8 Bit] Speed
+// $03A3: [8 Bit] Power
+// $03A4: [8 Bit] Multi Shot
+//        0x01 > Normal
+//        0x02 > 2 Shots
+//        0x03 > 3 Shots
+
+
+///Core
+//Constant
+
+//Quick points distribution
+Baby = 3
+Easy = 5
+Medium = 10
+Hard = 25
+Challenge = 50
+
+
+//----------------
+//Variable
+Score = word(0x332)
+Lives = byte(0x26e)
+PlayerStatus = byte(0x331)
+
+CurrentLevel = byte(0x26f)
+PowerUPLevel = byte(0x276)
+HyperMode = PowerUPLevel >= 10
+
+Range = byte(0x3a1)
+Speed = byte(0x3a2)
+Power = byte(0x3a3)
+MultiShot = byte(0x3a4)
+
+//----------------
+//Function
+function GameOver() => Lives == 0 && prev(Lives) == 1 && PlayerStatus == 0
+function DeathlessCheck() => prev(Lives) > Lives
+function Progression(points,levelid)
+{
+    achievement(title = "Horde Survivor: Wave " + levelid+1,
+                description = "Complete level " + levelid+1,
+                points = points,
+                trigger = 
+                            PlayerStatus == 1 // InGame and alive
+                         && prev(CurrentLevel) == levelid
+                         && CurrentLevel == levelid+1
+                         && Lives > 0
+                         
+)
+}
+
+//----------------
+
+///Achievement Code
+// Progression
+for i in range (0,3)
+Progression(2,i)
+
+for i in range (4,6)
+Progression(3,i)
+
+Progression(5,7)
+
+    achievement(title = "Horde Survivor: Final Wave",
+                description = "It is a hopeless situation, but you won't go down without a fight ! Reach Hyper Mode during level 9 ",
+                points = 10,
+                trigger = 
+                            PlayerStatus == 1 // InGame and alive
+                         && CurrentLevel == 0x08
+                         && Lives > 0
+                         && prev(PowerUPLevel) == 0x09
+                         && HyperMode
+                         
+)
+// Deathless
+    achievement(title = "Survivalist",
+                description = "From a new game complete level 5 without losing a single life",
+                points = 10,
+                trigger = 
+                            PlayerStatus == 1 // InGame and alive
+                         && CurrentLevel == 0x04
+                         && prev(CurrentLevel) == 0x05
+                         && never(DeathlessCheck())
+                         && once(CurrentLevel == 0)
+                         && once(CurrentLevel == 2)
+                         
+)
+
+    achievement(title = "Master Survivalist",
+                description = "From a new game reach Hyper Mode in Level 9 without losing a single life",
+                points = 25,
+                trigger = 
+                            PlayerStatus == 1 // InGame and alive
+                         && CurrentLevel == 0x08
+                         && never(DeathlessCheck())
+                         && once(CurrentLevel == 0)
+                         && once(CurrentLevel == 2)
+                         && once(CurrentLevel == 4)
+                         && once(CurrentLevel == 6)
+                         && prev(PowerUPLevel) == 0x09
+                         && HyperMode
+                         
+)
+// Leaderboard 
+leaderboard(
+    title = "HighScore",
+    description = "Gotta Collect 'em All !",
+    start  = GameOver(),
+    cancel = always_false(),
+    submit = always_true(),
+    value = Score,
+    format = "VALUE"
+)   
