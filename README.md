@@ -5,7 +5,6 @@ RetroAchievement Set Scripts through RATools
 ## Current Project
 ### Nintendo DS
 * [\~Hack\~ Castlevania: Specter of Sorrow](https://retroachievements.org/game/22850) // Started 27 March 2023
-* [\~Hack\~ Castlevania: Sora, Donald & Neku in Dawn of Sorrow](https://retroachievements.org/game/23792) // Started 27 March 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
