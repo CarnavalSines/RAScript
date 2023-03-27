@@ -4,8 +4,8 @@ RetroAchievement Set Scripts through RATools
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 ### Nintendo DS
-* [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // Started 9 March 2023
-* [\~Hack\~ Castlevania: Plague of Sorrow](https://retroachievements.org/game/22848) // Started 14 March 2023
+* [\~Hack\~ Castlevania: Specter of Sorrow](https://retroachievements.org/game/22850) // Started 27 March 2023
+* [\~Hack\~ Castlevania: Sora, Donald & Neku in Dawn of Sorrow](https://retroachievements.org/game/23792) // Started 27 March 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
@@ -14,8 +14,7 @@ RetroAchievement Set Scripts through RATools
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
 ### PSX
 * [Slap Happy Rhythm Busters](https://retroachievements.org/game/20397) // Started 24 March 2023
-### Watara
-* [Cross Horde]() // Started 26 March 2023 (finished same day but kept open for DQ15 collabs) -> Collaboration with AuburnRDM
+
 
 
 
@@ -53,6 +52,7 @@ RetroAchievement Set Scripts through RATools
 * [Famicom Wars](https://retroachievements.org/game/5533) // 22 Feb 2023 -> Collab with VoiceofAutumn
 ### Nintendo DS
 * [Arkanoid DS](https://retroachievements.org/game/22844) // 13 March 2023
+* [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // 27 March 2023
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PC-88
@@ -66,6 +66,8 @@ RetroAchievement Set Scripts through RATools
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 ### Vectrex
 * [Star Trek: The Motion Picture](https://retroachievements.org/game/2124) // 1 Feb 2023
+### Watara
+* [Cross Horde](https://retroachievements.org/game/23770) // 27 March 2023  -> Collaboration with AuburnRDM and Soulsderfusch
 ### Wonderswan
 * [SD Gundam: Operation U.C.](https://retroachievements.org/game/4965) // 07 Feb 2023
 * [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // 26 Feb 2023
