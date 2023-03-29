@@ -53,6 +53,7 @@ RetroAchievement Set Scripts through RATools
 ### Nintendo DS
 * [Arkanoid DS](https://retroachievements.org/game/22844) // 13 March 2023
 * [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // 27 March 2023
+* [\~Hack\~ Castlevania: Sora, Donald & Neku in Dawn of Sorrow](https://retroachievements.org/game/23792) // 29 March 2023
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PC-88
