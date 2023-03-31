@@ -3,8 +3,6 @@ RetroAchievement Set Scripts through RATools
 
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
-### Nintendo DS
-* [\~Hack\~ Castlevania: Specter of Sorrow](https://retroachievements.org/game/22850) // Started 27 March 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
@@ -54,6 +52,7 @@ RetroAchievement Set Scripts through RATools
 * [Arkanoid DS](https://retroachievements.org/game/22844) // 13 March 2023
 * [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // 27 March 2023
 * [\~Hack\~ Castlevania: Sora, Donald & Neku in Dawn of Sorrow](https://retroachievements.org/game/23792) // 29 March 2023
+* [\~Hack\~ Castlevania: Specter of Sorrow](https://retroachievements.org/game/22850) // 31 March 2023
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PC-88
