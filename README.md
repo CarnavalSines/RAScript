@@ -4,7 +4,7 @@ RetroAchievement Set Scripts through RATools
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 ### Game Boy Color
-*[Super Robot Pinball](https://retroachievements.org/game/15635) // Started 31 March 2023
+* [Super Robot Pinball](https://retroachievements.org/game/15635) // Started 31 March 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
