@@ -5,8 +5,6 @@ RetroAchievement Set Scripts through RATools
 ## Current Project
 ### Game Boy Color
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // Started 31 March 2023
-### Nintendo DSi
-* [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // Started 27 Jan 2023, DSi Rollout
 ### Playstation
 * [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
@@ -55,6 +53,8 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // 27 March 2023
 * [\~Hack\~ Castlevania: Sora, Donald & Neku in Dawn of Sorrow](https://retroachievements.org/game/23792) // 29 March 2023
 * [\~Hack\~ Castlevania: Specter of Sorrow](https://retroachievements.org/game/22850) // 31 March 2023
+### Nintendo DSi
+* [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // 16 April 2023, DSi Rollout
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PC-88
