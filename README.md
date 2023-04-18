@@ -3,8 +3,14 @@ RetroAchievement Set Scripts through RATools
 
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
+### Atari Jaguar CD
+* [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
 ### Game Boy Color
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // Started 31 March 2023
+### Mega Duck
+* [Canyon Racer](https://retroachievements.org/game/24082) // Started 17 April 2023
+### Nintendo DS
+* [Contravania](https://retroachievements.org/game/23762) // Started 29 March 2023
 ### Playstation
 * [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
