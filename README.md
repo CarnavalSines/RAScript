@@ -7,8 +7,6 @@ RetroAchievement Set Scripts through RATools
 * [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
 ### Game Boy Color
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // Started 31 March 2023
-### Mega Duck
-* [Canyon Racer](https://retroachievements.org/game/24082) // Started 17 April 2023
 ### Nintendo DS
 * [Contravania](https://retroachievements.org/game/23762) // Started 29 March 2023
 ### Playstation
@@ -49,6 +47,8 @@ RetroAchievement Set Scripts through RATools
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 ### Megadrive
 * [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // 6 March 2023
+### Mega Duck
+* [Canyon Racer](https://retroachievements.org/game/24082) // 21 April 2023
 ### MSX
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
 ### NES
