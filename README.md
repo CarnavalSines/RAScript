@@ -13,7 +13,8 @@ RetroAchievement Set Scripts through RATools
 * [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
-
+### WASM-4
+* [Znake](https://retroachievements.org/game/24185) // Started 01 May 2023
 
 
 
