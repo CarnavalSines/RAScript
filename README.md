@@ -25,6 +25,8 @@ RetroAchievement Set Scripts through RATools
 * [Zone of the Enders](https://retroachievements.org/game/19079) // Started 24 Nov 2022 --- Dropped for Now > Lack of time, other projects having higher priority (BizHawk rollout, Dev Quest, Top 100 Challenge). Probable re-claim if no one else does it once things calm down
 
 ## Finished
+### 3DO
+* [\~Homebrew\~ Wreckman](https://retroachievements.org/game/24160) // 01 May 2023
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
 * [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
