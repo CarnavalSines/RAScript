@@ -13,8 +13,8 @@ RetroAchievement Set Scripts through RATools
 * [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
-### WASM-4
-* [Znake](https://retroachievements.org/game/24185) // Started 01 May 2023
+### Sega 32X
+* [Virtua Fighter](https://retroachievements.org/game/14304) // Started 02 May 2023
 
 
 
@@ -77,6 +77,8 @@ RetroAchievement Set Scripts through RATools
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 ### Vectrex
 * [Star Trek: The Motion Picture](https://retroachievements.org/game/2124) // 1 Feb 2023
+### WASM-4
+* [Znake](https://retroachievements.org/game/24185) //02 May 2023
 ### Watara
 * [Cross Horde](https://retroachievements.org/game/23770) // 27 March 2023  -> Collaboration with AuburnRDM and Soulsderfusch
 ### Wonderswan
