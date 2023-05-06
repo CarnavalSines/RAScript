@@ -4,7 +4,7 @@ RetroAchievement Set Scripts through RATools
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 ### Amstrad CPC
-[\~Homebrew\~ Revenge of Trazmoz](https://retroachievements.org/game/24228) // Started 06 May 2023
+* [\~Homebrew\~ Revenge of Trazmoz](https://retroachievements.org/game/24228) // Started 06 May 2023
 ### Atari Jaguar CD
 * [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
 ### Game Boy Color
