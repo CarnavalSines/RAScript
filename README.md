@@ -3,6 +3,8 @@ RetroAchievement Set Scripts through RATools
 
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
+### Amstrad CPC
+[\~Homebrew\~ Revenge of Trazmoz](https://retroachievements.org/game/24228) // Started 06 May 2023
 ### Atari Jaguar CD
 * [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
 ### Game Boy Color
@@ -13,8 +15,7 @@ RetroAchievement Set Scripts through RATools
 * [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
-### Sega 32X
-* [Virtua Fighter](https://retroachievements.org/game/14304) // Started 02 May 2023
+
 
 
 
@@ -26,6 +27,8 @@ RetroAchievement Set Scripts through RATools
 * [Zone of the Enders](https://retroachievements.org/game/19079) // Started 24 Nov 2022 --- Dropped for Now > Lack of time, other projects having higher priority (BizHawk rollout, Dev Quest, Top 100 Challenge). Probable re-claim if no one else does it once things calm down
 
 ## Finished
+### 32X
+* [Virtua Fighter](https://retroachievements.org/game/14304) // 06 May 2023
 ### 3DO
 * [\~Homebrew\~ Wreckman](https://retroachievements.org/game/24160) // 01 May 2023
 ### Apple II
