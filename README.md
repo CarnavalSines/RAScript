@@ -3,12 +3,13 @@ RetroAchievement Set Scripts through RATools
 
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
-### Amstrad CPC
-* [\~Homebrew\~ Revenge of Trazmoz](https://retroachievements.org/game/24228) // Started 06 May 2023
+
 ### Atari Jaguar CD
 * [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
 ### Game Boy Color
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // Started 31 March 2023
+### Master System
+* [\~Homebrew\~ Extreme Volleyball Infernal League](https://retroachievements.org/game/24230) // Started 07 May 2023
 ### Nintendo DS
 * [Contravania](https://retroachievements.org/game/23762) // Started 29 March 2023
 ### Playstation
@@ -31,6 +32,8 @@ RetroAchievement Set Scripts through RATools
 * [Virtua Fighter](https://retroachievements.org/game/14304) // 06 May 2023
 ### 3DO
 * [\~Homebrew\~ Wreckman](https://retroachievements.org/game/24160) // 01 May 2023
+### Amstrad CPC
+* [\~Homebrew\~ Revenge of Trazmoz](https://retroachievements.org/game/24228) // 07 May 2023
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
 * [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
