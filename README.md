@@ -6,8 +6,6 @@ RetroAchievement Set Scripts through RATools
 
 ### Atari Jaguar CD
 * [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
-### Atari Lynx
-* [\~Homebrew\~ Scooternia](https://retroachievements.org/game/24300) // Started 08 May 2023
 ### Game Boy Color
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // Started 31 March 2023
 ### Nintendo DS
@@ -16,6 +14,8 @@ RetroAchievement Set Scripts through RATools
 * [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
+### SG-1000
+* [Congo Bongo](https://retroachievements.org/game/13484) // Started 09 May 2023
 
 
 
@@ -43,6 +43,8 @@ RetroAchievement Set Scripts through RATools
 * [Steeplechase(Sears)](https://retroachievements.org/game/22536) // 18 Feb 2023
 ### Atari Jaguar
 * [\~Homebrew\~ Downfall](https://retroachievements.org/game/22522) // 16 Feb 2023
+### Atari Lynx
+* [\~Homebrew\~ Scooternia](https://retroachievements.org/game/24300) // 09 May 2023
 ### Game Gear
 * [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
 ### Game Boy
