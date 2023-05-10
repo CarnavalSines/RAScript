@@ -14,8 +14,9 @@ RetroAchievement Set Scripts through RATools
 * [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
-### SG-1000
-* [Congo Bongo](https://retroachievements.org/game/13484) // Started 09 May 2023
+### PSP
+* [Final Fantasy Type-0](https://retroachievements.org/game/3919) // Started 10 March 2023
+
 
 
 
@@ -83,6 +84,8 @@ RetroAchievement Set Scripts through RATools
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
 * [Slap Happy Rhythm Busters](https://retroachievements.org/game/20397) // 17 April 2023
+### SG-1000
+* [Congo Bongo](https://retroachievements.org/game/13484) // 10 May 2023
 ### Saturn
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 ### Vectrex
