@@ -7,7 +7,7 @@ RetroAchievement Set Scripts through RATools
 ### Atari Jaguar CD
 * [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
 ### Game Boy Color
-* [Super Robot Pinball](https://retroachievements.org/game/15635) // Started 31 March 2023
+
 ### Nintendo DS
 * [Contravania](https://retroachievements.org/game/23762) // Started 29 March 2023
 ### Playstation
@@ -57,6 +57,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Castlevania: Aria of Sorrow - Persephone](https://retroachievements.org/game/14177) // 22 March 2023
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
+* [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
 ### Master System
 * [\~Homebrew\~ Extreme Volleyball Infernal League](https://retroachievements.org/game/24230) // 08 May 2023
 ### Megadrive
