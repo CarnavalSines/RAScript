@@ -6,12 +6,8 @@ RetroAchievement Set Scripts through RATools
 
 ### Atari Jaguar CD
 * [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
-### Game Boy Color
-
 ### Nintendo DS
 * [Contravania](https://retroachievements.org/game/23762) // Started 29 March 2023
-### Playstation
-* [Aconcagua](https://retroachievements.org/game/18683) // Started 6 March 2023 -> Collaboration with Soulsderfuschs
 ### Playstation 2
 * [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
 ### PSP
