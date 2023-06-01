@@ -38,6 +38,8 @@ RetroAchievement Set Scripts through RATools
 * [Crazy Kart](https://retroachievements.org/game/22869) // 13 March 2023
 ### Atari 2600
 * [Steeplechase(Sears)](https://retroachievements.org/game/22536) // 18 Feb 2023
+### Atari 7800
+* [\~Homebrew\~ Meteor Shower](https://retroachievements.org/game/24518) // 01 June 2023
 ### Atari Jaguar
 * [\~Homebrew\~ Downfall](https://retroachievements.org/game/22522) // 16 Feb 2023
 ### Atari Lynx
