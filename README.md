@@ -9,7 +9,7 @@ RetroAchievement Set Scripts through RATools
 ### Nintendo DS
 * [Contravania](https://retroachievements.org/game/23762) // Started 29 March 2023
 ### Playstation 2
-* [Metal Slug Anthology](https://retroachievements.org/game/20676) // Started 01 March 2023
+* [ICO](https://retroachievements.org/game/1319) // Started 31 May 2023
 ### PSP
 * [Final Fantasy Type-0](https://retroachievements.org/game/3919) // Started 10 March 2023
 
