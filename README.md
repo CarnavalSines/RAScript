@@ -4,8 +4,7 @@ RetroAchievement Set Scripts through RATools
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 
-### Atari Jaguar CD
-* [Baldies](https://retroachievements.org/game/21663) // Started 18 April 2023 -> Jaguar CD Rollout
+
 ### Nintendo DS
 * [Contravania](https://retroachievements.org/game/23762) // Started 29 March 2023
 ### Playstation 2
@@ -42,6 +41,8 @@ RetroAchievement Set Scripts through RATools
 * [\~Homebrew\~ Meteor Shower](https://retroachievements.org/game/24518) // 01 June 2023
 ### Atari Jaguar
 * [\~Homebrew\~ Downfall](https://retroachievements.org/game/22522) // 16 Feb 2023
+### Atari Jaguar CD
+* [Baldies](https://retroachievements.org/game/21663) // 2 June 2023
 ### Atari Lynx
 * [\~Homebrew\~ Scooternia](https://retroachievements.org/game/24300) // 09 May 2023
 ### Game Gear
@@ -56,6 +57,8 @@ RetroAchievement Set Scripts through RATools
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
+### Interton VC 4000
+* [\~Homebrew\~ Canabalt](https://retroachievements.org/game/24634) // 8 Juin 2023
 ### Master System
 * [\~Homebrew\~ Extreme Volleyball Infernal League](https://retroachievements.org/game/24230) // 08 May 2023
 ### Megadrive
