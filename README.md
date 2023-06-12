@@ -45,6 +45,8 @@ RetroAchievement Set Scripts through RATools
 * [Baldies](https://retroachievements.org/game/21663) // 2 June 2023
 ### Atari Lynx
 * [\~Homebrew\~ Scooternia](https://retroachievements.org/game/24300) // 09 May 2023
+### Elektor TV Games Computer
+* [Raster](https://retroachievements.org/game/24659) // 12 June 2023
 ### Game Gear
 * [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
 ### Game Boy
