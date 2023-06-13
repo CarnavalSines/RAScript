@@ -4,9 +4,6 @@ RetroAchievement Set Scripts through RATools
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 
-
-### Nintendo DS
-* [Contravania](https://retroachievements.org/game/23762) // Started 29 March 2023
 ### Playstation 2
 * [ICO](https://retroachievements.org/game/1319) // Started 31 May 2023
 ### PSP
@@ -78,6 +75,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Castlevania: Specter of Sorrow](https://retroachievements.org/game/22850) // 31 March 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // 16 April 2023, DSi Rollout
+* [Mr. Driller - Drill Till You Drop All Gold Medals Subset](https://retroachievements.org/game/23906) // 13 June 2023
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PC-88
