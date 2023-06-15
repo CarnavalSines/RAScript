@@ -7,7 +7,7 @@ RetroAchievement Set Scripts through RATools
 ### Playstation 2
 * [ICO](https://retroachievements.org/game/1319) // Started 31 May 2023
 ### PSP
-* [Final Fantasy Type-0](https://retroachievements.org/game/3919) // Started 10 March 2023
+* [Final Fantasy Type-0](https://retroachievements.org/game/3919) // Started 10 May 2023
 
 
 
