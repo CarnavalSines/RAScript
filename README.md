@@ -6,19 +6,15 @@ RetroAchievement Set Scripts through RATools
 
 ### Playstation 2
 * [ICO](https://retroachievements.org/game/1319) // Started 31 May 2023
+* [Zone of the Enders](https://retroachievements.org/game/19079) // Started 26 June 2023 > Collab with Wil
 ### PSP
 * [Final Fantasy Type-0](https://retroachievements.org/game/3919) // Started 10 May 2023
-
-
-
-
 
 
 ## On Hold
 ### PSP
 * [SD Gundam G Generation Overworld](https://retroachievements.org/game/21687) // Started 24 Nov 2022 --- On Hold > Want to get more experience to make it an exceptionally good set
-### PS2
-* [Zone of the Enders](https://retroachievements.org/game/19079) // Started 24 Nov 2022 --- Dropped for Now > Lack of time, other projects having higher priority (BizHawk rollout, Dev Quest, Top 100 Challenge). Probable re-claim if no one else does it once things calm down
+
 
 ## Finished
 ### 32X
@@ -30,6 +26,8 @@ RetroAchievement Set Scripts through RATools
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
 * [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
+### Arcadia 2001
+* [Super Dimension Fortress Macross](https://retroachievements.org/game/24689) // 25 June 2023
 ### Arduboy
 * [Crazy Kart](https://retroachievements.org/game/22869) // 13 March 2023
 ### Atari 2600
