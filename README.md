@@ -90,6 +90,7 @@ RetroAchievement Set Scripts through RATools
 * [Slap Happy Rhythm Busters](https://retroachievements.org/game/20397) // 17 April 2023
 ### SG-1000
 * [Congo Bongo](https://retroachievements.org/game/13484) // 10 May 2023
+* [Yamato](https://retroachievements.org/game/24565) // 3 July 2023
 ### Saturn
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 ### Vectrex
