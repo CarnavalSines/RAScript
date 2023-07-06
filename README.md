@@ -95,6 +95,8 @@ RetroAchievement Set Scripts through RATools
 * [Pachinko](https://retroachievements.org/game/6819) // 6 July 2023
 ### Saturn
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
+### Uzebox
+* [Submarine](https://retroachievements.org/game/24775) // 5 July 2023
 ### Vectrex
 * [Star Trek: The Motion Picture](https://retroachievements.org/game/2124) // 1 Feb 2023
 ### WASM-4
