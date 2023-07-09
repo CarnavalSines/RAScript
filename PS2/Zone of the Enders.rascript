@@ -773,11 +773,11 @@ achievement(title = "Ender's Game",
                    && StoryFlag == 0x1b
                    && AreaID == 0x0
                    && prev(AreaID) == 0x01
-                   && RescueMissionScore1 == 5
-                   && RescueMissionScore2 == 5
-                   && RescueMissionScore3 == 5
-                   && RescueMissionScore4 == 5
-                   && RescueMissionScore5 == 5
+         //          && RescueMissionScore1 == 5
+         //          && RescueMissionScore2 == 5
+         //          && RescueMissionScore3 == 5
+         //          && RescueMissionScore4 == 5
+         //          && RescueMissionScore5 == 5
                    
             )         
             
