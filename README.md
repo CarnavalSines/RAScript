@@ -6,7 +6,6 @@ RetroAchievement Set Scripts through RATools
 
 ### Playstation 2
 * [ICO](https://retroachievements.org/game/1319) // Started 31 May 2023
-* [Zone of the Enders](https://retroachievements.org/game/19079) // Started 26 June 2023 > Collab with Wil
 ### PSP
 * [Final Fantasy Type-0](https://retroachievements.org/game/3919) // Started 10 May 2023
 
@@ -84,6 +83,8 @@ RetroAchievement Set Scripts through RATools
 * [Minky Momo no Panic Ball](https://retroachievements.org/game/23554) // 23 March 2023
 ### PC-FX
 * [Tokimeki Card Paradise - Koi no Royal Straight Flush](https://retroachievements.org/game/16467) // 24 March 2023
+### PS2
+* [Zone of the Enders](https://retroachievements.org/game/19079) // 11 July 2023 > Collab with Wil
 ### PSX
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
