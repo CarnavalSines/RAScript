@@ -25,6 +25,8 @@ RetroAchievement Set Scripts through RATools
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
 * [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
+### Arcade
+* [Mr Goemon](https://retroachievements.org/game/12311) // 13 July 2023
 ### Arcadia 2001
 * [Super Dimension Fortress Macross](https://retroachievements.org/game/24689) // 25 June 2023
 ### Arduboy
