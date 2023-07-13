@@ -81,6 +81,8 @@ RetroAchievement Set Scripts through RATools
 * [Mr. Driller - Drill Till You Drop All Gold Medals Subset](https://retroachievements.org/game/23906) // 13 June 2023
 ### Nintendo 64
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
+### PC Engine
+* [\~Homebrew\~ The Great Fumo Binning](https://retroachievements.org/game/25183) // 13 July 2023
 ### PC-88
 * [Minky Momo no Panic Ball](https://retroachievements.org/game/23554) // 23 March 2023
 ### PC-FX
