@@ -72,6 +72,8 @@ RetroAchievement Set Scripts through RATools
 * [Attack of the Timelord](https://retroachievements.org/game/16960) // 16 June 2023
 ### NES
 * [Famicom Wars](https://retroachievements.org/game/5533) // 22 Feb 2023 -> Collab with VoiceofAutumn
+### Neo Geo Pocket
+* [\~Homebrew\~ Snake](https://retroachievements.org/game/23738) // 16 July 2023
 ### Nintendo DS
 * [Arkanoid DS](https://retroachievements.org/game/22844) // 13 March 2023
 * [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // 27 March 2023
