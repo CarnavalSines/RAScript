@@ -103,6 +103,8 @@ RetroAchievement Set Scripts through RATools
 * [Yamato](https://retroachievements.org/game/24565) // 3 July 2023
 * [N-Sub](https://retroachievements.org/game/24551) // 4 July 2023
 * [Pachinko](https://retroachievements.org/game/6819) // 6 July 2023
+### SNES
+* [Cacoma Knight in Bizyland](https://retroachievements.org/game/23056) // 17 July 2023
 ### Saturn
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 ### Uzebox
