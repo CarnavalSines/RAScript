@@ -773,11 +773,11 @@ achievement(title = "Ender's Game",
                    && StoryFlag == 0x1b
                    && AreaID == 0x0
                    && prev(AreaID) == 0x01
-         //          && RescueMissionScore1 == 5
-         //          && RescueMissionScore2 == 5
-         //          && RescueMissionScore3 == 5
-         //          && RescueMissionScore4 == 5
-         //          && RescueMissionScore5 == 5
+            //       && RescueMissionScore1 == 5
+            //       && RescueMissionScore2 == 5
+            //       && RescueMissionScore3 == 5
+            //       && RescueMissionScore4 == 5
+            //       && RescueMissionScore5 == 5
                    
             )         
             
@@ -828,7 +828,7 @@ achievement(title = "Pride's Fall",
             description = "Defeat Neith in WAREHOUSE.1 without taking damage on Normal or higher difficulty",
             points = 10,
             trigger = AntiCheatCheck()
-                   && once(AreaID ==0x10 && StoryFlag == 0x1e && BossHealth == 0xc2c80000)
+                   && (once(AreaID ==0x10 && StoryFlag == 0x1e && prev(AreaID) == 0x0f) ||once(AreaID ==0x10 && StoryFlag == 0x1e && prev(AreaID) == 0x00))// 0x3f800000
                    && trigger_when(StoryFlag == 0x1e
                    && AreaID == 0x11
                    && prev(AreaID) == 0x10
@@ -840,7 +840,7 @@ achievement(title = "I Can Do It Without Weapons",
             description = "Defeat Neith in WAREHOUSE.1 without using any subweapons on Normal or higher difficulty",
             points = 5,
             trigger = AntiCheatCheck()
-                   && once(AreaID ==0x10 && StoryFlag == 0x1e && BossHealth == 0xc2c80000)
+                   && (once(AreaID ==0x10 && StoryFlag == 0x1e && prev(AreaID) == 0x0f) ||once(AreaID ==0x10 && StoryFlag == 0x1e && prev(AreaID) == 0x00))
                    && trigger_when(StoryFlag == 0x1e
                    && AreaID == 0x11
                    && prev(AreaID) == 0x10
