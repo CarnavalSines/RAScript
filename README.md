@@ -94,6 +94,8 @@ RetroAchievement Set Scripts through RATools
 * [Tokimeki Card Paradise - Koi no Royal Straight Flush](https://retroachievements.org/game/16467) // 24 March 2023
 ### PS2
 * [Zone of the Enders](https://retroachievements.org/game/19079) // 11 July 2023 > Collab with Wil
+### PSP
+* [Flying Hamster](https://retroachievements.org/game/5967) // 21 July 2023
 ### PSX
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
