@@ -57,9 +57,9 @@ RetroAchievement Set Scripts through RATools
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
 ### Intellivision
-* [\~Homebrew\~ Antarctic Tales Enhanced Edition](https://retroachievements.org/game/24890) // 15 Juin 2023
+* [\~Homebrew\~ Antarctic Tales Enhanced Edition](https://retroachievements.org/game/24890) // 15 June 2023
 ### Interton VC 4000
-* [\~Homebrew\~ Canabalt](https://retroachievements.org/game/24634) // 8 Juin 2023
+* [\~Homebrew\~ Canabalt](https://retroachievements.org/game/24634) // 8 June 2023
 ### Master System
 * [\~Homebrew\~ Extreme Volleyball Infernal League](https://retroachievements.org/game/24230) // 08 May 2023
 ### Megadrive
@@ -100,6 +100,8 @@ RetroAchievement Set Scripts through RATools
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
 * [Slap Happy Rhythm Busters](https://retroachievements.org/game/20397) // 17 April 2023
+### Sega CD
+* [Samurai Shodown](https://retroachievements.org/game/17010) // 22 July 2023
 ### SG-1000
 * [Congo Bongo](https://retroachievements.org/game/13484) // 10 May 2023
 * [Yamato](https://retroachievements.org/game/24565) // 3 July 2023
