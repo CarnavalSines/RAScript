@@ -43,6 +43,8 @@ RetroAchievement Set Scripts through RATools
 * [\~Homebrew\~ Scooternia](https://retroachievements.org/game/24300) // 09 May 2023
 ### ColecoVision
 * [\~Homebrew\~ Frostbite](https://retroachievements.org/game/25263) // 24 July 2023
+### Dreamcast
+* [Guilty Gear X](https://retroachievements.org/game/462) // 26 July 2023
 ### Elektor TV Games Computer
 * [Raster](https://retroachievements.org/game/24659) // 12 June 2023
 ### Game Gear
