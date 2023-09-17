@@ -355,7 +355,9 @@ ArcadeProgFlag = byte(0xabdc) // 00 Stage 1 > 07 Final Stage > 08 Game Clear > 0
 ModeSelect = byte(0xac22) // 00 Arcade
 P1State = byte(0xfdb7) // 00 Inactive > 01 Active > 02 Continue > 03 Game Over
 P2State = byte(0xfdb6)
-
+MVSModeFlag = bit7(0xfd83) // MVS = 1 > AES = 0
+AESModeDifficulty = byte(0x009f)
+MVSModeDifficulty = byte(0xfd8c)
 
 //----------------
 //Function 
@@ -364,16 +366,17 @@ function ArcadeWon() => ArcadeProgFlag == 8 && prev(ArcadeProgFlag) == 7
 function ArcadeProg(Character)
 {
     achievement(title = CheevProgTitle[Character],
-                description = "Complete Arcade mode with "+ CharName[Character] + " [Any Difficulty, No Char switching on Continue]",
-                points = 5,
+                description = "Complete Arcade mode with "+ CharName[Character] + " [Default or Above Difficulty, No Char switching on Continue]",
+                points = 10,
                 trigger = ModeSelect == 0
                        && P1CharID == Character
                        && ArcadeWon()
-                       && once(P1CharID == Character && CharSelect && ArcadeProgFlag == 0) // Start of arcade mode
+                       && once(P1CharID == Character && InGame && ArcadeProgFlag == 0) // Start of arcade mode
                        && never(P1CharID != Character && InGame) // Reset for chosing another fighter and being in game
                        && P1State == 1
                        && never(P2State != 0)
                        && never(P1State == 3) // reset on Game Over
+                       && ((MVSModeFlag == 0 && AESModeDifficulty >= 2) || (MVSModeFlag == 1 && MVSModeDifficulty >= 3))
                 )
 }    
 
