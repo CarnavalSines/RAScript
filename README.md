@@ -27,6 +27,7 @@ RetroAchievement Set Scripts through RATools
 * [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
 ### Arcade
 * [Mr Goemon](https://retroachievements.org/game/12311) // 13 July 2023
+* [SNK vs. Capcom: SVC Chaos](https://retroachievements.org/game/11769) // 17 September 2023 -> Partial Revision for the progression framework
 ### Arcadia 2001
 * [Super Dimension Fortress Macross](https://retroachievements.org/game/24689) // 25 June 2023
 ### Arduboy
