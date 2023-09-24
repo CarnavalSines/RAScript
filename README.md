@@ -128,3 +128,4 @@ RetroAchievement Set Scripts through RATools
 ### Wonderswan
 * [SD Gundam: Operation U.C.](https://retroachievements.org/game/4965) // 07 Feb 2023
 * [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // 26 Feb 2023
+* [Space Invaders](https://retroachievements.org/game/14873) // 24 September 2023
