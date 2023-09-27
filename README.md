@@ -61,6 +61,7 @@ RetroAchievement Set Scripts through RATools
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
+* [Ultimate Fighting Championship](https://retroachievements.org/game/21745) // 27 September 2023
 ### Intellivision
 * [\~Homebrew\~ Antarctic Tales Enhanced Edition](https://retroachievements.org/game/24890) // 15 June 2023
 ### Interton VC 4000
