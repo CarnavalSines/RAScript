@@ -6,14 +6,13 @@ RetroAchievement Set Scripts through RATools
 
 ### Playstation 2
 * [ICO](https://retroachievements.org/game/1319) // Started 31 May 2023
-### PSP
-* [Final Fantasy Type-0](https://retroachievements.org/game/3919) // Started 10 May 2023
 
 
 ## On Hold
 ### PSP
 * [SD Gundam G Generation Overworld](https://retroachievements.org/game/21687) // Started 24 Nov 2022 --- On Hold > Current PSP dev tools are ass, waiting for standalone support
-
+* [Final Fantasy Type-0](https://retroachievements.org/game/3919) // Started 10 May 2023
+* All future PSP dev wishlist game > Waiting for a non-cancer core to dev on
 
 ## Finished
 ### 32X
@@ -78,6 +77,8 @@ RetroAchievement Set Scripts through RATools
 * [Attack of the Timelord](https://retroachievements.org/game/16960) // 16 June 2023
 ### NES
 * [Famicom Wars](https://retroachievements.org/game/5533) // 22 Feb 2023 -> Collab with VoiceofAutumn
+### Neo Geo CD
+* [Neo Turf Masters](https://retroachievements.org/game/23831) // 12 Nov 2023
 ### Neo Geo Pocket
 * [\~Homebrew\~ Snake](https://retroachievements.org/game/23738) // 16 July 2023
 ### Nintendo DS
