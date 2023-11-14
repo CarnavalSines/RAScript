@@ -117,6 +117,7 @@ RetroAchievement Set Scripts through RATools
 * [Cacoma Knight in Bizyland](https://retroachievements.org/game/23056) // 17 July 2023
 ### Saturn
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
+* [Frankenstein: Through the Eyes of the Monster](https://retroachievements.org/game/25893) // 1 March 2023
 ### Sega CD
 * [Samurai Shodown](https://retroachievements.org/game/17010) // 22 July 2023
 ### Uzebox
