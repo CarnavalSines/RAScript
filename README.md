@@ -119,6 +119,7 @@ RetroAchievement Set Scripts through RATools
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 * [Frankenstein: Through the Eyes of the Monster](https://retroachievements.org/game/25893) // 13 Nov 2023
 * [Night Striker S](https://retroachievements.org/game/20385) // 15 Nov 2023
+* [Saturn Bomberman Fight!!](https://retroachievements.org/game/6989) // 20 Nov 2023
 ### Sega CD
 * [Samurai Shodown](https://retroachievements.org/game/17010) // 22 July 2023
 ### Uzebox
