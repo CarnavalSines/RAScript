@@ -91,6 +91,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Castlevania: Sora, Donald & Neku in Dawn of Sorrow](https://retroachievements.org/game/23792) // 29 March 2023
 * [\~Hack\~ Castlevania: Specter of Sorrow](https://retroachievements.org/game/22850) // 31 March 2023
 * [\~Homebrew\~ Fishing the Deep](https://retroachievements.org/game/25801) // 20 September 2023
+* [Squishy Tank](https://retroachievements.org/game/28123) // 26 Dec 2023
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // 16 April 2023, DSi Rollout
 * [Mr. Driller - Drill Till You Drop All Gold Medals Subset](https://retroachievements.org/game/23906) // 13 June 2023
