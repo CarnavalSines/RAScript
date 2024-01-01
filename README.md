@@ -5,7 +5,7 @@ RetroAchievement Set Scripts through RATools
 ## Current Project
 
 ### Playstation 2
-* [Prince of Persia: The Sands of Time](https://retroachievements.org/game/2988)
+
 ### SNES
 * [Romancing SaGa 3](https://retroachievements.org/game/3425)
 ### Saturn  
@@ -109,6 +109,7 @@ RetroAchievement Set Scripts through RATools
 * [Zone of the Enders](https://retroachievements.org/game/19079) // 11 July 2023 > Collab with Wil
 * [Zone of the Enders: The 2nd Runner](https://retroachievements.org/game/19078) // 17 Dec 2023 > Collab with Wil
 * [ICO](https://retroachievements.org/game/1319) // 23 Dec 2023
+* [Prince of Persia: The Sands of Time](https://retroachievements.org/game/2988) // 01 Jan 2024
 ### PSP
 * [Flying Hamster](https://retroachievements.org/game/5967) // 21 July 2023
 ### PSX
