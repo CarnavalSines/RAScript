@@ -62,6 +62,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // 15 Feb 2023
 * [\~Hack\~ Castlevania: Aria of Sorrow - Persephone](https://retroachievements.org/game/14177) // 22 March 2023
 * [\~Homebrew\~ Toadally Awesome Game](https://retroachievements.org/game/25187) // 14 July 2023
+* [Rescue Heroes: Billy Blazes!](https://retroachievements.org/game/12877) // 11 Jan 2024
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
