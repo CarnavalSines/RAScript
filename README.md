@@ -132,6 +132,9 @@ RetroAchievement Set Scripts through RATools
 * [Saturn Bomberman Fight!!](https://retroachievements.org/game/6989) // 20 Nov 2023
 * [Arthur to Astaroth no Nazo Makaimura: Incredible Toons](https://retroachievements.org/game/25891) // 3 Dec 2023
 * [WWF In Your House](https://retroachievements.org/game/27213) // 10 Jan 2024
+* [Mobile Suit Gundam Side Story I - Senritsu no Blue | Blue Fear](https://retroachievements.org/game/25887) // 13 Jan 2024
+* [Mobile Suit Gundam Side Story II - Ao o Uketsugu Mono | Heir to the Blue](https://retroachievements.org/game/25888) // 13 Jan 2024
+* [Mobile Suit Gundam Side Story III - Sabakareshi Mono | The Condemned](https://retroachievements.org/game/25889) // 13 Jan 2024
 ### Sega CD
 * [Samurai Shodown](https://retroachievements.org/game/17010) // 22 July 2023
 ### Uzebox
