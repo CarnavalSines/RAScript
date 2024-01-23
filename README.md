@@ -4,10 +4,10 @@ RetroAchievement Set Scripts through RATools
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 
+### Nintendo DS
+* [Inazuma Eleven 2: Firestorm](https://retroachievements.org/game/16625)
 ### Playstation 2
-
-### SNES
-* [Romancing SaGa 3](https://retroachievements.org/game/3425)
+* [Forbidden Siren | Siren](https://retroachievements.org/game/2728)
 ### Saturn  
 * [Shining Force III](https://retroachievements.org/game/14541) // Revision for hard mode and set split per scenario
 
@@ -94,6 +94,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Castlevania: Specter of Sorrow](https://retroachievements.org/game/22850) // 31 March 2023
 * [\~Homebrew\~ Fishing the Deep](https://retroachievements.org/game/25801) // 20 September 2023
 * [Squishy Tank](https://retroachievements.org/game/28123) // 26 Dec 2023
+* [My French Coach: Level 1 - Learn to Speak French](https://retroachievements.org/game/14965) // 23 Jan 2024
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // 16 April 2023, DSi Rollout
 * [Mr. Driller - Drill Till You Drop All Gold Medals Subset](https://retroachievements.org/game/23906) // 13 June 2023
