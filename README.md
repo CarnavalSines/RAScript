@@ -56,6 +56,7 @@ RetroAchievement Set Scripts through RATools
 * [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
 ### GameCube
 * [F-Zero GX](https://retroachievements.org/game/9699) // 20 Feb 2024
+* [Donkey Konga Europe](https://retroachievements.org/game/28604) // 25 Feb 2024
 ### Game Boy
 * [Nekketsu! Beach Volley Dayo Kunio-Kun](https://retroachievements.org/game/6489) // 19 Feb 2023
 * [\~Homebrew\~ \~Demo\~ Halo: Combat Devolved](https://retroachievements.org/game/23796) // 28 March 2023
