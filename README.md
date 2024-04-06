@@ -105,6 +105,8 @@ RetroAchievement Set Scripts through RATools
 * [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PC Engine
 * [\~Homebrew\~ The Great Fumo Binning](https://retroachievements.org/game/25183) // 13 July 2023
+* [Boxyboy](https://retroachievements.org/game/2281) // 04 Feb 2024
+* [Hit the Ice VHL](https://retroachievements.org/game/9955) // 29 March 2024
 ### PC Engine CD
 * [Fighting Street](https://retroachievements.org/game/9165) // 16 July 2023
 ### PC-88
