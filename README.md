@@ -79,6 +79,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Homebrew\~ Extreme Volleyball Infernal League](https://retroachievements.org/game/24230) // 08 May 2023
 ### Megadrive
 * [Lord Monarch: Tokoton Sentou Densetsu](https://retroachievements.org/game/4345) // 6 March 2023
+* [\~Homebrew\~ sweetsdigger](https://retroachievements.org/game/29147) // 6 April 2024
 ### Mega Duck
 * [Canyon Racer](https://retroachievements.org/game/24082) // 21 April 2023
 ### MSX
