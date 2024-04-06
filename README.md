@@ -29,6 +29,7 @@ RetroAchievement Set Scripts through RATools
 ### Arcade
 * [Mr Goemon](https://retroachievements.org/game/12311) // 13 July 2023
 * [SNK vs. Capcom: SVC Chaos](https://retroachievements.org/game/11769) // 17 September 2023 -> Partial Revision for the progression framework
+* [Quiz & Dragons: Capcom Quiz Game](https://retroachievements.org/game/12257) // 06 April 2024
 ### Arcadia 2001
 * [Super Dimension Fortress Macross](https://retroachievements.org/game/24689) // 25 June 2023
 ### Arduboy
