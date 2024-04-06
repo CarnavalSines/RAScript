@@ -4,8 +4,6 @@ RetroAchievement Set Scripts through RATools
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
 ## Current Project
 
-### Nintendo DS
-* [Inazuma Eleven 2: Firestorm](https://retroachievements.org/game/16625)
 ### Playstation 2
 * [Forbidden Siren | Siren](https://retroachievements.org/game/2728)
 ### Saturn  
@@ -45,6 +43,7 @@ RetroAchievement Set Scripts through RATools
 * [Baldies](https://retroachievements.org/game/21663) // 2 June 2023
 ### Atari Lynx
 * [\~Homebrew\~ Scooternia](https://retroachievements.org/game/24300) // 09 May 2023
+* [\~Homebrew\~ Game & Lynx: Critter Championship](https://retroachievements.org/game/19715) // 05 April 2024
 ### ColecoVision
 * [\~Homebrew\~ Frostbite](https://retroachievements.org/game/25263) // 24 July 2023
 * [Up N Down](https://retroachievements.org/game/9323) // 11 Jan 2024
