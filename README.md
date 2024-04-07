@@ -84,6 +84,7 @@ RetroAchievement Set Scripts through RATools
 * [Canyon Racer](https://retroachievements.org/game/24082) // 21 April 2023
 ### MSX
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
+* [\~Homebrew\~ Relevo's Snowboarding](https://retroachievements.org/game/29093) // 6 April 2024
 ### Magnavox Odyssey 2
 * [Attack of the Timelord](https://retroachievements.org/game/16960) // 16 June 2023
 ### NES
