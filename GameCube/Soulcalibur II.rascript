@@ -904,7 +904,7 @@ SurvivalClearNoHealEXTRA(15,"The Immortal",25)
 //// All
 //--- --- ---
 
-function StageClearCheck_US(Chapter,RegionOffset){
+function StageClearCheck_US(Chapter,RegionOffset,RegionASCII){
 	startAddress = WMChapters_dict_US[Chapter][0] + RegionOffset
 	endAddress = WMChapters_dict_US[Chapter][1] + RegionOffset
 
@@ -916,7 +916,7 @@ function StageClearCheck_US(Chapter,RegionOffset){
         totalClears = totalClears + 1
     }
 
-	return measured(result == totalClears)
+	return measured(result == totalClears, when=RegionCheck(RegionASCII))
 }
 
 function prevStageClearCheck_US(Chapter, RegionOffset){
@@ -941,13 +941,13 @@ function WeaponMasterClear(Chapter){
 	description = format("Clear all {0} Missions in Weapon Master", WMChapters_dict_US[Chapter][2])
 	
 	trigger =  (ModeSelect(OffsetCurrentMode_US) == 2
-            && RegionCheck(Region_US)
-            && StageClearCheck_US(Chapter,OffsetWeaponMaster_US) 
+            //&& RegionCheck(Region_US) // MeasuredIF serve the same purpose now
+            && StageClearCheck_US(Chapter,OffsetWeaponMaster_US,Region_US) 
 			&& prevStageClearCheck_US(Chapter,OffsetWeaponMaster_US)) // US Block
 
             || (ModeSelect(OffsetCurrentMode_EU) == 2
-            && RegionCheck(Region_EU)
-            && StageClearCheck_US(Chapter,OffsetWeaponMaster_EU) 
+            //&& RegionCheck(Region_EU)
+            && StageClearCheck_US(Chapter,OffsetWeaponMaster_EU,Region_EU) 
 			&& prevStageClearCheck_US(Chapter,OffsetWeaponMaster_EU)) // EU Block
 	
 	achievement(title = title, points = points, description = description, trigger = trigger)
@@ -959,7 +959,7 @@ for Chapters in WMChapters_dict_US
 ///Unlocks
 //// All
 //--- --- ---
-function UnlockCheck(unlock,RegionOffset){
+function UnlockCheck(unlock,RegionOffset,RegionASCII){
 	startAddress = unlock_dict_US[unlock][0] + RegionOffset
 	endAddress = unlock_dict_US[unlock][1] + RegionOffset
 
@@ -971,7 +971,7 @@ function UnlockCheck(unlock,RegionOffset){
         totalClears = totalClears + 1
     }
 
-	return measured(result == totalClears)
+	return measured(result == totalClears, when=RegionCheck(RegionASCII))
 }
 
 function prevUnlockCheck(unlock, RegionOffset){
@@ -995,12 +995,12 @@ function CheevoUnlocks(unlock){
 	points = unlock_dict_US[unlock][3]
 	description = format("Unlock every {0}", unlock_dict_US[unlock][4])
 	
-	trigger =  (RegionCheck(Region_US)
-            && UnlockCheck(unlock,OffsetUnlock_US) 
+	trigger =  (//RegionCheck(Region_US)
+             UnlockCheck(unlock,OffsetUnlock_US,Region_US) 
 			&& prevUnlockCheck(unlock,OffsetUnlock_US)) // US Block
 
-            || (RegionCheck(Region_EU)
-            && UnlockCheck(unlock,OffsetUnlock_EU) 
+            || (//RegionCheck(Region_EU)
+             UnlockCheck(unlock,OffsetUnlock_EU,Region_EU) 
 			&& prevUnlockCheck(unlock,OffsetUnlock_EU)) // EU Block
 	
 	achievement(title = title, points = points, description = description, trigger = trigger)
@@ -1010,7 +1010,7 @@ for unlocks in unlock_dict_US
     CheevoUnlocks(unlocks)
 
 
-function CostumeCheck(RegionOffset){
+function CostumeCheck(RegionOffset,RegionASCII){
 
 	result = 0
 	totalClears = 0
@@ -1021,7 +1021,7 @@ function CostumeCheck(RegionOffset){
         totalClears = totalClears + 1
     }
 
-	return measured(result == totalClears)
+	return measured(result == totalClears, when=RegionCheck(RegionASCII))
 }
 
 function prevCostumeCheck(RegionOffset){
@@ -1042,12 +1042,12 @@ function prevCostumeCheck(RegionOffset){
     achievement(title="Playing Dress Up",
                 description = "Unlock every Alternative Costume",
                 points = 5,
-                trigger = (RegionCheck(Region_US)
-                          && CostumeCheck(OffsetUnlock_US) 
+                trigger = (//RegionCheck(Region_US)
+                           CostumeCheck(OffsetUnlock_US,Region_US) 
 			              && prevCostumeCheck(OffsetUnlock_US)) // US Block
 
-                          || (RegionCheck(Region_EU)
-                          && CostumeCheck(OffsetUnlock_EU) 
+                          || (//RegionCheck(Region_EU)
+                           CostumeCheck(OffsetUnlock_EU,Region_EU) 
 			              && prevCostumeCheck(OffsetUnlock_EU)) // EU Block
 )   
 
