@@ -68,7 +68,6 @@ RetroAchievement Set Scripts through RATools
 * [\~Homebrew\~ Toadally Awesome Game](https://retroachievements.org/game/25187) // 14 July 2023
 * [Rescue Heroes: Billy Blazes!](https://retroachievements.org/game/12877) // 11 Jan 2024
 * [\~Hack\~ Andaron Saga](https://retroachievements.org/game/26735) // 22 September 2024
-* [\~Hack\~ Andaron Saga](https://retroachievements.org/game/26735) // 22 September 2024
 * [\~Hack\~ Andaron Saga \[Subset - Secrets Hunt\]](https://retroachievements.org/game/30883) // 22 September 2024
 * [\~Hack\~ Andaron Saga: Randomizer](https://retroachievements.org/game/30881) // 22 September 2024
 ### GBC
