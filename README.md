@@ -8,8 +8,7 @@ RetroAchievement Set Scripts through RATools
 * [Forbidden Siren | Siren](https://retroachievements.org/game/2728)
 ### Saturn  
 * [Shining Force III](https://retroachievements.org/game/14541) // Revision for hard mode and set split per scenario
-### PSP
-* [Final Fantasy Type-0](https://retroachievements.org/game/3919) 
+
 
 ## On Hold
 ### PSP
@@ -30,6 +29,7 @@ RetroAchievement Set Scripts through RATools
 * [SNK vs. Capcom: SVC Chaos](https://retroachievements.org/game/11769) // 17 September 2023 -> Partial Revision for the progression framework
 * [Quiz & Dragons: Capcom Quiz Game](https://retroachievements.org/game/12257) // 06 April 2024
 * [Mach Breakers](https://retroachievements.org/game/28686) // 09 June 2024
+* [Puzzle! Mushihime-tama](https://retroachievements.org/game/29645) // 10 November 2024
 ### Arcadia 2001
 * [Super Dimension Fortress Macross](https://retroachievements.org/game/24689) // 25 June 2023
 ### Arduboy
