@@ -117,6 +117,8 @@ RetroAchievement Set Scripts through RATools
 * [Fighting Street](https://retroachievements.org/game/9165) // 16 July 2023
 ### PC-88
 * [Minky Momo no Panic Ball](https://retroachievements.org/game/23554) // 23 March 2023
+* [Kidou Senshi Gundam Part 1: Gundam Taichi ni Tatsu](https://retroachievements.org/game/30887) // 1st September 2024
+* [Digital Devil Story: Megami Tensei](https://retroachievements.org/game/13985) // 14 Nov 2024
 ### PC-FX
 * [Tokimeki Card Paradise - Koi no Royal Straight Flush](https://retroachievements.org/game/16467) // 24 March 2023
 ### PS2
