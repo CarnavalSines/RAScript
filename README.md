@@ -5,7 +5,7 @@ RetroAchievement Set Scripts through RATools
 ## Current Project
 
 ### Playstation 2
-* [Forbidden Siren | Siren](https://retroachievements.org/game/2728)
+* [Forbidden Siren | Siren](https://retroachievements.org/game/2728) Fuck you too Alex I guess
 ### Saturn  
 * [Shining Force III](https://retroachievements.org/game/14541) // Revision for hard mode and set split per scenario
 
