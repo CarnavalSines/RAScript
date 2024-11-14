@@ -164,3 +164,4 @@ RetroAchievement Set Scripts through RATools
 * [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // 26 Feb 2023
 * [Space Invaders](https://retroachievements.org/game/14873) // 24 September 2023
 * [Tekken Card Challenge](https://retroachievements.org/game/2533) // 17 Jan 2024
+* [Battle Spirit: Digimon Frontier](https://retroachievements.org/game/16138) // 14 Nov 2024
