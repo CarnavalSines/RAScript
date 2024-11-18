@@ -165,3 +165,4 @@ RetroAchievement Set Scripts through RATools
 * [Space Invaders](https://retroachievements.org/game/14873) // 24 September 2023
 * [Tekken Card Challenge](https://retroachievements.org/game/2533) // 17 Jan 2024
 * [Battle Spirit: Digimon Frontier](https://retroachievements.org/game/16138) // 14 Nov 2024
+* [Neon Genesis Evangelion: Shito Ikusei](https://retroachievements.org/game/17551) // 17 Nov 2024
