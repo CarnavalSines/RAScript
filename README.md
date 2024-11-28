@@ -166,3 +166,4 @@ RetroAchievement Set Scripts through RATools
 * [Tekken Card Challenge](https://retroachievements.org/game/2533) // 17 Jan 2024
 * [Battle Spirit: Digimon Frontier](https://retroachievements.org/game/16138) // 14 Nov 2024
 * [Neon Genesis Evangelion: Shito Ikusei](https://retroachievements.org/game/17551) // 17 Nov 2024
+* [Side Pocket for WonderSwan](https://retroachievements.org/game/25087) // 28 Nov 2024
