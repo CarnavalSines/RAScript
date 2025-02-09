@@ -2,19 +2,7 @@
 RetroAchievement Set Scripts through RATools
 
 [Current Dev Wishlist](https://docs.google.com/spreadsheets/d/1xxENkUyQjpUSLrM7EjbTML9H1GDMtq2l/edit?usp=share_link&ouid=114825573869916713157&rtpof=true&sd=true)
-## Current Project
 
-### Playstation 2
-* [Forbidden Siren | Siren](https://retroachievements.org/game/2728) Fuck you too Alex I guess
-### Saturn  
-* [Shining Force III](https://retroachievements.org/game/14541) // Revision for hard mode and set split per scenario
-
-
-## On Hold
-### PSP
-* [SD Gundam G Generation Overworld](https://retroachievements.org/game/21687) // Started 24 Nov 2022 --- On Hold > Current PSP dev tools are ass, waiting for standalone support > Hurray, PSP tools are not ass anymore !
-
-## Finished
 ### 32X
 * [Virtua Fighter](https://retroachievements.org/game/14304) // 06 May 2023
 ### 3DO
@@ -24,6 +12,9 @@ RetroAchievement Set Scripts through RATools
 ### Apple II
 * [Swashbuckler](https://retroachievements.org/game/22170) // 20 Jan 2023
 * [Viper](https://retroachievements.org/game/22529) // 17 Feb 2023
+* [Congo Bongo](https://retroachievements.org/game/32457) // 19 Dec 2024
+* [Both Barrels](https://retroachievements.org/game/32563) // 4 Jan 2025
+* [Championship Lode Runner](https://retroachievements.org/game/22830) // 9 Feb 2025
 ### Arcade
 * [Mr Goemon](https://retroachievements.org/game/12311) // 13 July 2023
 * [SNK vs. Capcom: SVC Chaos](https://retroachievements.org/game/11769) // 17 September 2023 -> Partial Revision for the progression framework
@@ -70,6 +61,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Andaron Saga](https://retroachievements.org/game/26735) // 22 September 2024
 * [\~Hack\~ Andaron Saga \[Subset - Secrets Hunt\]](https://retroachievements.org/game/30883) // 22 September 2024
 * [\~Hack\~ Andaron Saga: Randomizer](https://retroachievements.org/game/30881) // 22 September 2024
+* [Fire Emblem: The Binding Blade](https://retroachievements.org/game/4879) // 8 Feb 2025 -> Re-Authoring following deep rewrite from 31 Oct 2024
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
