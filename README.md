@@ -85,6 +85,8 @@ RetroAchievement Set Scripts through RATools
 * [Attack of the Timelord](https://retroachievements.org/game/16960) // 16 June 2023
 ### NES
 * [Famicom Wars](https://retroachievements.org/game/5533) // 22 Feb 2023 -> Collab with VoiceofAutumn
+* [Jesus: Kyoufu no Bio Monster](https://retroachievements.org/game/6295) // 16 Feb 2024 -> Done without RAScript
+* [Rampart (Konami)](https://retroachievements.org/game/31654) // 11 Feb 2025
 ### Neo Geo CD
 * [Neo Turf Masters](https://retroachievements.org/game/23831) // 12 Nov 2023
 ### Neo Geo Pocket
