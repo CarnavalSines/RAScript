@@ -121,6 +121,7 @@ RetroAchievement Set Scripts through RATools
 * [Zone of the Enders: The 2nd Runner](https://retroachievements.org/game/19078) // 17 Dec 2023 > Collab with Wil
 * [ICO](https://retroachievements.org/game/1319) // 23 Dec 2023
 * [Prince of Persia: The Sands of Time](https://retroachievements.org/game/2988) // 01 Jan 2024
+* [Ougon Kishi Garo](https://retroachievements.org/game/27656) // 17 March 2025
 ### PSP
 * [Flying Hamster](https://retroachievements.org/game/5967) // 21 July 2023
 ### PSX
