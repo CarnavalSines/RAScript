@@ -63,6 +63,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Andaron Saga: Randomizer](https://retroachievements.org/game/30881) // 22 September 2024
 * [Fire Emblem: The Binding Blade](https://retroachievements.org/game/4879) // 8 Feb 2025 -> Re-Authoring following deep rewrite from 31 Oct 2024
 * [Fire Emblem: The Binding Blade [Subset - Trial Map Characters]](https://retroachievements.org/game/31454) // 10 Nov 2024
+* [\~Hack\~ Fire Emblem Wars](https://retroachievements.org/game/22571) // 19 March 2025
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
