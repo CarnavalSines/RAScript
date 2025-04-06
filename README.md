@@ -36,7 +36,7 @@ RetroAchievement Set Scripts through RATools
 ### Atari Lynx
 * [\~Homebrew\~ Scooternia](https://retroachievements.org/game/24300) // 09 May 2023
 * [\~Homebrew\~ Game & Lynx: Critter Championship](https://retroachievements.org/game/19715) // 05 April 2024
-* [Lexis](https://retroachievements.org/game/10242) // 06 April 2024
+* [Lexis](https://retroachievements.org/game/10242) // 06 April 2025
 ### ColecoVision
 * [\~Homebrew\~ Frostbite](https://retroachievements.org/game/25263) // 24 July 2023
 * [Up N Down](https://retroachievements.org/game/9323) // 11 Jan 2024
