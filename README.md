@@ -131,6 +131,7 @@ RetroAchievement Set Scripts through RATools
 * [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
 * [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
 * [Slap Happy Rhythm Busters](https://retroachievements.org/game/20397) // 17 April 2023
+* [Gundam 0079 - The War for Earth](https://retroachievements.org/game/32705) // 7 April 2025
 ### SG-1000
 * [Congo Bongo](https://retroachievements.org/game/13484) // 10 May 2023
 * [Yamato](https://retroachievements.org/game/24565) // 3 July 2023
