@@ -64,7 +64,7 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Andaron Saga \[Subset - Secrets Hunt\]](https://retroachievements.org/game/30883) // 22 September 2024
 * [\~Hack\~ Andaron Saga: Randomizer](https://retroachievements.org/game/30881) // 22 September 2024
 * [Fire Emblem: The Binding Blade](https://retroachievements.org/game/4879) // 8 Feb 2025 -> Re-Authoring following deep rewrite from 31 Oct 2024
-* [Fire Emblem: The Binding Blade [Subset - Trial Map Characters\]](https://retroachievements.org/game/31454) // 10 Nov 2024
+* [Fire Emblem: The Binding Blade \[Subset - Trial Map Characters\]](https://retroachievements.org/game/31454) // 10 Nov 2024
 * [\~Hack\~ Fire Emblem Wars](https://retroachievements.org/game/22571) // 19 March 2025
 * [\~Hack\~ Fire Emblem: Project Ember](https://retroachievements.org/game/22464) // 16 May 2025
 * [\~Hack\~ Fire Emblem: Project Ember \[Subset - Reverse Recruitment\]](https://retroachievements.org/game/32931) // 16 May 2025
