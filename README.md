@@ -21,6 +21,7 @@ RetroAchievement Set Scripts through RATools
 * [Quiz & Dragons: Capcom Quiz Game](https://retroachievements.org/game/12257) // 06 April 2024
 * [Mach Breakers](https://retroachievements.org/game/28686) // 09 June 2024
 * [Puzzle! Mushihime-tama](https://retroachievements.org/game/29645) // 10 November 2024
+* [Agress: Missile Daisenryaku](https://retroachievements.org/game/13526) // 31 January 2026
 ### Arcadia 2001
 * [Super Dimension Fortress Macross](https://retroachievements.org/game/24689) // 25 June 2023
 ### Arduboy
@@ -161,6 +162,8 @@ RetroAchievement Set Scripts through RATools
 * [Znake](https://retroachievements.org/game/24185) //02 May 2023
 ### Watara
 * [Cross Horde](https://retroachievements.org/game/23770) // 27 March 2023  -> Collaboration with AuburnRDM and Soulsderfusch
+### Wii
+* [Bit.Trip Complete](https://retroachievements.org/game/34618) // 1 Oct 2025  -> Collaboration with AuburnRDM and Soulsderfusch
 ### Wonderswan
 * [SD Gundam: Operation U.C.](https://retroachievements.org/game/4965) // 07 Feb 2023
 * [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // 26 Feb 2023
@@ -169,3 +172,4 @@ RetroAchievement Set Scripts through RATools
 * [Battle Spirit: Digimon Frontier](https://retroachievements.org/game/16138) // 14 Nov 2024
 * [Neon Genesis Evangelion: Shito Ikusei](https://retroachievements.org/game/17551) // 17 Nov 2024
 * [Side Pocket for WonderSwan](https://retroachievements.org/game/25087) // 28 Nov 2024
+* [Clock Tower](https://retroachievements.org/game/14874) // 30 January 2026
