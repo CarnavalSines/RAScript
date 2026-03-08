@@ -19,7 +19,10 @@ RetroAchievement Set Scripts through RATools
 * [Mr Goemon](https://retroachievements.org/game/12311) // 13 July 2023
 * [SNK vs. Capcom: SVC Chaos](https://retroachievements.org/game/11769) // 17 September 2023 -> Partial Revision for the progression framework
 * [Quiz & Dragons: Capcom Quiz Game](https://retroachievements.org/game/12257) // 06 April 2024
+* [Capcom Sports Club](https://retroachievements.org/game/12262) // 09 April 2024
 * [Mach Breakers](https://retroachievements.org/game/28686) // 09 June 2024
+* [Red Earth](https://retroachievements.org/game/12774) // 18 June 2024
+* [Logic Pro](https://retroachievements.org/game/14459) // 30 August 2024
 * [Puzzle! Mushihime-tama](https://retroachievements.org/game/29645) // 10 November 2024
 * [Agress: Missile Daisenryaku](https://retroachievements.org/game/13526) // 31 January 2026
 * [Space Dungeon](https://retroachievements.org/game/15160) // 13 February 2026
