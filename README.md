@@ -22,6 +22,8 @@ RetroAchievement Set Scripts through RATools
 * [Mach Breakers](https://retroachievements.org/game/28686) // 09 June 2024
 * [Puzzle! Mushihime-tama](https://retroachievements.org/game/29645) // 10 November 2024
 * [Agress: Missile Daisenryaku](https://retroachievements.org/game/13526) // 31 January 2026
+* [Space Dungeon](https://retroachievements.org/game/15160) // 13 February 2026
+* [Ring King](https://retroachievements.org/game/15565) // 17 February 2026
 ### Arcadia 2001
 * [Super Dimension Fortress Macross](https://retroachievements.org/game/24689) // 25 June 2023
 ### Arduboy
@@ -55,6 +57,7 @@ RetroAchievement Set Scripts through RATools
 ### Game Boy
 * [Nekketsu! Beach Volley Dayo Kunio-Kun](https://retroachievements.org/game/6489) // 19 Feb 2023
 * [\~Homebrew\~ \~Demo\~ Halo: Combat Devolved](https://retroachievements.org/game/23796) // 28 March 2023
+* [[\~Hack\~ Pokemon: Kanto Expansion Pak](https://retroachievements.org/game/28237) // 03 March 2023
 ### GBA
 * [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // 15 Feb 2023
