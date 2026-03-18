@@ -170,6 +170,7 @@ RetroAchievement Set Scripts through RATools
 * [Cross Horde](https://retroachievements.org/game/23770) // 27 March 2023  -> Collaboration with AuburnRDM and Soulsderfusch
 ### Wii
 * [Bit.Trip Complete](https://retroachievements.org/game/34618) // 1 Oct 2025
+* [House of the Dead 2 & 3 Return](https://retroachievements.org/game/34724) // 18 March 2026
 ### Wonderswan
 * [SD Gundam: Operation U.C.](https://retroachievements.org/game/4965) // 07 Feb 2023
 * [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // 26 Feb 2023
