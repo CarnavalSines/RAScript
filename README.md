@@ -148,6 +148,7 @@ RetroAchievement Set Scripts through RATools
 * [Pachinko](https://retroachievements.org/game/6819) // 6 July 2023
 ### SNES
 * [Cacoma Knight in Bizyland](https://retroachievements.org/game/23056) // 17 July 2023
+* [America Oudan Ultra Quiz](https://retroachievements.org/game/20004) // 25 March 2026
 ### Saturn
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 * [Frankenstein: Through the Eyes of the Monster](https://retroachievements.org/game/25893) // 13 Nov 2023
