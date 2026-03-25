@@ -172,6 +172,7 @@ RetroAchievement Set Scripts through RATools
 ### Wii
 * [Bit.Trip Complete](https://retroachievements.org/game/34618) // 1 Oct 2025
 * [House of the Dead 2 & 3 Return](https://retroachievements.org/game/34724) // 18 March 2026
+* [Pinocchio's Puzzle](https://retroachievements.org/game/38162) // 19 March 2026
 ### Wonderswan
 * [SD Gundam: Operation U.C.](https://retroachievements.org/game/4965) // 07 Feb 2023
 * [Hataraku Chocobo | Working Chocobo](https://retroachievements.org/game/17766) // 26 Feb 2023
