@@ -51,16 +51,14 @@ RetroAchievement Set Scripts through RATools
 * [Guilty Gear X](https://retroachievements.org/game/462) // 26 July 2023
 ### Elektor TV Games Computer
 * [Raster](https://retroachievements.org/game/24659) // 12 June 2023
-### Game Gear
-* [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
-### GameCube
-* [F-Zero GX](https://retroachievements.org/game/9699) // 20 Feb 2024
-* [Donkey Konga Europe](https://retroachievements.org/game/28604) // 25 Feb 2024
-* [Soulcalibur II](https://retroachievements.org/game/3536) // 04 March 2024
+### Fairchild Channel F
+* [\~Homebrew\~ Fnvader](https://retroachievements.org/game/8985) // 26 April 2023
+### Famicom Disk System
+* [Idol Hotline: Nakayama Miho no Tokimeki High School](https://retroachievements.org/game/14086) // 5 April 2026
 ### Game Boy
 * [Nekketsu! Beach Volley Dayo Kunio-Kun](https://retroachievements.org/game/6489) // 19 Feb 2023
 * [\~Homebrew\~ \~Demo\~ Halo: Combat Devolved](https://retroachievements.org/game/23796) // 28 March 2023
-* [\~Hack\~ Pokemon: Kanto Expansion Pak](https://retroachievements.org/game/28237) // 03 March 2023
+* [\~Hack\~ Pokemon: Kanto Expansion Pak](https://retroachievements.org/game/28237) // 03 March 2026
 ### GBA
 * [Zone of the Enders: The Fist of Mars](https://retroachievements.org/game/2518) // 10 Nov 2022
 * [\~Hack\~ Golden Sun: Dawn of Djinn](https://retroachievements.org/game/21686) // 15 Feb 2023
@@ -79,10 +77,18 @@ RetroAchievement Set Scripts through RATools
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
 * [Ultimate Fighting Championship](https://retroachievements.org/game/21745) // 27 September 2023
+### Game Gear
+* [OutRun](https://retroachievements.org/game/12405) // 25 Dec 2022
+### GameCube
+* [F-Zero GX](https://retroachievements.org/game/9699) // 20 Feb 2024
+* [Donkey Konga Europe](https://retroachievements.org/game/28604) // 25 Feb 2024
+* [Soulcalibur II](https://retroachievements.org/game/3536) // 04 March 2024
 ### Intellivision
 * [\~Homebrew\~ Antarctic Tales Enhanced Edition](https://retroachievements.org/game/24890) // 15 June 2023
 ### Interton VC 4000
 * [\~Homebrew\~ Canabalt](https://retroachievements.org/game/24634) // 8 June 2023
+### Magnavox Odyssey 2
+* [Attack of the Timelord](https://retroachievements.org/game/16960) // 16 June 2023
 ### Master System
 * [\~Homebrew\~ Extreme Volleyball Infernal League](https://retroachievements.org/game/24230) // 08 May 2023
 ### Megadrive
@@ -93,16 +99,16 @@ RetroAchievement Set Scripts through RATools
 ### MSX
 * [Aliens: Alien 2](https://retroachievements.org/game/22026) // 27 Dec 2022
 * [\~Homebrew\~ Relevo's Snowboarding](https://retroachievements.org/game/29093) // 6 April 2024
-### Magnavox Odyssey 2
-* [Attack of the Timelord](https://retroachievements.org/game/16960) // 16 June 2023
-### NES
-* [Famicom Wars](https://retroachievements.org/game/5533) // 22 Feb 2023 -> Collab with VoiceofAutumn
-* [Jesus: Kyoufu no Bio Monster](https://retroachievements.org/game/6295) // 16 Feb 2024 -> Done without RAScript
-* [Rampart (Konami)](https://retroachievements.org/game/31654) // 11 Feb 2025
 ### Neo Geo CD
 * [Neo Turf Masters](https://retroachievements.org/game/23831) // 12 Nov 2023
 ### Neo Geo Pocket
 * [\~Homebrew\~ Snake](https://retroachievements.org/game/23738) // 16 July 2023
+### NES
+* [Famicom Wars](https://retroachievements.org/game/5533) // 22 Feb 2023 -> Collab with VoiceofAutumn
+* [Jesus: Kyoufu no Bio Monster](https://retroachievements.org/game/6295) // 16 Feb 2024 -> Done without RAScript
+* [Rampart (Konami)](https://retroachievements.org/game/31654) // 11 Feb 2025
+### Nintendo 64
+* [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### Nintendo DS
 * [Arkanoid DS](https://retroachievements.org/game/22844) // 13 March 2023
 * [\~Hack\~ Castlevania: Dawn of Shovel](https://retroachievements.org/game/22847) // 27 March 2023
@@ -114,8 +120,6 @@ RetroAchievement Set Scripts through RATools
 ### Nintendo DSi
 * [Mr. Driller - Drill Till You Drop](https://retroachievements.org/game/22323) // 16 April 2023, DSi Rollout
 * [Mr. Driller - Drill Till You Drop All Gold Medals Subset](https://retroachievements.org/game/23906) // 13 June 2023
-### Nintendo 64
-* [Charlie Blasts Territory](https://retroachievements.org/game/11600) // 20 Feb 2023
 ### PC Engine
 * [\~Homebrew\~ The Great Fumo Binning](https://retroachievements.org/game/25183) // 13 July 2023
 * [Boxyboy](https://retroachievements.org/game/2281) // 04 Feb 2024
@@ -128,6 +132,12 @@ RetroAchievement Set Scripts through RATools
 * [Digital Devil Story: Megami Tensei](https://retroachievements.org/game/13985) // 14 Nov 2024
 ### PC-FX
 * [Tokimeki Card Paradise - Koi no Royal Straight Flush](https://retroachievements.org/game/16467) // 24 March 2023
+### PSX
+* [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
+* [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
+* [Slap Happy Rhythm Busters](https://retroachievements.org/game/20397) // 17 April 2023
+* [Gundam 0079 - The War for Earth](https://retroachievements.org/game/32705) // 7 April 2025
+* [Mobile Suit Gundam: Char's Counterattack](https://retroachievements.org/game/20422) // 26 March 2026
 ### PS2
 * [Zone of the Enders](https://retroachievements.org/game/19079) // 11 July 2023 > Collab with Wil
 * [Zone of the Enders: The 2nd Runner](https://retroachievements.org/game/19078) // 17 Dec 2023 > Collab with Wil
@@ -136,20 +146,6 @@ RetroAchievement Set Scripts through RATools
 * [Ougon Kishi Garo](https://retroachievements.org/game/27656) // 17 March 2025
 ### PSP
 * [Flying Hamster](https://retroachievements.org/game/5967) // 21 July 2023
-### PSX
-* [Kaze no NOTAM](https://retroachievements.org/game/20377) // 16 Nov 2022
-* [Arkanoid R 2000](https://retroachievements.org/game/22556) // 8 March 2023
-* [Slap Happy Rhythm Busters](https://retroachievements.org/game/20397) // 17 April 2023
-* [Gundam 0079 - The War for Earth](https://retroachievements.org/game/32705) // 7 April 2025
-* [Mobile Suit Gundam: Char's Counterattack](https://retroachievements.org/game/20422) // 26 March 2026
-### SG-1000
-* [Congo Bongo](https://retroachievements.org/game/13484) // 10 May 2023
-* [Yamato](https://retroachievements.org/game/24565) // 3 July 2023
-* [N-Sub](https://retroachievements.org/game/24551) // 4 July 2023
-* [Pachinko](https://retroachievements.org/game/6819) // 6 July 2023
-### SNES
-* [Cacoma Knight in Bizyland](https://retroachievements.org/game/23056) // 17 July 2023
-* [America Oudan Ultra Quiz](https://retroachievements.org/game/20004) // 25 March 2026
 ### Saturn
 * [Virtua Fighter Remix](https://retroachievements.org/game/22577) // 1 March 2023
 * [Frankenstein: Through the Eyes of the Monster](https://retroachievements.org/game/25893) // 13 Nov 2023
@@ -162,6 +158,14 @@ RetroAchievement Set Scripts through RATools
 * [Mobile Suit Gundam Side Story III - Sabakareshi Mono | The Condemned](https://retroachievements.org/game/25889) // 13 Jan 2024
 ### Sega CD
 * [Samurai Shodown](https://retroachievements.org/game/17010) // 22 July 2023
+### SG-1000
+* [Congo Bongo](https://retroachievements.org/game/13484) // 10 May 2023
+* [Yamato](https://retroachievements.org/game/24565) // 3 July 2023
+* [N-Sub](https://retroachievements.org/game/24551) // 4 July 2023
+* [Pachinko](https://retroachievements.org/game/6819) // 6 July 2023
+### SNES
+* [Cacoma Knight in Bizyland](https://retroachievements.org/game/23056) // 17 July 2023
+* [America Oudan Ultra Quiz](https://retroachievements.org/game/20004) // 25 March 2026
 ### Uzebox
 * [Submarine](https://retroachievements.org/game/24775) // 5 July 2023
 ### Vectrex
