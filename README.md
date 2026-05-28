@@ -73,6 +73,8 @@ RetroAchievement Set Scripts through RATools
 * [\~Hack\~ Fire Emblem Wars](https://retroachievements.org/game/22571) // 19 March 2025
 * [\~Hack\~ Fire Emblem: Project Ember](https://retroachievements.org/game/22464) // 16 May 2025
 * [\~Hack\~ Fire Emblem: Project Ember \[Subset - Reverse Recruitment\]](https://retroachievements.org/game/32931) // 16 May 2025
+* [\~Hack\~ Pokemblem](https://retroachievements.org/game/17723) // 28 May 2026
+* [\~Hack\~ Pokemblem \[Bonus - Challenge Runs\]](https://retroachievements.org/game/17723?set=38609) // 28 May 2026
 ### GBC
 * [Batman Beyond: Return of the Joker](https://retroachievements.org/game/8571) // 22 Jan 2023
 * [Super Robot Pinball](https://retroachievements.org/game/15635) // 30 May 2023
