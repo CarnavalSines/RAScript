@@ -1,0 +1,97 @@
+Rare Items Subset
+
+Why not core: A couple of them already are for mostly historical reasons (best available gear), but overall the chance of getting any of them by chance without target grinding is very low. While some are best-in-slots by the time you can get them, the game is trivial to be beaten without and the overall game experience isn't impacted by having them equipped or not
+
+Why good for a subset: There are enough of them to be part of a dedicated subset for players either wanting to mindlessly grind for them or to check on the dedicated RNG Manipulation method. All of the unique item drops have documented manipulation to get them should one want to not grind. Raw chances are either 1/64 or 1/128 if done raw, rate is doubled if the enemy is killed by an element they are weak to and as said above drops can be garanteed with a save and quit precise setup to manipulate RNG odds.
+
+Lucky Fountain usually is only highlighted for the Assassin's Blade which is a good item when found at that point of the game but in no way isn't something that could be replaced later on. That none of the others are highlighted in an achievement is a bit of a weird pick. Slots rewards aren't at all part of the set and while I don't make that claim I could see it being ground for Missing Content arguments. 
+
+Those last two categories are a mix of RNG and a small dose of player skills but there are virtually unlimited ressources to get them since you can save abuse if you played the minigame and didn't get any reward. 
+
+Bonus on the bonus: if something agreed upon in the revision vote regular item drop could be added. They mostly have 1/16 or 1/32 odds, with the same doubling method as above, and provide misc healing or offensive consumables. They do not have any RNG manipulation methods documented that I'm aware of since they are not chase items, however due to the overall lower odds I don't think this mandate raising the point awards. On the contrary since they could be tackled with an end-game party to oneshot the encounters, something that is tricky to do with unique items rewards since they are on endgame enemies, I believe this should be lower to 3 or 2 pts per achievement. Exception should be made for the few of them that are only drop by a single enemy while still being a regular item and they should be worth 10pts as well.
+
+
+Core Plan - Unique Item, Lucky Fountain, Slots
+Bonus tbd if ok for subset - Regular Item drops
+
+Unique Item Drops
+Dread Hound - Prophet's Hat 0xa3
+Magicore - Aura Gloves 0x86
+Earth Golem - Giant Axe 0x23
+Wild Gryphon - Feathered Robe 0x70
+Chimera Mage - Spiked Armor 0x55
+Grand Golem - Zodiac Wand 0x40
+Fenrir - Kikuichimonji 0x19 > Already present in core set. Two alternatives, either move core cheevo to subset OR keep it in as historically significant and add leave it out the subset (since it is bonus it would trigger at the same time anyway). Personally in favor of option A
+Thunder Lizard - Blessed Mace 0x31 > See Fenrir above
+
+8 * 10 > 80pts
+
+Lucky Fountain
+--- ---
+Assassin Blade - 0x17 > See Fenrir
+Earth Shield - 0x7c
+Spirit Armor - 0x51
+Adept's Helm - 0x98
+Burning Axe - 0x25
+Cocktail Dress - 0x6c
+Glittering Tiara - 0xab
+Grievous Mace - 0x30
+Guardian Armlet - 0x8e
+Battle Gloves - 0x85
+Kimono - 0x61
+Ninja Hood - 0xa0
+
+
+
+Slots
+--- ---
+Fur Boot 0x102
+Quick Boot 0x101
+Hyper Boots 0x100
+
+Running Shirt 0xfc
+Silk Shirt 0xfb
+Mythirl Shirt 0xfa
+
+Sleep Ring 0x108
+War Ring 0x107
+Adept Ring 0x106
+
+Slots + Foutain * 5 = 105pts
+
+29 Cheevos - 185pts
+
+Out of Scope
+--- ---
+Bandit > Boss fight with a garanteed drop
+Killer Ape > Same as Bandit
+
+Regular Item Drops
+--- --- ---
+Herb 0xb4 - Vermin, Mad Vermin, Bats, Slimes, Oozes, Slime Beasts, Rats, Armored Rats, Worms, Zombies, Skeletons
+Nut 0xb5 - Dirges, Death Heads, Willowisps, Maulers, Orcs, Harridans, Lizard Men, Lizard Fighters, Clay Gargoyles, Trolls, Cave Trolls, Brutal Trolls
+Vial 0xb6 - Goblins, Skull Warriors, Golems, Apes, Ant Lions. Miniboss garanteed drops to be protected against
+Antitode 0xbb - Spiders, Tarantulas, Mole Mages, Grubs, Undead, Man o' Wars, Dirty Apes, Ghouls, Fiendish Ghouls, Cannibal Ghouls
+Elixir 0xbc - Plated Rats, Drone Bees, Fighter Bees, Warrior Bees, Stone Soldiers, Calamars, Horned Ghosts, Wight, Harpies, Viragos, Ravagers
+Smoke Bomb 0xe2 - Wild Mushrooms, Foul Dirges, Rat Soldiers, Rat Fighters, Will Heads, Orc Captains
+Sleep Bomb 0xe3 - Death Caps, Rabid Bats, Cuttles, Acid Maggots, Bone Fighters, Gargoyles, Kobolds
+Oil Drop 0xee - Gnomes, Amazes, Ghosts, Salamanders
+Weasel's Claw 0xef - Vile Dirges, Creepers, Tornado Lizard
+Bramble Seed 0xf0 - Moles, Mad Moles, Ghost Mages, Rat Warriors, Roaches
+Crystal Powder 0xf1 - Spirits, Gnome Mages, Gnome Wizards, Sirens, Succubus, Brigands
+
+Common 11 * 3pts
+
+Potion 0xb7 - Random from Ice Gargoyles only > Rewards for some boss fights to be protected against
+Psy Crystal 0xba - Manticore King > Same protection as Ice Gargoyles
+Water of Life 0xbd - Boulder Beasts > Boss protect
+Lucky Medal 0xe5 - Orc Lords > Same as above
+Healing Ring 0x109 - Nightmare
+Unicorn Ring 0x10a - Recluse
+
+
+Rarer 6 * 10pts
+
+Regular Items 17 Cheevos - 93pts
+
+Potential Total 46 Cheevos - 278pts
