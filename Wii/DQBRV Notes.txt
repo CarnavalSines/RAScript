@@ -1,0 +1,435 @@
+## Game Modes
+
+### 1. Arcade Mode (アーケードモード)
+Two sub-modes:
+- **Solo (ひとりであそぶ):** 2 battles (1st round + finals). Win well enough → Demon Lord fight; Demon Lord can lead to Great Demon Lord appearance.
+- **2-Player Co-op (ふたりであそぶ):** Starts directly at Demon Lord fight. Win → Great Demon Lord guaranteed.
+- **Demon Lord unlock:** Starts with Dragonlord (竜王) only. Additional Demon Lords / Great Demon Lords unlock as you win tournaments in Tournament Mode.
+- No rival intrusions in Arcade Mode (unlike arcade version).
+- Defeating a Great Demon Lord awards a specific SP Card; a mid-run defeat awards a Monster Card.
+
+### 2. Tournament Mode (大会モード)
+The Wii-exclusive story mode. Set in the near-future Japanese town of **Ryujin-cho (竜神町)**. Player creates an avatar and progresses through a tournament bracket structure.
+
+### 3. Versus Battle (対戦バトルロード)
+- **Local (おうちで対戦):** 1v1, requires 2 controllers.
+- **Wi-Fi (Wi-Fiで対戦):** National matchmaking + friend code battles. BP (Battle Points) tracked on national leaderboard.
+
+### 4. Legend Quest (レジェンドクエスト) — PAID DLC
+- Paid downloadable content. Recreates story scenarios from mainline DQ games.
+- Confirmed: **Legend Quest VIII** (DQ8 scenario — defeat Dhoulmagus, Rhapthorne, then Dragon God King)
+- Additional Legend Quests purchasable via Wii Points (Nintendo Points).
+- Legend Mode was free in the arcade version; on Wii it became paid DLC.
+- Legend Quest also has SP cards exclusive to it (e.g., Gigaslash, Super High Tension, etc.).
+
+### 5. Tutorial (遊び方をおぼえる)
+Single training battle with Morrie narration. Awards XP normally.
+
+---
+
+## Tournament Mode — Full Progression
+
+### Town: Ryujin-cho (竜神町)
+Key locations:
+- **Home** — Change costumes, watch past SP/finisher movies
+- **Card Shop Morita** — Buy cards with Gold or Small Medals; also has a card gacha machine (100G/pull). Post-game: Morrie Mission unlocks here.
+- **Costume Shop** — Buy costumes (おしゃれ着)
+- **Game Center** — Chain battles vs. NPCs; more wins = more cards/gold rewarded, but a loss ends the run with no reward and no team change allowed mid-run
+- **Toudoukan (闘道館)** — Dojo run by Shishō. Tutorial + job advancement battles (転職チャレンジバトル)
+- **Colosseum Center (コロシアムセンター)** — Tournament venue
+- **Torneko's Fountain (トルネコの噴水)** — Throw gold coins to gain Merchant job XP; eventually yields the **Legendary Merchant (伝説の商人)** Legend Card
+
+### Key NPCs
+| Name | Role |
+|------|------|
+| Morrie (モリー) | Tournament host; DQ8 character |
+| Shishō (シショー) | Dojo master; Ryuta's father |
+| Ryuta (リュータ) | Main rival; Martial Artist → Battle Master |
+| Daiki (ダイキ) | Power rival; Warrior → Battle Master |
+| Hina (ヒナ) | Slime-lover; Monster Tamer → Monster Master |
+| Tsubasa (ツバサ) | Strategist rival; Mage → Sage |
+| Takumi (タクミ) | Rich kid; Priest → Sage |
+| Bū-yan (ブーヤン) | Demon-type user; Monster Tamer → Monster Master |
+| Kocho (コーチョー) | School principal; gives quizzes about the town |
+| Luida (ルイーダ) | Café owner (DQ9 character); gives Kocho quiz hints |
+| Hero Kaito (勇者カイト) | Official supporter; post-game boss |
+| Pisaro (魔剣士ピサロ) | DQ4 villain; Champion Battle intruder |
+| Queen Pisaro (クイーンピサロ) | Post-game boss; rewards Demon Lord Legend Cards |
+| Dark Dreaum (魔神ダークドレアム) | DQ6 villain; final post-game boss |
+
+### Progression Flow
+
+#### Phase 1 — Tutorial / Introduction
+- Lose to Ryuta (scripted loss; he gives you a card — Iron Claws, enabling Martial Artist job)
+- Win vs. Hina → reward: **Dracky Outfit (ドラキーのふく)** costume
+- Day 2: Town opens up; head to Colosseum
+
+#### Phase 2 — Freshman Tournament (フレッシュマン大会)
+- Uses **basic jobs** (基本職) only
+- Three confirmed tournaments (by job class); full count needs verification:
+  - **Greatest Warrior (最強戦士決定戦)** — 4 rounds: Kohei → Shiori → Patcho → **Daiki** (Lv25)
+  - **Greatest Mage (最強魔法使い決定戦)** — 4 rounds: Erika → Yusuke → Shusha → **Tsubasa** (Lv25)
+  - **Greatest Martial Artist (最強武闘家決定戦)** — 4 rounds: Yuna → Taichi → Kazu → **Ryuta** (Lv75)
+  - *(Likely also Priest, Merchant, Monster Tamer variants — needs in-game confirmation)*
+- Win **2 tournaments** → unlocks Master Class
+
+#### Phase 3 — Master Class Tournament (マスタークラス大会)
+- Uses **advanced jobs** (上級職) only
+- Must first unlock advanced jobs via the Toudoukan (see Job System)
+- Win **at least 1 Master Class tournament** → unlocks Representative Hero Battle
+- *(Full tournament roster for Master Class needs confirmation)*
+
+#### Phase 4 — Representative Hero Battle (代表勇者決定戦)
+- Any job allowed
+- 4 rounds: Takumi → Hina → Tsubasa → Daiki
+- Win → unlocks Champion Battle + unlocks **Hero (勇者)** job challenge at Toudoukan
+
+#### Phase 5 — Champion Battle (王者決定戦)
+- Round 1: Ryuta
+- Mid-match: Pisaro intrudes
+- Boss fight: Sword Master Pisaro (魔剣士ピサロ)
+- Final fight: Death Pisaro (デスピサロ)
+- Win → **Ending / Credits (first)**
+
+#### Phase 6 — Post-game: Universe #1 Battle (宇宙一決定戦)
+- Unlocks at Colosseum after first ending
+- **9 rounds** vs. historical Great Demon Lords (excluding Death Pisaro)
+- **10 rounds** vs. "True Great Demon Lords" (真大魔王)
+- Boss: **Dark Dreaum (ダークドレアム)**
+- Final boss: **True Dark Dreaum (真ダークドレアム)**
+- Win → **Second Ending / Second Staff Roll**
+- Card machine cap lifted from 5/day to unlimited
+
+#### Phase 7 — Post-game Exhibition & Collectibles
+After second ending, the following unlock around town:
+- **Hero Kaito** → battle vs. Legendary Hero, Ryan, Barbara → win each = Legend Hero Card
+- **Queen Pisaro** (vacant lot) → battle vs. historical Demon Lords → win = Demon Lord Legend Cards (Dragonlord human form first, then others)
+- **Pisaro at port** → battle vs. historical True Great Demon Lords → win = True Great Demon Lord Legend Cards (True Dragonlord first, then others)
+- **Torneko's Fountain** → throw enough gold → **Legendary Merchant (伝説の商人)** Legend Card
+- **Small Medals (ちいさなメダル)** → scattered around town map; spendable at Card Shop
+- **Morrie Mission** (Card Shop post-game) → see below
+
+---
+
+## Morrie Mission (モリーミッション)
+
+Unlocks at Card Shop Morita after clearing Universe #1 Battle. Series of 10 challenge battles with specific win conditions, each awarding a **Roto Collection (ロトコレクション)** SP Card. A final battle vs. Morrie himself rewards the title **"Morrie's Successor (モリーの後継者)"** and the Legend Card **Legendary Monster Tamer (伝説の魔物使い)**.
+
+| # | Mission Name | Condition | Reward |
+|---|---|---|---|
+| 1 | Fierce Battle! 3-Turn Showdown | Win in ≤3 turns (no Legend cards) | Super High Tension (Roto) |
+| 2 | Dodge It! Evasion Mastery | Dodge ≥2 attacks, then win (no Legend cards) | Wind Mantle (Roto) |
+| 3 | Perfect Victory! | Win with ≥500 HP remaining (preset equipment/monsters) | Great Defense (Roto) |
+| 4 | No SP! Pure Battle | Win in ≤2 turns (no Legend cards, no SP cards) | Falcon Sword (Roto) |
+| 5 | Sleep! Lullaby Strategy | Win using sleep (no Legend cards) | Seductive Gaze (Roto) |
+| 6 | Easy Win? Finish with Mera | Finish with Mera spell | Water Feathercoat (Roto) |
+| 7 | Aim for It! Critical Hit | Land a critical hit to win | Samba de Amigo (Roto) |
+| 8 | Can't Move! Cursed Battle | Win while cursed (no Legend cards) | Starfall Bracelet (Roto) |
+| 9 | Challenge Legend! Hero Battle | (vs. legendary hero) | Roto's Crest (Roto) |
+| 10 | Revival Demon! Final Battle | (final Morrie Mission) | Gigaslash (Roto) |
+| +1 | Battle vs. Morrie | Win vs. Morrie | Title + Legendary Monster Tamer card |
+
+---
+
+## Job System (職業)
+
+### Basic Jobs (基本職)
+| Job | Notes |
+|-----|-------|
+| Warrior (戦士) | Standard physical fighter |
+| Mage (魔法使い) | Spell-focused |
+| Martial Artist (武闘家) | Speed/claw builds |
+| Priest (僧侶) | Healing/support |
+| Merchant (商人) | XP gained only via gold thrown into Torneko's Fountain — NOT from battles |
+| Monster Tamer (魔物使い) | Monster-focused synergies |
+
+### Advanced Jobs (上級職)
+Unlocked at Toudoukan by meeting level requirements. Requirement: basic job at sufficient level (exact thresholds need verification).
+| Job | Promoted From |
+|-----|---|
+| Battle Master (バトルマスター) | Warrior or Martial Artist path |
+| Sage (賢者) | Mage or Priest path |
+| Monster Master (モンスターマスター) | Monster Tamer path |
+
+### Special Job
+| Job | Unlock Condition |
+|-----|---|
+| Hero (勇者) | Win Representative Hero Battle AND have 2 advanced jobs at Lv50+ |
+
+### Job Levels & Titles
+Each job has titles at Lv10, 20, 30, 40, 50, 60, 70, 80, 90, and max level (cap appears to be 99 or 100 — needs confirmation). Max level title is unique per job (e.g., "Battle Road" for Battle Master, "God Mage" for Sage, etc.).
+
+Example — Warrior title progression: Rookie → One-Man Army → Veteran → Expert → Master → Legend Fighter → Seasoned Warrior → Immortal Warrior → Edge of Warrior → Legend Warrior → Eden's Warrior (max)
+
+---
+
+## Card System
+
+### Card Types
+| Type | Notes |
+|------|-------|
+| Monster Cards | Two pools: Battle Road I roster and Battle Road II roster |
+| Weapon Cards (武器) | Equip to hero avatar |
+| Shield Cards (盾) | Equip to hero avatar |
+| Body Cards (体) | Equip to hero avatar |
+| SP Cards (スペシャルカード) | Special abilities used mid-battle; pre-assigned to D-pad or selected mid-battle |
+| Legend Cards (レジェンド) | Sub-types: Legend Hero, Legend Demon Lord, Legend Great Demon Lord |
+| Fusion Weapon Cards (融合武器) | Created from combining weapon cards |
+
+### Combination Systems
+| System | Description |
+|--------|-------------|
+| Type Affinity (タイプ相性) | Bonuses based on monster type combinations |
+| 3rd Skill (第3のワザ) | Unlocked when specific monster + job combo is met |
+| Habitat Affinity (生息地相性) | Bonuses based on monster habitat combinations |
+| Fusion (合体) | Specific monster pairs create a fused form |
+| Job Affinity (職業相性) | Bonuses based on avatar job + monster combinations |
+| Finisher (必殺技) | Special finishing move triggered by conditions |
+| Ultimate Finisher (究極必殺技) | Enhanced finisher, harder to trigger |
+| Other Affinity (その他相性) | Miscellaneous bonus combinations |
+
+### Card Sources
+- **Battle rewards** (card drops at fight end)
+- **Card Shop Morita** (gold or Small Medals)
+- **Gacha machine** outside shop (100G per pull)
+- **Tournament/Mission rewards** (fixed drops)
+- **Wi-Fi DLC Shop** (paid, via Wii Points)
+- **Color code scan** (via DSiWare scanner or mobile app — scanning physical arcade cards)
+
+### Notable Card Subsets
+- **Roto Collection (ロトコレクション):** SP card variants earned exclusively through Morrie Mission
+- **Legend Hero Cards:** Earned from post-game exhibition wins (Kaito side)
+- **Legend Demon Lord Cards:** Earned from Queen Pisaro fights
+- **Legend Great Demon Lord Cards:** Earned from port Pisaro fights
+- **Legendary Merchant:** Earned from Torneko's Fountain
+
+---
+
+## Costumes (おしゃれ着)
+
+- Provide actual stat bonuses to the team (HP, Power, Speed, Wisdom, elemental resistance, etc.)
+- Available from Costume Shop and various in-game rewards
+- Some costumes tied to DLC codes (e.g., Zesika hair/outfit from Legend Quest VIII launch event)
+- V-Jump guide book included exclusive costume color codes ("Nine Hair" + "Nine no Fuku" set)
+- Equippable at Home
+
+---
+
+## Small Medals (ちいさなメダル)
+
+- Collectible items scattered around Ryujin-cho post-game (see town map at dq-gh.com/brv/ryujin.html)
+- Spendable at Card Shop Morita
+- Exact count and locations need in-game or map reference verification
+
+---
+
+## Demon Lord / Boss Progression in Arcade Mode
+
+| Tier | Notes |
+|------|-------|
+| 魔王 (Demon Lord) | Mid-tier. Appears after strong performance in solo Arcade. |
+| 大魔王 (Great Demon Lord) | High tier. Guaranteed in co-op if Demon Lord cleared; conditional in solo. |
+| 真大魔王 (True Great Demon Lord) | Post-game only — appears in Universe #1 Battle (Tournament Mode), not standard Arcade |
+| ダークドレアム / 真ダークドレアム | Final boss of Universe #1 Battle |
+
+Unlock order: Only Dragonlord at start → additional bosses unlock by winning Tournaments.
+
+---
+
+## Kocho's Quiz (コーチョーのクイズ)
+
+School principal gives trivia quizzes about the game/town. Luida at the café provides hints. Likely yields rewards. Full question list at dq-gh.com/brv/quiz.html — not yet researched.
+
+
+
+### Data Flow (confirmed)
+1. **MEM2** — Character/team definitions written here at equipment selection screen. Stable base; holds calculated max HP and stat totals for the current loadout.
+2. **MEM1 `0x017914DC`** Live battle engine working copy. Populated from MEM2 when a battle loads. May be pointer-backed or mode-dependent > address was consistent within a session but not yet confirmed stable across cold boots.
+3. **MEM1 `0x01791220+` struct** Per-round snapshot. Copied from `0x017914DC` at the start of each round. Contains current and round-start HP for both player and enemy.
+
+> **Note:** The MEM1 battle struct address held across multiple battles in the same session. Whether it shifts between boots or across different modes (Arcade vs. Tournament) still needs confirmation. MEM2 base is the likely pointer anchor if it does shift.
+
+### Confirmed Battle Struct (`0x01791220+`)
+
+| RA Address | Size | Meaning | Notes |
+|---|---|---|---|
+| 0x0179122C | 16-bit | Player HP at round start | Snapshot taken at round begin |
+| 0x01791230 | 16-bit | Player current HP | Updates before on-screen animation |
+| 0x01791234 | 16-bit | Enemy HP at round start | Snapshot taken at round begin |
+| 0x01791238 | 16-bit | Enemy current HP | Updates before on-screen animation |
+
+> **Timing note:** Both current HP values update at the start of enemy animation, before the on-screen display reflects the change. This means values are settled and stable for achievement logic > no mid-animation flicker
+
+### Other Confirmed Addresses
+
+| RA Address | Meaning | Notes |
+|---|---|---|
+| 0x017914DC | Player current HP (live engine copy) | Source for the struct above; possibly pointer-backed |
+| 0x1009d5c0 | Player HP from team selection (MEM2) | Written at equipment screen; stable across battles |
+| 0x00830734 | Gold | From Gecko code analysis |
+| 0x00830738 | Small Medals | From Gecko code analysis |
+
+
+## Gecko Codes
+> Source: gamehacking.org/game/134089
+
+### All Mode
+
+**If Yuuki Gage Increase, MAX**
+```
+C2254630 00000007
+3D808000 398C3180
+898C0000 2C0C0060
+41820008 918C01E8
+2C1B0001 40820010
+39802710 918301E8
+48000008 920301E8
+60000000 00000000
+04003180 60000000
+```
+
+**Infinite HP**
+```
+C2251840 00000004
+3D80803F 398C2FAC
+3A200006 9A2C0001
+2C1E0001 41820008
+900304A8 00000000
+04003180 60000000
+```
+> Hook at `0x80251840`. Forces byte value 6 to `0x803F2FAD` each frame. Pointer-relative HP field at r3+0x4A8. Death check NOPed at `0x80003180`.
+
+**Quick Win**
+```
+C2251854 00000005
+3D80803F 398C2FAC
+3A200006 9A2C0001
+2C1E0001 41820008
+920304A8 800304A8
+60000000 00000000
+04003180 60000000
+```
+
+---
+
+### Tournament Mode
+
+**All Character Lv.99**
+```
+C2056DDC 00000008
+3D808000 398C3180
+898C0000 2C0C0060
+40820018 3BC0FFFF
+93C5001C 93C50030
+93C50044 48000014
+3BC00000 93C5001C
+93C50030 93C50044
+A3C5001E 00000000
+04003180 60000000
+```
+
+**Character Size Up**
+```
+C2048910 00000004
+819FFFD4 2C0C000E
+4082000C 3D804000
+919F014C C03F014C
+60000000 00000000
+```
+
+**Gold + Medal MAX**
+```
+C20FEE0C 00000005
+3D80803F 398C2FB4
+3A200006 9A2C0001
+3D8005F6 398CE0FF
+91830734 91830738
+60000000 00000000
+04003180 60000000
+```
+> Writes directly to `0x80830734` (Gold) and `0x80830738` (Small Medals).
+
+**Have All Card**
+```
+C2054E80 00000006
+3D808000 398C3180
+898C0000 2C0C0060
+40820010 38000099
+7C0321AE 4800000C
+38000000 7C0321AE
+7C0320AE 00000000
+C2054E8C 00000006
+3D808000 398C3180
+898C0000 2C0C0060
+40820010 38000099
+7C0321AE 4800000C
+38000000 7C0321AE
+7C0320AE 00000000
+04003180 60000000
+```
+
+**Infinite Card Machine**
+```
+C2056854 00000002
+3BE00000 B3E308BC
+60000000 00000000
+```
+
+**Speed Up**
+```
+C204ABB4 00000004
+819FFFD4 2C0C000E
+40820010 3D804080
+919F0508 919F050C
+C01F0508 00000000
+```
+
+**Speed Up & Walk Through Walls**
+```
+C204ABB4 00000004
+819FFFD4 2C0C0001
+4182000C 3D804100
+919F050C C01F0508
+60000000 00000000
+```
+
+**Time Modify**
+```
+2878B842 FBF70408
+C212D504 00000007
+3D808000 398C1500
+818C0000 2C0C0000
+40820020 8BC30730
+2C1E0009 4080000C
+3BDE0001 48000008
+3BC00000 9BC30730
+60000000 00000000
+E0000000 80008000
+2878B842 FBF70408
+82200000 80001500
+86000000 00000001
+84200000 80001500
+20001500 0000001A
+04001500 00000000
+E0000000 80008000
+2A78B842 FBF70408
+0412D504 8BC30730
+E0000000 80008000
+2878B842 FBFB0404
+C2122408 00000002
+3800000A 98180730
+88180730 00000000
+E0000000 80008000
+2A78B842 FBFB0404
+04122408 88180730
+E0000000 80008000
+```
+
+---
+
+## Key Sources
+
+| Japanese fansite | dq-gh.com/brv/ 
+| Japanese arcade wiki (general tips, largely applicable to Wii) | w.atwiki.jp/dqmb/ 
+| English card reference | woodus.com/den/games/dqmbrvwii/ 
+| Japanese Wikipedia | ja.wikipedia.org/wiki/ドラゴンクエスト_モンスターバトルロードビクトリー 
